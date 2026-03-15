@@ -1,0 +1,732 @@
+{
+  "search_metadata": {
+    "search_id": "JFK_ATL_2026-03-09_20260305_112959",
+    "departure": "JFK",
+    "arrival": "ATL",
+    "outbound_date": "2026-03-09",
+    "return_date": null,
+    "trip_type": "One way",
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Economy",
+    "currency": "USD",
+    "search_timestamp": "2026-03-05T11:29:59.514235"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 06:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 09:12"
+          },
+          "duration": 192,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 4817",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 192,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -26
+      },
+      "price": 49,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pHT1RRNE1UY2FDZ2lpSmhBQ0dnTlZVMFE0SEhDaUpnPT0iLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkY5IiwiNDgxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 10:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 12:45"
+          },
+          "duration": 165,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 4731",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 89 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 165,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -26
+      },
+      "price": 49,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pHT1RRM016RWFDZ2lpSmhBQ0dnTlZVMFE0SEhDaUpnPT0iLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkY5IiwiNDczMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 15:29"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 18:12"
+          },
+          "duration": 163,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 220",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 147 kg"
+          ]
+        }
+      ],
+      "total_duration": 163,
+      "carbon_emissions": {
+        "this_flight": 148000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 21
+      },
+      "price": 229,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1ZDTmpJeU1Cb0xDTGl5QVJBQ0dnTlZVMFE0SEhDNHNnRT0iLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkI2IiwiMjIwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 15:40"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 18:13"
+          },
+          "duration": 153,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 1480",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 123 kg"
+          ]
+        }
+      ],
+      "total_duration": 153,
+      "carbon_emissions": {
+        "this_flight": 123000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 1
+      },
+      "price": 279,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERFME9EQWFDd2pBMlFFUUFob0RWVk5FT0J4d3dOa0IiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMTQ4MCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 07:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 09:47"
+          },
+          "duration": 167,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 519",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 138 kg"
+          ]
+        }
+      ],
+      "total_duration": 167,
+      "carbon_emissions": {
+        "this_flight": 139000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 14
+      },
+      "price": 229,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1ZDTmpVeE9Sb0xDTGl5QVJBQ0dnTlZVMFE0SEhDNHNnRT0iLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkI2IiwiNTE5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 17:35"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 20:19"
+          },
+          "duration": 164,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2293",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 164,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 122000,
+        "difference_percent": -25
+      },
+      "price": 279,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERJeU9UTWFDd2pBMlFFUUFob0RWVk5FT0J4d3dOa0IiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjI5MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 19:59"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 22:45"
+          },
+          "duration": 166,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2086",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 131 kg"
+          ]
+        }
+      ],
+      "total_duration": 166,
+      "carbon_emissions": {
+        "this_flight": 132000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 8
+      },
+      "price": 279,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERJd09EWWFDd2pBMlFFUUFob0RWVk5FT0J4d3dOa0IiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjA4NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 06:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 08:34"
+          },
+          "duration": 154,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2286",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 123 kg"
+          ]
+        }
+      ],
+      "total_duration": 154,
+      "carbon_emissions": {
+        "this_flight": 123000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 1
+      },
+      "price": 359,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERJeU9EWWFDd2lBbUFJUUFob0RWVk5FT0J4d2dKZ0MiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjI4NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 08:30"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 11:08"
+          },
+          "duration": 158,
+          "airplane": "Boeing 757",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2227",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 174 kg"
+          ]
+        }
+      ],
+      "total_duration": 158,
+      "carbon_emissions": {
+        "this_flight": 175000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 43
+      },
+      "price": 359,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERJeU1qY2FDd2lBbUFJUUFob0RWVk5FT0J4d2dKZ0MiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjIyNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2026-03-09 12:27"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 14:54"
+          },
+          "duration": 147,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2342",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 123 kg"
+          ]
+        }
+      ],
+      "total_duration": 147,
+      "carbon_emissions": {
+        "this_flight": 123000,
+        "typical_for_this_route": 122000,
+        "difference_percent": 1
+      },
+      "price": 359,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee"
+      ],
+      "booking_token": "WyJDalJJT1VSdk1rWkVkbUZZVVVGQlFucFpNa0ZDUnkwdExTMHRMUzB0TFc5NVlXNHlOVUZCUVVGQlIyMXZMVXhqUWxaVlNrOUJFZ1pFVERJek5ESWFDd2lBbUFJUUFob0RWVk5FT0J4d2dKZ0MiLFtbIkpGSyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjM0MiJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 49,
+    "price_level": "typical",
+    "typical_price_range": [
+      25,
+      105
+    ],
+    "price_history": [
+      [
+        1767416400,
+        29
+      ],
+      [
+        1767502800,
+        29
+      ],
+      [
+        1767589200,
+        29
+      ],
+      [
+        1767675600,
+        29
+      ],
+      [
+        1767762000,
+        29
+      ],
+      [
+        1767848400,
+        29
+      ],
+      [
+        1767934800,
+        44
+      ],
+      [
+        1768021200,
+        49
+      ],
+      [
+        1768107600,
+        49
+      ],
+      [
+        1768194000,
+        49
+      ],
+      [
+        1768280400,
+        49
+      ],
+      [
+        1768366800,
+        49
+      ],
+      [
+        1768453200,
+        42
+      ],
+      [
+        1768539600,
+        42
+      ],
+      [
+        1768626000,
+        42
+      ],
+      [
+        1768712400,
+        42
+      ],
+      [
+        1768798800,
+        29
+      ],
+      [
+        1768885200,
+        29
+      ],
+      [
+        1768971600,
+        29
+      ],
+      [
+        1769058000,
+        29
+      ],
+      [
+        1769144400,
+        29
+      ],
+      [
+        1769230800,
+        49
+      ],
+      [
+        1769317200,
+        49
+      ],
+      [
+        1769403600,
+        49
+      ],
+      [
+        1769490000,
+        49
+      ],
+      [
+        1769576400,
+        40
+      ],
+      [
+        1769662800,
+        29
+      ],
+      [
+        1769749200,
+        29
+      ],
+      [
+        1769835600,
+        29
+      ],
+      [
+        1769922000,
+        29
+      ],
+      [
+        1770008400,
+        29
+      ],
+      [
+        1770094800,
+        29
+      ],
+      [
+        1770181200,
+        29
+      ],
+      [
+        1770267600,
+        29
+      ],
+      [
+        1770354000,
+        29
+      ],
+      [
+        1770440400,
+        29
+      ],
+      [
+        1770526800,
+        29
+      ],
+      [
+        1770613200,
+        29
+      ],
+      [
+        1770699600,
+        28
+      ],
+      [
+        1770786000,
+        28
+      ],
+      [
+        1770872400,
+        28
+      ],
+      [
+        1770958800,
+        29
+      ],
+      [
+        1771045200,
+        29
+      ],
+      [
+        1771131600,
+        29
+      ],
+      [
+        1771218000,
+        29
+      ],
+      [
+        1771304400,
+        29
+      ],
+      [
+        1771390800,
+        30
+      ],
+      [
+        1771477200,
+        30
+      ],
+      [
+        1771563600,
+        30
+      ],
+      [
+        1771650000,
+        30
+      ],
+      [
+        1771736400,
+        30
+      ],
+      [
+        1771822800,
+        30
+      ],
+      [
+        1771909200,
+        33
+      ],
+      [
+        1771995600,
+        44
+      ],
+      [
+        1772082000,
+        44
+      ],
+      [
+        1772168400,
+        44
+      ],
+      [
+        1772254800,
+        44
+      ],
+      [
+        1772341200,
+        44
+      ],
+      [
+        1772427600,
+        44
+      ],
+      [
+        1772514000,
+        44
+      ],
+      [
+        1772600400,
+        49
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport"
+          },
+          "city": "Atlanta",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYBXd-jsaFCOrq3Ftbagud_RXYRp8gK_jeDmxAfPmI5pP7SIRedYhExpUTLErX68PeHFvOzs8P_D0v_w",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJh6WEANkd6cril2a8Csnk2i_WTs-ZTUE-pamQ4iTfpTi0hlx5P9xhDKrUeBWRPb-4hiLgvoegdgPZ2t2R8qpkN_a7BzJjUNSnSonV664"
+        }
+      ]
+    }
+  ]
+}

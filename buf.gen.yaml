@@ -1,0 +1,12 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+version: v1
+plugins:
+- name: go
+  out: go/api
+  opt: paths=source_relative
+- name: golang-jsonshim
+  out: go/api
+  opt: paths=source_relative

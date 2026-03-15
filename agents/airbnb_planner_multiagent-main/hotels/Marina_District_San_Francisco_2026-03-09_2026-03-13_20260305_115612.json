@@ -1,0 +1,2222 @@
+{
+  "search_metadata": {
+    "search_id": "Marina_District_San_Francisco_2026-03-09_2026-03-13_20260305_115612",
+    "location": "Marina District San Francisco",
+    "check_in_date": "2026-03-09",
+    "check_out_date": "2026-03-13",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "vacation_rentals",
+    "currency": "USD",
+    "filters": {
+      "sort_by": 8,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2026-03-05T11:56:12.664462"
+  },
+  "search_information": {
+    "total_results": 72
+  },
+  "properties": [
+    {
+      "type": "vacation rental",
+      "name": "Buena Vista Motor Inn - Two Queen Beds - Accessible",
+      "link": "https://www.bluepillow.com/search/594395937c00cb0e643b4737?dest=bkng&cat=Apartment&lat=37.80079&lng=-122.4276&language=en",
+      "property_token": "ChkQmsHnhu-pnNxTGg0vZy8xMXg4cXlmdGRmEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQmsHnhu-pnNxTGg0vZy8xMXg4cXlmdGRmEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80078887939453,
+        "longitude": -122.42759704589844
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "12:00\u202fPM",
+      "rate_per_night": {
+        "lowest": "$185",
+        "extracted_lowest": 185,
+        "before_taxes_fees": "$185",
+        "extracted_before_taxes_fees": 185
+      },
+      "total_rate": {
+        "lowest": "$740",
+        "extracted_lowest": 740,
+        "before_taxes_fees": "$740",
+        "extracted_before_taxes_fees": 740
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 1,
+          "rate_per_night": {
+            "lowest": "$185",
+            "extracted_lowest": 185
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "Mar 8",
+          "free_cancellation_until_time": "7:59\u202fAM"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Lombard St & Gough St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "31 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 10 min"
+            }
+          ]
+        },
+        {
+          "name": "Chicos Pizza (Lombard St)",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ZI5slhyLMJ8bbe4AQADdUTjHkL2OSmOeiUBQP4OO95T7C0_pTn3DmvqJxwkTkXO-hXrtzcRwWRiFUCY9ldQl37gyKHqn3UlHlrkCNhoPTF3XudH34s3TGhyl6QNfJazuXveHJx1Kvl5KU_7Kubst_zwQ7suLNw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/251275790.jpg?k=a92971d2d214094d16187690aa69b8a51ccec3333d16a7ea7eecd94bf2d8c1eb&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/qe9_G9IwM_sn3o3Wy_sXthgB-PVc8cu1eM3YmfHxX92h0LYj-R6R8SOGc8SBrUJdgHZcaQZT1Wv-W-TmoGtyRyXnGZQCua6o4fZM3V-hSqOadYUecB2e0XjOrdy7RK48qQPs61A2fnei9ZXCIdj3xfQySqvIJA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/251275790.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/MzHmi9AA0USiAFK7vQ6-Mx3KKUaDv6KaHO6LSIfU7YA-GMj4k6AmQHCTMf8Xhz-EqQImtNppbyqEwiiYyyz_q-6lfXr21NqrQQBjuMNbQo4R15rVGH8ctzlJwgZg-nMzhTKF9OdxeXHKlB6z0DDG1iF70vGjMIA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/251275824.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/RIfLV20nzrAGg89zYdId9IPTlkAul0rZuP8Ro7GWW7WdVWr5fSsaJRQzU2LNTml9Q0ZrM9MuFWEHj5phnKtHAayMBRMgEXeUGnJKSxUV_4mvffuvrvDcON02ozEv3vejOvW2S6leDQNnYs_iZbZf336Qb3dDfg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/251276493.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/mD9XKWGYhmuh-RLin03ISwjw1gTw1AQi8bidME5_iRRcnoO0BeLuC3O3PJ_qU_q9MOPvYf0cAzFYYg9jiuHXUhffm4KHXZXuiuoq7efkbIm_3_Kq5lYJdDFUg5AFNYGfDvhZ0-n8NavRn4VqlQ7trCSNKRNRSSY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/225500622.jpg?k=3a018ca1e8216e4832356633b10e97dd4cc6162e1eb7f1e2a1ed9b4215389a10&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/P7qEXs7932Ti81dzysEnUDOip8iY03ESbfTm-Z-7ObK2Yralf2LWTefq_GFafOoe1fnEhlH1nf_VXzi_GKbAdxqbxsy-cGrRoZO4SDD8g5ttGkhiE4mIKWkas6teENjUYQp5S6ka0OqZleL5O0Gpp_vO-KgaMg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/225500760.jpg?k=78e80093173cfbb6d992f55785d7fb501f91005e3a700748c1f14414951b382d&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/fXWbhhZD04eSzpV4qxFtOByjyDkcrYe1YGPszaLDzYESe6znPzuKcHcDeWjy6a5kFs0GNzU-T617cHyHuFIp6EHAVZ52s-AoQIdOaFKDFPsqbGeXggUv-Kdu86f_Kal46TwnmsVZCRkd05HBCPCwY-uYi6MNVo8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/225500760.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/7WYsMTagjU9RWb7AcwOT6rNleNvScQG1vKZuCYdeBVr9-syGYYb-6fZgRjr9qLTQffBmB0ffYBKPR8LwOkFQNh19t1Pxr7V7ksEXRTfVgQkFYPLzW7DScY8Nc7YiWzZkmQNGMhTvfevZMtWvE9Jaykd9O5JYpQg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/417581317.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/6qiWLFeXW0QiK_glY44YIcjdXIKXjcsuLSEMbF-MK6eVuFy6JHJYYNOwSyltJxedqoNqVwSGlevdd1AtWcAwbiU3x25-dZ7YJEYhQnTSGcgYfsHxv2VjU1MYKALt1_fZ61qt3UTVGIRyQuq66OnlHN1k31YV3RA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/417581317.jpg?k=34b3efc69dc127b11859e3c1d59274313ab56bfe68b2eb7d6ecbc814c6556655&o=&a=2344045"
+        }
+      ],
+      "overall_rating": 4.55,
+      "reviews": 8,
+      "location_rating": 3.9,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Crib",
+        "Elevator",
+        "Fireplace",
+        "Heating",
+        "Hot tub",
+        "Indoor pool",
+        "Ironing board",
+        "Kitchen",
+        "Smoke-free",
+        "Cable TV",
+        "Wheelchair accessible",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 5",
+        "1 bathroom",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQmsHnhu-pnNxTGg0vZy8xMXg4cXlmdGRmEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQmsHnhu-pnNxTGg0vZy8xMXg4cXlmdGRmEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "King Suite in San Francisco Marina District with Courtyard View & Garage Parking",
+      "link": "https://www.vrbo.com/pdp/lo/120303848?MDPCID=VRBO-META.HPA.WEB-ORGANIC.VR",
+      "property_token": "ChkQkr-59tmN1JxtGg0vZy8xMW1reTF6OHJxEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQkr-59tmN1JxtGg0vZy8xMW1reTF6OHJxEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.799041748046875,
+        "longitude": -122.44396209716797
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$479",
+        "extracted_lowest": 479,
+        "before_taxes_fees": "$419",
+        "extracted_before_taxes_fees": 419
+      },
+      "total_rate": {
+        "lowest": "$1,916",
+        "extracted_lowest": 1916,
+        "before_taxes_fees": "$1,675",
+        "extracted_before_taxes_fees": 1675
+      },
+      "prices": [
+        {
+          "source": "Vrbo.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/icon_1850600648__vrbo.com.png",
+          "num_guests": 3,
+          "rate_per_night": {
+            "lowest": "$479",
+            "extracted_lowest": 479,
+            "before_taxes_fees": "$419",
+            "extracted_before_taxes_fees": 419
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Lombard St & Divisadero St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 25 min"
+            }
+          ]
+        },
+        {
+          "name": "Indigo",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/y48SL8sJEbGlUWXDvYQcDJBManTlzvyx8HYCXpHG7LUpxMHrAMVxzeU-0b2K1dtkXpRM4apH-EWfuvOad61fcXgYsC9lnOAZgnkelOXyzaEVtdelkeipcvX35gvNfKkOD4l7BfLG89_Rut3GZiu2IWNFw98lmg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/a05b162b.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/CnCd-sn6AVUbClCcS6B5_mO5aQxzPSfRd6nz740JRNzjCnOasqJ04lPFEdSF0Q9Jo511uJuSJisDDlQaANstQhqK4k_nSSC_AHni1yrYyrjC5lSfrfIuC4noTcmDZZPNsyvMKuWp1V_79dFAPMW-KSUcAHxa1dI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/d10974b3.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/OtHFdWdtm4AeOgmX8iP_6MwA65rmorXwkyEk_pIq9uakOrFclRgSd3Q2mqGP43ijqFquz3NlZNUDL1R4MxG_ecCmrC1UvA5mNI7cygV_xNjU67so_NTlpxJEmq5XspaGhYgTGrPYtYjDEaWedMRRUCbqC7slq-s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/ec7772f7.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/jb-7Ej9ZMK1J6YaRl9shQXGgLvFSvJDHBr5kkNiYsKQOCZw8PVuHvimKmx7mgdZsor5D1l4L1KxVREy-WPb0FU1AusjPBoyf85JXT9BUStL1sSDYB9yZMsJED08T1TCMrcFZUcTX5kem97wK4woG_Dr55tKHi7E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/98209c94.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NrXB_oZ7rHavsYqzV_L2GujXIzdumny43FN8ppcHllsJoHmS82Jd0X0Q_grUa97TekG5uhaaf7_d-_dzy4WwbVIGc6KBG6dBA_nOosnSVdOhznwRCstU71wZZlPZkmBhMT5BZw3WIfzPBvRTYiYBaCAf9bjU9ms=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/7aa5bd19.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/O_eo1KBAttOL1Kg-NaKyBah-7MG0OFIl1mqlkSpmMhxnNwTiEjb0U72ucUttFBxm9ErbD8Y9phZ1dkNFcL2e7W75MNQ3HU8zN8F6m_pZykfoDl2LM68q_WYxeCYWVRPVnWQbc9eF3dt-NkUBOr0zescV96d-Rg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/b10ea525.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/YSsfc-7SoCLA_2WJgVp_3BBVAhJpxUlI2tCz-r5uNMq4dJnbQabJhP_q4pppaxoqGC169ZGi8nKocUv5X2I7sxyaVGWANDTPzS8DtJzTsx7izo9w3MFH-dayCjY0k4-2RnHb9igxDiNZLmwsAtfQ72p3okOYqZc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/c739bda3.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/LICyfowg9MvakWrbXto3HJB1XENpXtDo3xUJ2RNedptCliq7aWswzStIOZfxI9HkuzP-COlqpjPB30IG1FppfYxMKR8upRuwLxkle72X1ovv8hd5hhSH00eSahehkgebpBYoHt30hF5S51jk_YmZiQLyrVH7mrI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/07987001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/e_zO8EnuR6Y9XFUPXDaycf6P6yosp2V2JXfiBcWKcprEcdGIwGXAtwiWqjfRNf4G2gU0ufRjSdt0DNY9tuBTLXxIi7z9TIOpEQN3RZo6CFu_8eI1CQ8XPrjL11edJYU2dTfSWtcL02LDsHrBkFxd3YaBIxD3rO0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/121000000/120310000/120303900/120303848/9b0419a8.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 4,
+      "location_rating": 4.3,
+      "amenities": [
+        "Heating",
+        "Ironing board",
+        "Pet-friendly",
+        "Smoke-free",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Sleeps 3",
+        "1 bedroom",
+        "1 bathroom"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQkr-59tmN1JxtGg0vZy8xMW1reTF6OHJxEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQkr-59tmN1JxtGg0vZy8xMW1reTF6OHJxEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Walk to Presidio: Chic Marina District Apartment",
+      "link": "http://g.rentalsunited.com/gate.aspx?uid=554691&url=1&pid=3913752&lc=google",
+      "property_token": "ChkQzfe6w9_mg_ofGg0vZy8xMXd0dHdoZ2htEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQzfe6w9_mg_ofGg0vZy8xMXd0dHdoZ2htEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.79951858520508,
+        "longitude": -122.44252014160156
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "10:00\u202fAM",
+      "rate_per_night": {
+        "lowest": "$289",
+        "extracted_lowest": 289,
+        "before_taxes_fees": "$256",
+        "extracted_before_taxes_fees": 256
+      },
+      "total_rate": {
+        "lowest": "$1,155",
+        "extracted_lowest": 1155,
+        "before_taxes_fees": "$1,025",
+        "extracted_before_taxes_fees": 1025
+      },
+      "prices": [
+        {
+          "source": "Evolve",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/d5e2a33d-88ea-4c14-905a-7f8a33d7a929.png",
+          "official": true,
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "$289",
+            "extracted_lowest": 289,
+            "before_taxes_fees": "$256",
+            "extracted_before_taxes_fees": 256
+          }
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 25 min"
+            }
+          ]
+        },
+        {
+          "name": "'Napizza",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/jWCwtxlMHMNLgF4TRlttT74jDFcoWlgvz5kR_ukaGWbffbzX-fnWrThuOdpXEBVevV_6l7zD6CK5sSZXXQaQqsM-z3ha3W2WhDrcGCLffOD4DfLEZ3JwUYsU2YzjPdDfL0ULpoJahV-QL5m2A_lfW8DxCmb6OQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvMxmMAF=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/YYdNvujTlnSWKl-d1ZkmM_3LtgPuSN1cm18YZisqg-vnyIR265fLvZupWmYbNEwbUZ9DelQoZUmZCCSjyalyaA377hePOn58JbQek24Dy1Lq3_iRSgRL7WjFKiI0TfVNX_6YXapZWP3NHlU2sQn-jqTExwfj6Rc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvNqbMAF=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/s1GAnuBP4SqLi1TaEcrmpi0wVgJ03nqmSKBa-cre4xxV6CMwN1t0T3axJKJZmNWS821HG1AWiKgnF6c1laQ5bfN_fDIH6_Q7JWl-PJv_kLj5-gotYxXqLVzZIBTGuMBkqVIuh3B50NSnv3SNTAimK5SCA0m7cA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvHreMAF=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/nqoyFuB8DkD50H4VFKlBTMnPGyWjcQ3BFdg8TvXsxKk9sAE588A_u_hRf-upkSUWHXBq9sQD0AGXZY0G_aaaz8wnU28YVsdq_FrQoijUghIhYQ8gWTCMkOxTVbNFcbTKTbRSNuML_rF3jajJbdaWPQE5oGgozQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvNH7MAN=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/PCEqOmm1QFGodpQMSRigGBqvJmOZ7lri_GXkyIQuQU79g-SA4Y0Ax5B5eOIGT-ZW8wm4MlN0Nf-2yL6Z_BLrhULkTS8yVALFe7h5Ao0efYf8jRclNUfILlZwWol1_NqyqucHrod6L1RNbmkc_uwF2O8pwEEc68U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvO0HMAV=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/nDLrwWBBESLMnIs1eQDqkJJexoSfqcx3JVOZW6uE3evEWDYrjAbLqTXuJakETs2Oa_E86Z6j_X-FxARIlmpqIvO0L8e58F6fgMI10zkojJzczthr90weNKEKo6_QF3HyZDysYqzNlqC7WEMjegYL5z14gKzi-A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvI7nMAF=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/t66qsRcIYVKucRkGA2TOT7JGJ7FdTkTwrK-R2gqaPj5zNJcb08JfuEPUuv_UrULVbxpUJrMMs_Q8dmIXRTLMGkdFtfC00DjZDkz4Ip5Dvdw7Ur4ju_fSBS-mY2N14YjiDjYNE1pIqlwTY20dKsmmyxr3OsCvzg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CuqL0MAJ=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/bwlSHL7kATQ2n4fEA9MqMxCLML0qlSXII1FOD9W5bd8tKSpvryMnIw-5_NTyIcMxfYBjT1xt3hPajIBiKmyEb4sfhOfeOwYmsWj5UJ9-7FkcABOnTUMEJHLTMUPjRpfN-c12zY-HnpgzHny1ynyJkenGCAWkceY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvNnNMAV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/c-bQtHRG2r4JhkL1ymjfmdTiX1ad_eC8B_wlF6rYQHjpdFDk5PObhuCA0a_CctTD4ZNKvzYXoSaSZJK-PhdaEUo7xdvrwj-7zIAHaCr1fXd0db9luR0D4Qhbiz6sNPYVYOzD0QaInh8PKjwcwNQXmMijtVj1cA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://s3.amazonaws.com/evolve_prod_images/listings/525150/images/main/a0FPl00000CvMphMAF=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 8,
+      "location_rating": 4.4,
+      "amenities": [
+        "Air conditioning",
+        "Kid-friendly",
+        "Heating",
+        "Kitchen",
+        "Microwave",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "2 beds",
+        "700 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQzfe6w9_mg_ofGg0vZy8xMXd0dHdoZ2htEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQzfe6w9_mg_ofGg0vZy8xMXd0dHdoZ2htEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Waterfront Marina- One of Kind Garden Unit, Spacious, Top-rated!",
+      "property_token": "ChkQ-pTQ0rus0ZYqGg0vZy8xMXg5NnFqeXdmEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQ-pTQ0rus0ZYqGg0vZy8xMXg5NnFqeXdmEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80521011352539,
+        "longitude": -122.43533325195312
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "10:30\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Fillmore St & Jefferson St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "33 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 23 min"
+            }
+          ]
+        },
+        {
+          "name": "Pacific Catch",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/fAuuQHdC8izVHNeWZ4N181g6eNTo5DbXbn7EJbWB6_l9jp6eQG_Wc-6aeenKGuf_lBaAvkk750IfY4SAVctXx2xcDi5RpJUFVzaFFXTnCVABEtEZ555tmCWBGwcLobT0pUlbrZ9cZGUAc9-WS9FmcxrP1yv8KA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/0d7d5de4.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Lm5k68DKbtnXL1YMI4N4jCDQPU89A0PjVMMGpGBQ6XBpd-yw_4mLpTqzENAx8LG9cVjaBths-ntHriERfW78l7Jh3bAP6qvD34072S__IuB_Y4DcMSVFENbC6tZ-FKTNYr1RhsaMSYaW_sG3TWnnleWQ179gTA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgcbnuCcXymE1DzeNGKkT5ifehSH1MrW7hAjmGbb9vJ6TM1cUypLJLVXWKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2koJa_hO30Ey8p2vqLVXIUiB-8O4z7zVYXZy-v9XmOyZDW1iABRgAyOPbL4oDMd7awtI-XJidwhiuMQUGh2RnNcNpF_XDc0UeA"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/sKKmx9OnoqcsVRm9xmI8AL-oZenabmy1KF2GDh-eJP2DNo2v9J4PiTszLkhdj9Ma0IOcSfmwyldGl8Stjd7oR7hkHUhLNf6vKWZ-8_qrRf65Kt4z6qg5y-Hp6TZWCP_c0F5IjMJVz_r7RzT1qhOyH-8v-AxU3A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/1d6a42e8.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vY7WpJSCXEOni_c84l-AyyxTbtQWvPs4rCTjLOq8Zob9j-7vTG_YqBrns8fETBZFoLTIUUdI6A3rWBu7roGk9qgr5Dt6ys1muPN_o3NkrAVZg3hZBse16_UFDLGDIUatFr8mcRdfLrpD-Wma4pNjiF9uEWX00bs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/07732abc.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KS_BVS1LZ6jqMZElMB2HzFIclzlWV6cUt1pulHiZJGOXQ2dYx2uPGmXlkpY2TbAgzCRSQZdH95N1suc7fVu8ksxQwHhOUpQ2s6wcDfaFayZyfdkFUdfCe2xZpAOoEq-KjkKJ3TXKijoHRSssrBEvslB1VhaCH6U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/e37d56e1.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/O4K61LwGQGZRnjDTqPQ9hfv-GSHg-rE29pNM_dSXBh6PvcB949DdXfuqKS3FFTD74gAP63dmShHCRn9Zpxpqwos2uAX4LLpE1y46BWWjCmR_C6YJ_kJ4gyh-MG14SjUhaFr_VGumHUfHkqCZFBTqenueWTnjx8I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZhremljgN4EYdGxbeWYZBzmf0pUmLOoH_oBX-AKDcooa-CDxSr629VWvZITF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2koJa_hO30Ey8p2vqLVXIUiB-8O4z7zVYXZy-v9XmOyZRXpxFD5rWjW2cLwoDMd7awtI-XJidwhi30GXiKDdDKdcJCqv0dC1gQ"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/VuG1bESYFQjZ6mBZuRHUb2tG6CpCXJJAH5VQ_gM6pKLe1OX_8Mv6Y4yIvbxoLQ3H_5c_-vN2acUpqCAUlZY2zoDJ8jgpvHHVikZ6KAAGXcxNJ88Ggw1VSXVbzovxvO8URGbGTfH604qmjEvnlTX4hTV9Cr8XS0o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/1cffec7c.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/t1lPLp9IDvQAI7W_AUQ1c5v2Qkf_OAWS8Nzh4HpGH-bAP7HIS0Xv1uDCVUlIxXO34MPIR1sSPRG3F6BP27d-KabHutB8woqw7grG_uzFAe5EV60Ng7XoCUfidTKCof1GcrdeIxtZk_LOvIi_hUHGevdmfYRH2bg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgrynrhcxzmM0PzS2SMJ10zjSliaOErr_gAmaf6j8_KugECFN1IXpJ2_xejF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2koJa_hO30Ey8p2vqLVXIUiB-8O4z7zVYXZy-v9XmOyZDXpxAxNwACOYe-coDMd7awtI-XJidwhidtZ89gV3qCHp0YS3OM_o1g"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Sjl4rQ-EO8ZaMo1h9PjnH71giFFQ_SUWAnWOql9LTpLBZd5e1ZDukLQNb0N8qGZTbAhfCAf2o_OYiTDAVdrI1QiKdOSi1gT6HhYH0JHOEJiFoMylB3wsGU-UtQVIqStrR6Yc-SB2pmTlFQbv7TiivFNt-TfUKA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34350000/34341200/34341190/764921c8.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 150,
+      "location_rating": 4.4,
+      "amenities": [
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Outdoor grill",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ-pTQ0rus0ZYqGg0vZy8xMXg5NnFqeXdmEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ-pTQ0rus0ZYqGg0vZy8xMXg5NnFqeXdmEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Spacious and Charming Marina District Home Steps from the Bay",
+      "property_token": "ChoQu83-yZmYkpjZARoNL2cvMTF2NXJneG1zaxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQu83-yZmYkpjZARoNL2cvMTF2NXJneG1zaxAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80427932739258,
+        "longitude": -122.44342803955078
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Jefferson St & Divisadero St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 29 min"
+            }
+          ]
+        },
+        {
+          "name": "Causwells",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/de14iIOiTMzoUjmZtzNNKvoBMJVBH-3R-iuo9SnozT5slWdS9uuuD-Y3D_txR9N4NqpdW9t2JvLCbXcoeS20cJaSCXcdPbzo6icyXgfvITJqd4KDd8DOoYwYEDTq3XpF53XxFAxnDg8P-CN7yGWReO1hX_RWL2w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33500000/33497200/33497154/e3fff63c_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0ZmI4BiYMmW7cQOAPbBsSgjAXlCq7YhWv9xr3LUPzkSaqeuaWLVAnrP69KsYN4fZG_C7p1btB4hyIZ8uWvcUmWhdPYHydoS93MVqjaIVmKq528SkCUTnRrZaFtQHsdTaSO8p_betgtmg5MY536IOOZLZs2kcwdE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvsXtmyQHt2UZLQeGTcJA6Grt-Hz-D62n-i_yd7e8jZONOlRw9ofbJVXgDzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZDWpwAC53HDSlb-YoDMd7awtI-XJidwhiO_LeE2xA8SzxaVMi8l_hkA"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/WyECuKeFGSjMWAW-G4sLuDw11xPRIjyk7UdstRV9ywhmmP7NWCd2wns9K7ku67-kwMgnuS3U2dtoHcEisu0q6E5M8WkVqs4DQmnvkeQO614j5WoNnOa1WDXTio2R0lgVfv2qjZR9zUUig1gzUZ-zooeeVRKq7g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zg6aXmQIx81kzBA6pGNtz5GzdpijoJreSpBvpMrDTrOnjDRZM9-vnAUvJAzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZRWY9FwN4AjWlb-UoDMd7awtI-XJidwhi7sBydTjD-UaEnb17mkKoPw"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/kXzKP2LrmEUqyzDNg3eqmIOGO8UXHVmAJ3FpyHde8SPw8tX-sUzS1RCxCj3_1eNW_nKnVGW4KYzHcLbKKO9nGbUnMHWF4rc0H7dQxuF_93ZZXDvuPcfGS0-kVtoolukNbwzickN6n-tq6kQsg4HJM0WNE-Ekfoc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZsIid7ggs5nEIM0iRb4ZJ8izKrFP3EO-bmS7LN6_J_4OhIhRJ7Oz2G2jfCzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZRXlgABR3EjW2d-YoDMd7awtI-XJidwhil1dHrjN-j81SSHrDVebi_Q"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/DTrUBJlAAIabZ-hS4lQjTkc-or5F-imLp_AKeHsLgY0u9JHcHCcvD3zN8adb-2YDSfv9QTwEBmXEhpss5Hr6SirQAvpGWE533tVFg4WPMY98zwnHVXizWTh1uWvk7w7N5NMwdDhftLW5eth9pGL-890T6fluzVY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZjLywtiEP9lUVHTXSGKxP-iXDrmneHpe-ojr_Hqzzu5u8OlFr9a3aLnPZHzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZRVdjAD5_HDW1YL8oDMd7awtI-XJidwhi-ZWaA0qJnIZlq9mUxLEruw"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/wpJSNvPU5sLuVPhJwe8-pkPcWJ0V0dQ2WBG_XAr2sp2d8S3U1MIjFOzGtTQk5jNi2QfPrJOu-UI3qKGACt4zkQX4pJQ4y79bT2DcJa__V9RBCb2a9AnfMOqoU4krQBVCxJXgvFdV6Yv1pPzPbMcC8uLsMzZAcRg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgJGw4jUxwTscZy2KbbdvxxbCh2WNKK2flhrpDLzdq4qtLx9y6KjiPEnOLTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZDW1jFz5jXzS2bPUoDMd7awtI-XJidwhiW2GOtJ82svPI0Ae2fs0x-g"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Jnbnsps2pUwzROV8F_R3Au_ej8V_mskN6ob6quDXHSQ89ATWHBJM-T1OeGqIS16AEpUCCREb5-EtIrNB25esn7J2BLWrNsDZB1MiknXsIyuu6QQ6w7xhAR1iF4N30uvw3c_1wmUmLVaRgQ79aohohiB4sLHOJ1E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zg76wsDcN6VM9aRS_Vs5J5jT-u2XmIu6Fqz7uMZHnvqXhTRRPrJrLEG_0ejF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2WQda_hO30Ey8p3lq4ttakiB-8O4z7yfYkhIsf9XpquZDWVjFz58ATTQY-YoDMd7awtI-XJidwhiWuuUTE5JeYXA9iOB48L_ww"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/rqcFT7sPLvtoPR2IQMPXRG0k9_ASKKhb5LV-PvyM8CpygtgugAN6cPTK7i0VLeZaluKXnaKQwzpO0MTfnKXOUFnN7rmqjHxGoygS1sL4tMeu04x2mgx5rdLPcvRhpmqddxiqYZ6yOSOvZoXiydy0wiQAu85y5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33500000/33497200/33497154/d04fc264_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/q2mICl3lB0ukRjvSelpnDmR88C8v5WslRZTK3FDNM-0GYl-SXNUcmpSxZ5jVDZt_1PXRBZhMuOt48Rf0EGNoQKdDm9uSFBYBLvA8K7cfwyAM6v2wHJGnjBWglnW_n-Yf9VV6eBPd7PhxzbdfFZSJvcPHPNLCUg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33500000/33497200/33497154/c7b7a8fa_z.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 120,
+      "location_rating": 4.3,
+      "amenities": [
+        "Balcony",
+        "Kid-friendly",
+        "Crib",
+        "Fireplace",
+        "Fitness center",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Patio",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not wheelchair accessible"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 10",
+        "5 bedrooms",
+        "4 bathrooms",
+        "6 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQu83-yZmYkpjZARoNL2cvMTF2NXJneG1zaxAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQu83-yZmYkpjZARoNL2cvMTF2NXJneG1zaxAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "The Peacock Palace",
+      "link": "https://deals.vio.com?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https%3A%2F%2Fwww.vio.com%2FHotel%2FSearch%3FhotelId%3D91542765%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1",
+      "property_token": "ChkQopXOyuT__fRuGg0vZy8xMW1zOXI3Z2hkEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQopXOyuT__fRuGg0vZy8xMW1zOXI3Z2hkEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80625915527344,
+        "longitude": -122.43836975097656
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Fillmore St & Jefferson St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 23 min"
+            }
+          ]
+        },
+        {
+          "name": "Cracked & Battered - Marina",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/LjjhhmIv8XEZzhQEjtkHPkCRTqQNFyIeYB4Ocpy61xoiSYyoDLJFMUbezyyb6skVlHrwP8zXHzEFQ5BoD2nI-ORyHy7VFlK62rRpWmwMNj2i_YbQUmlkLLgfxJY3ALC2ZGH-S7OiTVd5uYVUbo8R9Lu-H6cnYwE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zr5WWpSEW8l0YFS6kWJ1u0yrA8l6JHomMjxH4CoHlra-vEARA-7PjLQjyJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAb49a-08RAhM_gZkPltJaDWrUUZGpVzU52MUoqighgj0L3QBLsBcG0Y"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RB_zelYXbTexmCZETovVq2WOoXA1TboGA_5juT02fXLJd9O68IcOJnA2uwFA4pBMi0vobodrry4o9DNgikjSvu-z8osKBbM3cW9m9Tocwuf_Cy4Wdm3-VdNVcKn414uIP0WiIsx4fjP5Xp_mf89rU1me0AgkDbA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zv7qMtgMF0WUjZkmfA5pE1DuekXTtGI-quTuFLaD0nZO4SQJC8ZXlIUzEGzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAOA-e-JnRA9HphFkPltJaDWrUUZGpVzU5wVFFl11eUv6h7yNf7YkX_w"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/oZ9SzH-nqfma_4akl3x1VCocFA-grN59B8kadeg2JTi-KkhWAiVDGrwykS6DlMtc7mNoHKA6uYqYub-LNy9QS2JVnsk5T5pfdAIJQA1T_6JRR9SmZqzxIu9ssXP5Of-3Krn6FcgKQdQTU9f8R5NAbKWzegZTOg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zq5C0mDsGzScrEQm_R51ozBb0kF_PL4n_tjrhcd_JgYOZLxRF9ZnYIErEFzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAOQpaPF0U1dQ-gVePltJaDWrUUZGpVzU52J91G0ITLzPgl0DU6AjSJw"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kZPp_o2buNILTScDKR3yFtjIVXiBUl_tZPfa_2a1OWUqnhtnyhjiA0wtvcT11k-FwBtt23u-hkTHySD1iJpepyI5OXW7CmMY-gP7bcoVBCOKtk5TlUIaB5m1Onb4Ev_-nFQif5d3WIkK7fJpXRGlVHwFV4NZAdA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zoaamnhcy4CQfEivSRcVxyRfEqlf1NfSR_R_HEZLZou-SSiB0xoL5IFP0AzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAOY9a8s6RAhf7RJkPltJaDWrUUZGpVzU5xf5HvJqoqib_6dqP3ZHNMc"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/DhDvZLBozCgDpARF2FKY_jhjLqkqeTOPup6WCebVS8J7sF51Kw68cU_uK9nBPD6fyxVv7OeYsIeaUBeN2rrw0YcouzxUaOaICCAVeQh_Z8WNifZLWvggEf0HipPuM8zqPR9i-DUofNAotuqAvRw_gk5yc9OIg2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpZi5jSQW0UwABEe9H8dR6RzFlVPBOp-TuRTSNYr5pI2ANABQzOjFKU_oLTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAfUqePpjRCJb4AZkPltJaDWrUUZGpVzU5_uAJR46wViPs-JvkYMSQ4Q"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/0VB1DexV2vvaFylrDX0fkOrvaTICPfmpImsITfsuyB-WTAFjqxrMgAjl2FlzPTfFYbU_vZo_Eeyf8zvh2DRXrlFNcIKtfvc15_bqpsrKCAIxcRwrNzr5H5uMPyuCoDgHK_gFXl6Vh9U_U1WQyTghgS-kY-UcCA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZqYjtvCYE1nhrZk6eVpoOsBiauCTaL7XmlxTmf7ykrZLgKTMRrru-Im_oJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAb4-e8BlUx9PphNePltJaDWrUUZGpVzU50YMNu8HfXFrkB9Xx2ERjM8"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/LZFkgl_n8bM4NwMaowSDG3q154UeyokuW2GE7lTaO7QzSEKXmFtAMeP9MBjuQwWYXY0nyCeA9vv-sNKw4e6aFpgLkZS3eFmZl0BHgI8krCnKnjC1TT9CqfklnRrX36dGfHzTmHc53DkifjdATmqgAd987dWEfcE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Z25Pmkx0K9l4kLBOoGL0OtxrDimPVE7H5kRHYNrDJjJmcNwoQ-afGKGnxDzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAOUqaP12UAhf4AVePltJaDWrUUZGpVzU5zRDD8zmXlj9H7NYAi-eIvo"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/mmBCPqGEC6yRrzGIXa5ywgAUGIrYxjLxQSJnLtxI69qicqFfThRitPNupWt8jqacWzgLZz8tHWcXYitXGLwdKYjUEl0XLKWQ455d8b8MjqzQVxxNbsQQExinLYre4_04MBDEOSHSb7JKHkl0fas4i2I4IvZVMw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZsIulrQsKwU4jJxnUQJ5R8QDGp1OPFICJ4zvxN7HalpTtNylR_eXJV0_UITF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAbk9Rf5nRwhE_xNOPltJaDWrUUZGpVzU54KrGUvuO21wsZcWpF7962A"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Agdx3M49YLhDyZtQMxPvRsDnz5ggYE7llJR6B6ZJMeV-LcM9U_2cE9-P-rWGRY3smOkHeKOXB8GTvp5qHTvpbuTeOqr2CakV1C3VvhkC0wo4KRIWdIUO69Xg8sdfFH12NHI_u_lVU2tRSCuG9Q8aDlri4LEovhs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZjKSunTgZ6ngmFS-BeLd18y-Shn6LFO2xmAjwLLfoqY6SCixv6-3YK1PTOTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sGo49Qn31qiMVOoIxofR_2o8VcZA3AAhCPReYBoJ8vY2Gq2593GaA4qIMYdDb2nQda_hJpgIw8rvnqItHLkiogoC6z5qSYVh69f9Ay6-bRVR_Fy1nHDexAOU-e_5lRx9hpRJkPltJaDWrUUZGpVzU5yYmRl_DYmwymJoggrhjmY4"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 66,
+      "location_rating": 4.7,
+      "amenities": [
+        "Beach access",
+        "Hot tub",
+        "Smoke-free",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No kitchen",
+        "No microwave",
+        "Not pet-friendly",
+        "No cable TV",
+        "Not wheelchair accessible"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Enhanced cleaning",
+            "list": [
+              {
+                "title": "Disinfectant used to clean the property",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Sleeps 10",
+        "6 bedrooms",
+        "5 bathrooms"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQopXOyuT__fRuGg0vZy8xMW1zOXI3Z2hkEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQopXOyuT__fRuGg0vZy8xMW1zOXI3Z2hkEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Luxury Home With Stunning View",
+      "property_token": "ChkQg_-cr76A-JA2Gg0vZy8xMXNzZ2JrbXBwEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQg_-cr76A-JA2Gg0vZy8xMXNzZ2JrbXBwEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80268478393555,
+        "longitude": -122.44650268554688
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Broderick St & North Point St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 23 min"
+            }
+          ]
+        },
+        {
+          "name": "C\u00f4te Ouest Bistro",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/kVbDB_As8Xsdg-xPjtqttoyZWpuV2PyHKzRyvoFCyPJC3ouXJP0zGWIwH8LM_5LNexEXfjvGD_MjLAtImtShDlxoq2YSl3Vc_QCDR3xzlyzrdBIh_ch87sBpoKt2oF8Hx6F45DqWL7KNI5P9li4-rDTyBpsiT9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/074fda0f.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/hqymW96T5XmVKy4uZ3PuyyXozwq-M30v5uRM3Qy11oc10tHLRQYjky3yd4_U1yYefCXmBRmqis4gcLVvoDFynYRzgriybzYpiRQ-Y9F-xLO4wAA-AjG6Jv-lI6k5eXZ_ZE_ZrUrajx87ErgYt-jbyG5u92fhDB0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/3681b3fd.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ZzcJc8B1KWNDLJMODmx8WVtD8oIjrCLJDSJGx4_BgdZSQoIHfHn7JpiQsoC9XjAf6ZiEwBiYG10lXEfG63otzi8-vmEyIofp-BQ62azSZe5mrQgy3DN_vQQfutOZBG8ecW9Z-i8K9hDYpETxyb950JVLCtATcA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZnrmblXgCvmNhHAeRSZR6tGbstUn-Fr6Aqi_mIJzwvOS9Mi9D6YrpUQuyfjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgP2avBhQ3nG9m-EPX9SZ2Vo7a_hO30Ey8pWqq6VlaUqv-8O4z7TQYmZAsvx5sqiZRX46Fy1zXyCIdPQoDMd7awtI-XJidwhiVpQz7QWcReUeSKfTYt5ejQ"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/kZ8eLNJ7WL0L4fuVOHLCeQ6QZwLRlT_flHbhYFhmyvR1MaeLVAYy59XBOqkyrlK3nQyK1ttI4i8D0_NOyc6hqdSuQRltSI_-XELSP2YZdDYFUk-S4nlrFmRqopY10H8QR3fRi3wEM1_2ORWi9uqmQDQ8RXmAcQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpJXnggM76X0ePDy_X6lOsTHgnlmJJoGbv0n_KtPdjar4FDUdqoi7U37_ejF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgP2avBhQ3nG9m-EPX9SZ2Vo7a_hO30Ey8pWqq6VlaUqv-8O4z7TQYmZAsvx5sqiZDWo8FS17ETWlYPUoDMd7awtI-XJidwhiqFoh9i1_zDMqzNQNe78bBA"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/22hjCeMjWQPIDYNoCRjfZvexMU7g3p4UAzZiCUBOxrJb2wLUr3UKMPeJD0c_3CRAI2baonzeR1-kqlHgdAQXyP4kNRlWzRgnWDR7LmPJPtZ3hoy3Um3iwccIYDtQuOgurXMxxtOc7hYFcjEv8BRel25P7Y-57A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zh5OqjQ5s6n4VHCaNFsd872fzqH_RRuicuDLgAoD_q5-sClVnr7TsNVbcDzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgP2avBhQ3nG9m-EPX9SZ2Vo7a_hO30Ey8pWqq6VlaUqv-8O4z7TQYmZAsvx5sqiZRVQ5ABNZESCmd-UoDMd7awtI-XJidwhif6-jwTDbMymhwmK0yCh4dw"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/S2EU4Nlz-xPPnsPdjDMq6dA9iBnUs3982NUOrZ57BTfRBmGvMxRl104-QyJo-sSAMeWI2q3E-u8KHymVReT_UKFDIAwm6dS1n8eQuVd65Z4Rc6Ngx1KDDnR5tr_clnaGxhhuNGegu23kBP_bO-dl43LPtBBHfg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/3138dba7.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/WfRAgqpNvUs7bzTUBNS1IjADncQ0a9WnWShG4L81tt68PhzMHRAunylaDv_8iybtt3MzJ6vcvAbRfM0UQZy1x7VelM0lJq8lKbOR9uEE9iTG-GaqfgAZXnMTmdzus1h_GCcQ-2_Ay4NVW-puYPmU7KPxhn_0kRs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/94be43cf.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/CKRamRAbytEz9pE49qyvQCQP5yQTmI6geWH3K7zeHpn_mwACL-EJtTl_sidz0PfMojYqe-mJQbiFtCMHMf_V_T_SVSNRlowbpKxiO4KJYKGJN-6ZtyozipFlm7zmYWo5KJ7DZdnKaZC4AwdyekidU82jYYHjDVE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/353695a9.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/lS7GOtV8uHLe9mWYMhBGL6iCE1fQHy7BWYy73bakBJaxaqzIQXC2r3r8mM9QSG9Jidv9su7uz4omBkbRQjwjfVyCJzNMFOXbzruieWeNZhe7JeTNRKtdIkLCurzFg5t9HJ4HzKkaKDUfazFuEd-hFyU5wOoWHQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/20000000/19680000/19674800/19674707/8a0822f3.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 56,
+      "location_rating": 4.1,
+      "amenities": [
+        "Air conditioning",
+        "Balcony",
+        "Fireplace",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Outdoor grill",
+        "Oven stove",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 6",
+        "3 bedrooms",
+        "3 bathrooms",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQg_-cr76A-JA2Gg0vZy8xMXNzZ2JrbXBwEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQg_-cr76A-JA2Gg0vZy8xMXNzZ2JrbXBwEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Pet Friendly Spacious & Charming Marina District Home",
+      "link": "https://www.bringfido.com/lodging/1064383?aid=googlerentals-website",
+      "property_token": "ChkQif2wtryd0q8qGg0vZy8xMXlkejZtNnNiEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQif2wtryd0q8qGg0vZy8xMXlkejZtNnNiEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80427932739258,
+        "longitude": -122.44343566894531
+      },
+      "nearby_places": [
+        {
+          "name": "Jefferson St & Divisadero St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 35 min"
+            }
+          ]
+        },
+        {
+          "name": "Milos Meze",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/RuWLP6ucQbcM_p1Tq01nhPvtPzcoqGBoNj-0MqiHeTVyM4B0VPeMaSNin8rAsoBZFf2e2LKpGU6_IfK8i4y1ZBUTeiyoK11TGczAjUyeE6LnKS_uqwU0XeV5a2FBAbmGYHRZfAARjIRsMeo4oGefLkq1g-xqi1g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768398.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/My4x5Ou9aZKaOE4vqOw0cZwonGdC89_zAvqqRy4VNOxJemlqbaf-SykqKrGe6O0uhdMpGZnTt2s-lU9oR8gQOD8RoRPp9_F6pvoYskhsHCwpozzG_9IdYkt6jJM58sDEpM7Nt1xw8AxURqT9Avm6BoSkMP499Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768393.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/lZbX6Vxg75MtmJ2Hye4whWmf-HLDysjNlg1FEP_0HZT3DRLIND1t44y8WJoo2n9csInrpBfL7XKNUPPL42Ex5HDf7aUWVqEbulP99Kpc_nmMfjnf1ry_bKfMSAsznuKbIau2QVjCtlBDmpj77hSNb2TOMXwy93c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768397.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/n-BrCHeM1gzTNRsuTG7GXIg4iqUxnvtBLpxRJrb-jcRarlNpotxKwI539SjAUIVOHd1zu4movJ5iIkd9XLFqBXMomecHe5koD9qoMiv-alNfjKcePWbH_EqjbV3GyvNKwh4IudhgEjQAs2xyB5mjgCi8CLOudhY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768391.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kHqMC71UiEBc-NfSDx_pfFB0IZeUjdDjBupLeKlVZfIaMlvzXHNPosbBlbHNJjJhG6srJv3I1SKNR8ZJIqM9Up2UbSCFpFVJkHlnvu21MQA49pGUirJLI0DF_ylsPIDJq8xBFVDk9NheSUgJyeMDqWrmX_hEtzA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768396.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-Zev-5GKFXzgGQeJ-w3J1L4z_rE8WoE04BbSnCeQ70SFaiSiO6Xb4oBhKU3sOqaXEGB_G7JwFsKB9RE4ieGnJYjag4dwftjyEClJjznaTh-zz-iEdkZiZ54XLVi8-UDRSSwVOZ__ecHRP4JRZHC-DEyDIwPa-A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768390.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/jrw3jDQJde1Rd6HRHq2rI5Lx28y1t7WIZFICt2Ya5xwcBQV9hDHYRxYibqoCvu_7Zdizm8R36UBmjR5UFaKXcQX0HTCkNiO5RAa4NUZyUrM7YWzG94c-HwCD0bUsn8XdgjQiMNa32o_ks5KspFbyjlqxTQi5zNU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768392.jpg?size=external2&density=1x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/xWqtbrKT_zsc5fpb2fWz-Ql1BAY9GSBgB5QnCsBSrYisFv9eqRBoJ4Bu5TaQ8O1dyMPLe4L1BE9GMX92-Xd_xedDLLNitPmFNE1z6rEPXf_MahRfipgdPEUvfR5xZnlYM3H95h-O1xA_bMkegPjRllrhvYcNhps=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.bringfido.com/lodging/3/8/3/1064383/1064383_111768389.jpg?size=external2&density=1x"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 47,
+      "location_rating": 4.3,
+      "amenities": [
+        "Fitness center",
+        "Outdoor grill",
+        "Pet-friendly",
+        "Smoke-free",
+        "Washer",
+        "Paid parking",
+        "Paid Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No indoor pool",
+        "No outdoor pool"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 10",
+        "5 bedrooms",
+        "4 bathrooms",
+        "4,100 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQif2wtryd0q8qGg0vZy8xMXlkejZtNnNiEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQif2wtryd0q8qGg0vZy8xMXlkejZtNnNiEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Best Central San Francisco Hidden Gem Luxury Cottage, Superb Location/Amenities",
+      "property_token": "ChkQiJeXt4frqMYIGg0vZy8xMXY1eDgwNWtmEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQiJeXt4frqMYIGg0vZy8xMXY1eDgwNWtmEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.79706573486328,
+        "longitude": -122.42801666259766
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Union St & Gough St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "28 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 9 min"
+            }
+          ]
+        },
+        {
+          "name": "Camino Alto",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/O965Yb0uQGd6ZddA8sJnWY0Ia8vDM8JpRfWPrRUv2c8fnsK56sV3RG_IA3kepgI4pnzVO0bLs9rS5oeeFMkmO59tcAs24KJh1fJOWkhW1J62Zh5rrm4tD7Q8Hlpzw2txtBzourHlVWv29vp98QaZtP0wFot5w-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/44a67352.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/oMUOhO2968-_GsTbqQZyJDz4wSpNxjRYsI83kZDGV-Ry8t5W-9_ZKIziVOpQCrlVSLMwyoX2m-fNVDeAm5gvsW0B4J4NM1VU_lQbE3dNuraW3blLDvFCcZ1qHEj91bITfvXzFX77CnGC9y3YerbxC8QhXYYnJ8U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/5ee15014.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/0NcJORGlgZIqlikgCkvPVSRTcVhVJ9NC9GwmHvFpzCBYnoRMYr9qGyAaE3H2q5dqrg7EaunXdOBlQNaQ3QQ91A9Wae6Cy2lVrYuwad47vY7hH3MbrUPYCUS9SPIVULAxIItzjHf79cM91KbDEDfYs3rXHt3Ymn4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/2947cbb6.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/hcYeUAqtgtkv9Hj1Fn_jrIOOGgpjegx3O7DWEw2y2fyvjqE7VPrZu0xJxcKvB5Bx9qmoQjR0pZ3lBhHIP2w2Oygf-e5CMLce1inao6UtzE-2L2Y1lFIkKBpoaN185pb7PkyJqQ8LOKHmhZPid2f0mtXi3653wA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/f830fc43.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Xw7MWWH73A1gVOcqHwa7RitY-0qTP4-J5xcehpUhaTCFGXryIeg6nW2gI3s8PDbEPObcl47F59Ejaf6rdQpbUypA8URE9hpbSE1fI4BKB3x-Lv5QWurc3JPNJDAZ0bo4uUQZv7wIEg_G14VUPQdRuncPdgYClQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/46ef164b.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/cvqc1DrGpidujMTk5acCkFzrQ1GYer_wQwm8TAX4DnqMyYgS_JT09iNJHQlXOXj7I3Nq2bqQ6EgiuJZUQbANCu0TXTpAKX3n03Ph95WtK6YwaurZaLSeiAp9t9iHDyHwWozVDpfmVUiewwJVXrE-MhwMk8uwIgo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/958a12e4.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/f2xVyAna9YXAJDKu1k2osYsorJtlH5zPk2Xn7DJsab-VNmREgLM7DZQ_z_zA070XX2JSFQd1NTwTak6yyqAD92qJnBkcp1s5rYn5Im2CRT41vCGfNr0PyzLsy83jDNe694UxrRaaZZ0yLdaPCEu9uAaEFhkpffo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/958a12e4.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/39EkzRcBh2ImTIrT5XW6bau-ndv7XVH85QBWCXwZ2Mfm9Z7w1nt8Vwj8aWjyV90QB59zyYcjzdsBItrhJaavp5KdN6zwwSq0KwmK7wmBfgUFn_eSDSWGDfKTm3ze7sV6OKHZ5O4Pwk6YYBvpYiZm-UnrSZLiQ-A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/863e2303.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/nmiSnUKRC07KgohaxNx0K3YphkMcHKKc-1O9Geb2uT4wsuMZ56D5go20a3B0kEJOBGM2AD-Zd8X1sSbmv5TpFD5J7UjJFjAjEGGHK4UeEzVIj6DmmWgpRgG_wi3bsUS9YWeu40Vv2L9Uh2TNRNgCS1kfxpSiEk0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34010000/34007300/34007297/43e2d230.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 28,
+      "location_rating": 4.0,
+      "amenities": [
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 4",
+        "2 bedrooms",
+        "1 bathroom",
+        "3 beds",
+        "700 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQiJeXt4frqMYIGg0vZy8xMXY1eDgwNWtmEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQiJeXt4frqMYIGg0vZy8xMXY1eDgwNWtmEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Beautiful Marina Home - 2Bed 2Bath - 1 block from Marina Blvd!",
+      "property_token": "ChoQ6uaCx4CPhYvXARoNL2cvMTF2M2t6em0zXxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQ6uaCx4CPhYvXARoNL2cvMTF2M2t6em0zXxAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.8039436340332,
+        "longitude": -122.433837890625
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Buchanan St & Bay St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 30 min"
+            }
+          ]
+        },
+        {
+          "name": "The Blue Light",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/rs522ZmuCDwzpK87LyxnZXr40Kc44omiU9iiaXz90ZqgDbNgb5uZA6P5bi44Kv6jprrrvOqYPArpRSBZf5b883xSWi-LoDGIWRB2ZPSA2HXbcHQN-RXo9FDoBiKxMyimkDgZSH2QnUUFAIGs9SjrQYPfhG4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/b1eed866-3425-4dad-89dd-04f494a920b1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/YNMJQaSFm_4lnYfsY1krlpMedVvwsO7IAj6_UB6Nnkhl0M3a8q8yOtnsTQtZU0KguC8pK0QsfC23_JANTcLCbrwfPIfI35w7A2aALX1_JsM8rprWCupjoIAnUcspdp9l0WUIl_fronN8MTNK9LWlVz-FlYzn-XQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgrOQgh4ytGQ6OkuuY7RQ8ADgsFrBIZy4qhWYLID5hr2iMwFRpq3VPFzcDzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgOHYvBhQ3nG9m-EPX8SY2GQda_hO30Ey8oWrqottbUuR-8O4z6TRY0hItvxpouGZDWpyFC1gBjemYL4oDMd7awtI-XJidwhiA2s_XskZYY6Xi-ode9oawg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Op_WCAWc-dn7W5izeRSn6hUQj_60SaeeDAJ4FP5-Ac4VBqO5A9MI6abhCYOGKt8G-l96GNFhSeyVudwFVnVrPOC2mdZUiRdTl-ZzeoN0OwD7b74ETbQ_nvdmyJ5yyej883Z90Lhi70qJh-SouAe3mb_Rnwze6_E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZoceLgHx10zsLMhidSYZn2hXTpiSKEpaJ_jbgAbTOnoOjEUtH-464Kk_wejF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgOHYvBhQ3nG9m-EPX8SY2GQda_hO30Ey8oWrqottbUuR-8O4z6TRY0hItvxpouGZDW5xFBRjWzW1fLkoDMd7awtI-XJidwhiVAZUWeS1eh9qQW891kKFmA"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/tHsmPRsiAuytawGdWdUXS_bvbmI2BquZKgBEEY17RlBASjv-NvP35SWmmYe8DIXrp2tWSVNwAqnceZfi7aTn4Bebd7kiYWcF8X0SkRvarRKAlHAj3MqsISZErG26fAdbb5sSwYvVwg5-fwK24poQjwrS3zxO6eY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/59000000/58900000/58898700/58898643/fc6ed793.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/JhqBfqbvlqV9Vfbb8n6m2uoQEkSCtpoA6ZXeFmNYpV91JvafTnqvI_DuRQ3LdAr3wq45S57aRjFWklT6M04gkWmJdDSyHZcN7NIO-H_6Sg_wNTfjYWKDeelU0NaxpcidmVMxDc18In7FXxboTL6kLKTzn58GDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/59000000/58900000/58898700/58898643/d07aa4d7.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/hRUyj4ntYVaZwdd3jifIu8m_coP1ONYEMyEUckdmesafTcJj3aPcQi-h9sXAAGqDUql-OENDOgc_c-T_z9dLIsUhKXd7jWv7zj4tieWtzP6pXKLM_8Jkv5XL85a1fj2iusSGdrmMNt6XpXQbt5Bo267hWKor7vg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZrJqVjh4l8GYzM0bTa51n8DH5kUv9RJSquBWZEoTG_p69Cy9Hru_AEmvyAzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgOHYvBhQ3nG9m-EPX8SY2GQda_hO30Ey8oWrqottbUuR-8O4z6TRY0hItvxpouGZDXI9Fz1aByCmY-coDMd7awtI-XJidwhiRqXMNHaNH66T57myCXdMmA"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/mf-km4xJkO9OL3XyXEC7uasw5tt-oMoemF1yqzw-_wW0viauibqDnoAqTGZ7-BVpwtkUEq7piGBDlyruyLu_FYu7WRobsfh6jYVM_6zRpVa1Vt8Pf2BNNe4EofqNxjAVhejxmRpNHz0r-DWMJxs4vfKeoNo7-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/59000000/58900000/58898700/58898643/41da9b89.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/cIRzCVesJd-7K0O5IrSb352SCdSfWIhDhXO38VKwLvkuKkC2duhgtT7OQEIqD-BjhCtY12JRppakUOc6EgTr81OEbyYf2yYC5AWoakayb9OdHW7wbNJ5-YcYGZ73zLSHBQfpuuH0ZmdJhuZrFvqkfM5xKaBcny8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/59000000/58900000/58898700/58898643/74c8029e.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/VDpHHliyLxYh1fczxnamP4l44G2YoeSTsD4P5Bnk0SGkK4C7pmylEqTb3dcerqWeydAc3n_ouKws9AJPlNAkg1nvpjon1lM3TPMbIBj-25gDoE7ZpH0vSYLrIRRbTvELzj4x89eSpTZevf0EEV8MdrtspjJO7GY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.staticontent.com/media/pictures/34e0d054-db24-46e4-8106-1b7cd2fb67b5"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 17,
+      "location_rating": 4.3,
+      "amenities": [
+        "Kid-friendly",
+        "Fireplace",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Outdoor grill",
+        "Oven stove",
+        "Patio",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No beach access",
+        "No elevator",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 5",
+        "2 bedrooms",
+        "2 bathrooms",
+        "3 beds",
+        "1,399 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQ6uaCx4CPhYvXARoNL2cvMTF2M2t6em0zXxAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQ6uaCx4CPhYvXARoNL2cvMTF2M2t6em0zXxAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Luxury lower flat Marina private condo, 1 block from Bay",
+      "property_token": "ChoQtaDc6pSu856UARoNL2cvMTF5NHltMXk0eBAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQtaDc6pSu856UARoNL2cvMTF5NHltMXk0eBAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80474090576172,
+        "longitude": -122.44437408447266
+      },
+      "check_in_time": "3:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Jefferson St & Divisadero St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 29 min"
+            }
+          ]
+        },
+        {
+          "name": "Causwells",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/8Zz0XegAtKQAKcGcY_5xnC5EG_VWStTidLFWDUhNUG8uoW6VKVDplUAVBATwC1zXEr3GWH_dIAF6-e87kuflIoASp-5hh4yxTtp42eHMYlOTbMyaLKItjID2FdcnD2C6RQyYzhi1vuYeKV3knJY2yTsctGc4jg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZmouQniRwvnQnbw7RVrtQ4m70gGT1Ha-viCzMfq6ln-WdESJXy4rVCm6rCzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZDXo4FC1wATfQaPYoDMd7awtI-XJidwhipTNHxOAr-Vxv4NIvbKrg7w"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9d_gk9xKVa_2UJEooACDxq4D8fO2CTSjIEGs0M0Ie1rGiZheRUgXi567olU4kUHzACJcRAqHgWhd6XUzFg7Vu07xP0TZhHNjK-E1o8QaozAm5_d56j4WAVkfXL_Ld_VKR6Z63fn1qPNE2oaTeirubbqwexeSuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZoqKArRoy9VsmCxyNfq9QxCrFlUmBHJ-djxKZNIfcm5PtJAth3IfAGxf0HzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZDXVlAD18AzeYe-UoDMd7awtI-XJidwhi93AxZv1_Rv2ti-zyLO-3Cg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/fcvO6DVr0Xym_oJkBvaBKAT1-O8fxIN7G7s725xgy1OcCYBHmw6LckLZc7IHMLvCHYJNaBgSI14I7DlQPiEs79jCB0QLZIww8opkaX5WxvvP2QJXkUlsnO9lfSdFHPiOAGiGtHsioUE_kO-_3bMRoyIOEzNntH0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZmbWRoBsG63QYFDffaJFM1znGikTyLpiptDHgItWjuru4NzZypqrsFgrBHzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZRW5_FS5nWTemaPQoDMd7awtI-XJidwhiuQ3VhGjDm1tuNnYu2R1EbQ"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/lY3k8Bv-lDcvET9pVc1V-Magmn-H5mpnG26sfuPysAcgAeYkQDD4QPLoKHFEPLtZofq69k38UfXyvNTeLYr4Sw_uQ8M2pj_WKPaT_NMJhlXKPgMsNoILBw8mZRmGky4-DV67cWFHN662DFRgv6oa2EyFwKZT4WY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36250000/36244100/36244060/3a2575be.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Mw96wXVsstVaB4XAmOjHaY9b_SYR5S_XkFtoAxJnZ4LXZECWHDDG9qbv5Q_MFI5xMvpT1wHTuVOGtonkUYI073kox3Opinxw3UBPFMJmfMz0Jubx7NtIvHr-ewTo9X2ws0drLFaU4QtvAZH2Hl3Q_1SCSxteHg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpL_p4SgR3XMcOAaBf8F35BnGkyHTWoqbqA7HM4en_LPjE1Ni-57iN3yzfjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZDXllFT5kByPQbPUoDMd7awtI-XJidwhiYOFkBbrnVlj6PShNZ3tNzA"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/1CVTDdUUElA65OvnEux1TGuqG7GHRc9tB1I6GiQAaSfBg2ywr9AVY18SzzStNcNgiSzyHlSnx5ja5P-F5Cu_xWxib41cN5T22qHnO-OS_S7BpJmSaui8Dkv12D63iHAHiDq_ArVYc9eykPiSj7hhGgMqd6fZSX8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zk4CU5gIuyF1nPBaMSrBh1RXftH7qBovzoguRMbTziJejFQIX7bbsGXviJTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZRXFgFxNnWDS1c-AoDMd7awtI-XJidwhi9RC-_izkt16CEAYtRzSgFQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/SxszumnR4Fh561coZNmZNhiM47JHxzBH6a2q5MEt3w9eJke2PwfMB1Kskr-VIqViCNQFtGWyOPIgc4UgwDSi9j1Eg35JmiD7LgqoTSowBx5t3nyP0O6BvVFg3tAWcsJeYrBanoPXdfdYoCx-TxI4qhFr14aNvKo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36250000/36244100/36244060/af8eece2.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/f7J9QCyQE7xLF1p42MLiOa8HEO4r_XlU1JXUO6IziINVAn3ADuJe0iwFnDh16p0rOY2OTwNY5VCMTT7fSc_y3BX2fI93JzFQUfWCwyLOJboQZTrvq6VZIKSrxq5fIlZFgeFPNDgIlCJxMp2THv5Renpjw8pYGQs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZvceA-jx5zUkoGlKke4J39xf_jWHXPqiktCnaBYnp-7qaCARX6ZToNxfcGzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2loJa_hO30Ey8p2tqKVXaUi_-8O4z7zXYWZysv9HquyZRWVgFz5jESOIf-UoDMd7awtI-XJidwhihSF4AR74W5r3Fn4J9gvE-Q"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/UgHwdrzuAyCYmVYBoAj9ONi-zD_0zfjiAJrekIauOo1F1SuJE-P_y5ODdtYpClk4H0r9fWItWl0JtIKRbNL4pNxTD6-01zbv-kNh-uReLUWhdS2J8_zXHppJnvRQFJVCDJjR52iHjOWbn9WL0qWgQPYw_5fRhA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36250000/36244100/36244060/22e53968.jpg"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 20,
+      "location_rating": 4.2,
+      "amenities": [
+        "Balcony",
+        "Beach access",
+        "Fireplace",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Pet-friendly",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No elevator",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 6",
+        "2 bedrooms",
+        "2 bathrooms",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQtaDc6pSu856UARoNL2cvMTF5NHltMXk0eBAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQtaDc6pSu856UARoNL2cvMTF5NHltMXk0eBAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "In the heart of the Marina District- walking distance to local transportation",
+      "property_token": "ChoQ1uyJ1NDiv5HeARoNL2cvMTF5bjI4cm1nehAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQ1uyJ1NDiv5HeARoNL2cvMTF5bjI4cm1nehAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80290985107422,
+        "longitude": -122.44143676757812
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Divisadero St & North Point St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 25 min"
+            }
+          ]
+        },
+        {
+          "name": "Blackwood",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WX2N3Z5zM18fVWbn-oMp1hHjR5aSi22lZdk5qK7gK3PrzLTK1BiEm11gxV8bmnwLpVCrngoW97yh6WxsA_B5LHAjNsMwHxrSi3J4R6CZ6kxOvuScwT335yHcHtCldYTsmSdfVGPWzsCi3Dw9zfhTYFZegyR-sg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33960000/33952100/33952071/27fba62f_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/fiMAEQNvwCxEwvCK6rmD_EvApogJQGkJyJjBJvKMH8b6JnltqjiCK5GvEG-ZMtCrGGOdEJxNBHZG5auZa0ZZ6Z15ZTobMOg2LRf5NEaMuimiT7gG9676mmFnDFDTNdfdKUx0-rSdWbW9B5QteiPbdBNaMy9dza4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZqMHyvzw0zFUaMRevaL1i2wjz8iX2P72uuFSYNYLC94OeDypuypz9G0iyBzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2GQFa_hO30Ey8p3lqptTIEi_-8O4z7yfY1h2-_9HkOOZRXY7ABR4AzSIc-EoDMd7awtI-XJidwhiSwL3WBG2_Uky4NGlgmjlNQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/eaE_os5Ls3j63SfA1OfdNR11u_tSEQUXWmEqeJi2_BvMJCS-J2U-uWExZeUxCYJxyfbp-iGeX_y1bRJm3kXSCel2tFb9IZwglpqt4I2xdVharjK2rB7RfzjfgrznE3nZ0-V1xmbXxOFB16Kd8DGKts62K0yvXQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZhZSLoywk73gqbjK1attWshPiiVT4L72c_xzyJ9bJh5eQKC1wxonIBlDKfjF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2GQFa_hO30Ey8p3lqptTIEi_-8O4z7yfY1h2-_9HkOOZDWlgABNwADW2WrkoDMd7awtI-XJidwhichkwtP7shyjJMkLpTrXaJA"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/RfPFj2gF0WIid9032eQQrgH-5G2XG_IuB3NPMXfbEy1w6R0fRCfozRCaQaFvGEFLhStI_W1Wy1IE8AXfO-LUAYohAwNWeNdY-J67djjN1KrgMOgS9v5FizrOPiwMTscAc2HbmBV21AIGgWy0okN1JtkcrSyt3A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33960000/33952100/33952071/74182062_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Sjat6nXrWZjWJsjfvwF7Ja4RNxDRfUIUuA1QMWNCDZgX2-Cpdl0lKCqihRsSyM-b9yKlLqKICqrD9U5QDH7gpw4ou-whUUh7BZXMfKv2iBC-aFKdJvQJNkpYzOFEvQJxh2LBDyoU3L8nan_QVaD3nnwId0S-YTY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZgYi0lAR01HgQGzWwbKBEwDP8jX3BH5W4qCjvLZ_Ji5TnDBF7rpLiUBfjFzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2GQFa_hO30Ey8p3lqptTIEi_-8O4z7yfY1h2-_9HkOOZRVw4Fy1VEjemYPUoDMd7awtI-XJidwhi6ewEZfulTB1QonTOiJPeew"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ZkWiDVszmco6sO0OXto93mk3TwGrHXoZicREZ6DCzaHXLOWuP4zuExxDSy7iQCO-_GX3VCOyxJ429emD8dAkfps5RtH-226y7yZi32y95INGFDuCrT4HJvWwaTf6lIQwTbPxtMEWlWslnL-yzYKAMdTeitdKhw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/34000000/33960000/33952100/33952071/01a50528_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/zaMk0KqIvhQtmoeitcFahTiOZ5UECvHNSSCTW4O3PB2V37rwvyCRh5hryILb6fIrEar7hBMKLHkFt1vXCeDRU8BTFqYwIbP90lSJZdnB4KKHcN7Eq-ZeCLbwqgToaBubDnhfhmzlVUVetn1VUpdtY_LPjptdFuc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33960000/33952100/33952071/eaf0d979.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/MuuVoWU8vvpNmHWODMEV_dDkcB0aFXV6RlC-10Y9D7D_AiKxecmWEakyiLZR3iFM2wixQvj6BrpbJZsHT7mb0Bq_b_BLXyy0hdCqnkMc2UjWo4kDumXnEdn1VlQwfWcE7ETZuBGttUcr6z0K75za8GWzcCLR-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZureqtR8O3ScaakrRZMZS-hOTtmfqP5ON-kiYdZf9m6m7GQtDwLboMUmwBzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPndvBhQ3nG9m-EPX9zW2GQFa_hO30Ey8p3lqptTIEi_-8O4z7yfY1h2-_9HkOOZRX5wAy1nHDS2cLgoDMd7awtI-XJidwhiFxN-La850s70ol50pQZKRQ"
+        }
+      ],
+      "overall_rating": 4.7,
+      "reviews": 16,
+      "location_rating": 4.5,
+      "amenities": [
+        "Beach access",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 1",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQ1uyJ1NDiv5HeARoNL2cvMTF5bjI4cm1nehAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQ1uyJ1NDiv5HeARoNL2cvMTF5bjI4cm1nehAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Marina One Bedroom Private Garden Apartment",
+      "link": "https://www.bluepillow.com/search/6811a971a74f8eb5bd2d6a52?dest=bpex&cat=Apartment&lat=37.80329&lng=-122.44777&language=en",
+      "property_token": "ChoQkpyerOiz98bDARoNL2cvMTFrcmJ2aGM4XxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQkpyerOiz98bDARoNL2cvMTFrcmJ2aGM4XxAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80329132080078,
+        "longitude": -122.44776916503906
+      },
+      "nearby_places": [
+        {
+          "name": "Mason St - Yacht/Girard",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 24 min"
+            }
+          ]
+        },
+        {
+          "name": "Cracked & Battered - Marina",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "9 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/qNk6jyQOXUFdiHRwYCnuV_ZHKOYp_VCiSFug_eSOjHh5NxPsx4mxB5QaqpNTq3Qov6C1rYs_BdOz-hnR1xyueDfp3X5yaJ1M9yCMj9sA6z3BMNRxoeGsmfCzjSlmE31Q8BEDjqAD5KYtIqFX_39ghgrS9K3DEg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/02b59deb.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Jg6ssCxlBI_Jzntw30o08TQ0_HHVXYkUgn6jBFcQ4gNTSXqvGjmTMHfUqGvKE_-hgdKBe2h1RKw9i7c4US-YujpuO26rtfmUUOFkUywmggY7S2SRrSUHymF1868nBCF-QH1vEqT3vKCPAbC0IrIcVZYCLW54LQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/7a3548d9.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Snd_9B1vwHMnHTnpbS7rOSaB6DYpd-wReq6U0MH58nDUIuWVuj764LGlIAJ9ExZ1lLzDdwk3ejD80G-lisWTc1-MfQ-vlmkj85gXBZoqtHuhINUy6FsTyideAn8jmW0QNRKA_vpw5mR8lGBkX9ZbDXv-Ba95l4w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/ee3cba04.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/k89HPdzM7xO_v6bp8IcYMouzF7l43DJYi7svNXm4wdSc9eNnvEPEZ6m4zJThCC_sHeZgSeMc6jjvOLBJ71GnaQroX5BHrTjYsPhGgP4T1TsJ2-dz7wYmhr5gg0A0P64NCf8KI0nnZLDXiu02jPSr7sm9aul6SA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/38f4fd2c.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kNIQukC_F4Jcm6-YxRtEgDYlv8iJj266m6AW22m71OBDAbax_gbWI3pGrOtxdepDzAlefZ6FUkl8CTK30GoQhMJ2H0IK4IY-E6EP-8uInzZ_3hBkDYn7rh-uk4DzlVe3N5aDTGxV7WV_v3O7eZ2I2NglHq8rFQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/2647b47a.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Gjjj_rGZXPMsaKZOcrgC9P9hq1D39681bbf58anW5vsVUDaZzpqlRxJ6xm8Q_R1Mtl84G62cnKN8cI2kZLzFob3WqEI_gmmB4BdYXswyKp_VLV8CnGo6QhmNDayPTpAhG96XuqIfgWBmAsI33cS67QPtDxF72w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/4877b3c6.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/HonWHcMmhJwkWKVhlG_Za6nZOwET02UGZoCGAkg30W2zhiGI-BH-mt57ztFU_TDUoBdjjO9Qw21i_5Y07dyy2p2OeIT8S3Llzu7U-ZnjZ4dcQVCGu5M_y15l2Ee7O8pJrCTpI6uNZemePJH3VERCosxZO9naByg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/d48726c3.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/sMK5J1IBJMrfStXn1a4RfCkd0t7HR0qY-YQWM4JhYp0JPwY3NLjuW-o1tg77o0r7TYmbMnQwTSJ7v-LTh3ZJUtxZK0nI32gmnvuAFwt5nNSy16clMXAGNcgPw9d50667IL4O0N2BCIKB1dATe82d3XBgDZRlrHc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34200000/34192100/34192059/31e1e207.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 3.9,
+      "amenities": [
+        "Ironing board",
+        "Kitchen",
+        "Smoke-free"
+      ],
+      "excluded_amenities": [
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 4",
+        "2 bedrooms",
+        "1 bathroom",
+        "2 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQkpyerOiz98bDARoNL2cvMTFrcmJ2aGM4XxAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQkpyerOiz98bDARoNL2cvMTFrcmJ2aGM4XxAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Magical Penthouse Hideaway + Deck = 360' Views!",
+      "link": "https://www.bluepillow.com/search/6811a430a74f8eb5bd2d09c3?dest=bpex&cat=Apartment&lat=37.80313&lng=-122.44585&language=en",
+      "property_token": "ChoQ3dfLv9rMsIOjARoNL2cvMTF4Y193eHFtNRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQ3dfLv9rMsIOjARoNL2cvMTF4Y193eHFtNRAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.803131103515625,
+        "longitude": -122.44584655761719
+      },
+      "nearby_places": [
+        {
+          "name": "Broderick St & Beach St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "35 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 24 min"
+            }
+          ]
+        },
+        {
+          "name": "Causwells",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/glwdH2DoayXZnFpWdZQkuaNkeOS6dk82DPAgEVQxzjrm0UGrDPMFdPQeFfTQBmF-PcTm_FoaKxV1o3exHEzAaoxkDJWmjzmU6VRsbcz0qR3umO9g5gqcjm47KvusmEyeRfOFOB6FCayiFt3vEI81k6lPp5YHcUQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/9d6475c7.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/8PktZKSowwDbTYUgu9PMeR203XMopBugE86L2VYm2UwlqAH11KqlfiCyYeYqlFZCU-Kr_E9g81CdqfBZ9ldHz--oIzW6gVJq1Vp9cU2FvBjVZ8XVw0MoVmDFDyjKOnGMAcRJxLWY8vz6-a1WkEurRXpL4QB1og=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/863bfd54.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/6mEjoos94WoZPE5cI00dJ9TMY1oSkEEXQr1NtkNDT-JH979K7YoQ58rj5B41pziqcdEZtj3HqdzoJPACZIsfIDT8Q01sunz1zzJQcEBtpVhf7nDI-cZJtupB9u3xA-muhRbST1wd_U4Zl-1STQsEWzP0LAimnQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/3715432c.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/DKVimuhtS7QOSv4tS7aHj1bhdOsA2p68zY5eReYj1QZIweznGi0RuKfNHaQP35qJPtwwHWnPTkjwH7LXMBiWqv-iGiEMGArvl7cH5DViXWjzNg7rWwudv04XL7TmPYS4DEoE_FyvhgAOEmF09sOK0WSJXzoxuw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/06102822.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/v-F2indEmxH7C8Er1xK4pnIrFeNTJ5tvX5MsZHU4fzbuUY1pSxFfGkh0EZ0W6kXFxDwKmH7eNlQz9KYUsPygQ_55r9O3JRWHwbn17c_acyAiDuubNx3-lYZU7Nn0tRoNFKbNIlf1yguoob1FcWRXXrUnON6S5Xs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/2ef43914.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/pylBvmLNSzoisPebi1kubIxngVr9q7QfeHMfqiwg2H_LCSP7EmgpJSaQI75xAo_3RGbXUJqeVimQf9XQ4ZIo-5_DHkOWLM67Vpkg0t_x4uiIC5wtU6_nJ5V9RjuWZX6XuAfEXK1uAZ8eXZRGhjwEvnWB2Vp7jZs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/dc69ebd1.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/l_3MxRngl7t11-MgFCOnRyvTBn2HaPPUqJAtogBAuoekT3sr_bLS1_Pr_dbFtAlM-iBYJu3woyrTrBEi2mxhZmqbuyz10P6Mp1HcgtrFuKXEtxS6vGr6r21pgdxwlUdHMuDGsF1PwhjzVaXZH_oKGruawpPQIg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/b2108d37.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/WK-Ruo63knqeDOuXR7LoQoiMEex1W41dUbGvpPfcvPMu-F1HA7xLtvxcqE2XIZzX_Lv5ZpSPCbOuhgv-5n852-ksqXIiP94eG5RWSVsrxEuddnsXAvKrXlJL3jAmcij2y473r8mGu44C9sf0ubOjHlPzrehPEA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/4220b4bf.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/sGXkk9_7p8hRbqV7_vKNnYeaclnGH4bCA9zglEkPUOMaJNv0Pf54JsfAtl-hVEN75omMNHTZ0cEkUfbr7ld_wxZDvYQ4AwZ5cP4vb92DyGsbz0-bf_mBFQfTRxMwiBQxTrl0l8kn-NhWdGFahUXVUk2EW5XIjQs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33950000/33941800/33941752/953e717a.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 4.1,
+      "amenities": [
+        "Air conditioning",
+        "Ironing board",
+        "Kitchen",
+        "Smoke-free",
+        "Cable TV"
+      ],
+      "excluded_amenities": [
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQ3dfLv9rMsIOjARoNL2cvMTF4Y193eHFtNRAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQ3dfLv9rMsIOjARoNL2cvMTF4Y193eHFtNRAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Gorgeous, Beautifully Styled Marina 3 BR, 2 BA Condo",
+      "property_token": "ChoQxOuE-tKVx_qMARoNL2cvMTFrczE2MTZmeRAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoQxOuE-tKVx_qMARoNL2cvMTFrczE2MTZmeRAC&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.802059173583984,
+        "longitude": -122.42945861816406
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Chestnut St & Gough St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "30 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 11 min"
+            }
+          ]
+        },
+        {
+          "name": "Roaming Goat",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Qef76eV89P9sfj1f-pWA4mcxVfL7cmaWtQYA8TxVGvtrRIcofef60Mni71oaM8Meaaq94agLf6Z4mFZ4UDqrh6gWhrDRjusiDBUsjcHHY4EB-liC1RuCbZxD0WlrWJFisXbv6rK5IVa4ePrdKZfuMvhNWEcT4g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpruVsg4j6EwzOgW4Z7pE6hOTrmn9NLqdmBDpK5H3i5TlFUt-2e3EJUDtHzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZRWVhFz5nWjembPYoDMd7awtI-XJidwhicOVrYdXGv0vq7eD0QkXNbw"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/WB5IMr-tGOckLBjE-9ntNKvlc4Qc4l-pJkuxEu0jwXvx6y1Bf9irr47375hZw6UiZRS9gpNwpTsNm8vB3jAWro1IWHEtSll2pkyqMZebyDGs2prL6PFFPGrwkP-G5dgeYWmFvCSXw8X6ZqK5MiwL2CicGOli2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zx8LonHg07WVrCTKscbpTxg7NuWPTHOGnp0HcIbnemO6SDQtLrYzkAWy_FzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZDWliAD1gAiC2d-UoDMd7awtI-XJidwhiaW2PI-btSS3uXJqyz44-hg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/-jxbVmWiNZ9JMOz3OQsU_PfJL-krUwA9A5qZiCt7lR_8jmJ4SbhRmv3ajdPlbqv40ft2u_a0SvU9ZryifkcwQxzJ6x8a9M-LSAdYR5xOqJtlQC0CulCcgiPPy5r8eA8LKw9fwJjG1aaL5A7ys9zlczH9P2Hd9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZpJ6ZtXgCvjtrPTSwHI575G_6smD2WrGerAzYN7DFuZGSTg9S_qu5OU_JHzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZRVNjFD53WSC2fLwoDMd7awtI-XJidwhizhRvit8C4greIqpmDFpeJA"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Cw0jgzqzZMukQZ8QCwf6VvIhVUJ2wC1cLnpfsxehuUiQRbwoyiUGbES7nIw6zrNyGVXsU4RZElLg7y8vyS7xyZEczg5L9wB7zgEjIkT150xvc-x-qZNiVb2lkVA3qwjuBAUqOFBJHxIpQzMUOafNWZPvz9JimQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34110000/34108200/34108120/2507b343.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/J0SBWuQ4nSzj6Y00_xUN-zl7Jl4V7UOciACCd4AU3IUyx_GHnklTCqp1odZk71lgPGz0ukgzwXHTbze5IymUewtNawhxGqIf9e9l3uNiWpo7aZAwCxGZ1AMHYtSnH6u3Wc75S5-sK4HaFxcddykbZAPkfdEumA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34110000/34108200/34108120/182b04c1.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/8rK8q0O45RkoONNfKXNNteMTTdmXKS5vEPRtyfSZ7nYMbKNKZIEsYDnvooYnqCU1YKv9xrCDF236QRzSxzbRqjcivT8-dajsm9jkUw4WarUignhgQczlSNABpy9TzUD2f7_InU7XJ9W9oo39l8dZe7lz5h8WrjU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zh62ztCsg7WdnCyqxeJx15TjBi1ndEOq7rB6YC7So_aqXPD8WsrXQAmzvGzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZRXo4FD1kBiOIUvsoDMd7awtI-XJidwhi--NJ8lJOxgKZANT_JQzWBA"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/hZCoVPCJTK7XUkClIm2ZDf7MrCIS0BwHTlbZAH7HKX7A0ty8JfahC1OlJckLUwLTcwZHfI0blIeGds0hBT-NK08lj9HIyP8_VkQ020nDyS7DvPSQGRzGZduVNqaKYT3-5FiRpas04y67mK1ptmG-l0NGM5mTOVQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZrMGevh4A12UIJBKwX6NEz2fTqyf8P7WnmAHrCJLJmbGTDSQXzuXhEFzNLTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZRXY4F0tjXzSPb-EoDMd7awtI-XJidwhiN_X5e1OxC7B0wr0wBwNNWA"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AHMfVQTBZDFYfxlaN1041u0tl8anc9hCEcvPr1vmENUgVcgBn7953U9b224ZfQHW4tqEjfkGsowtJcY5uUg9t0Rr8mgdIoqI4bCuRGfdcprbQZwV8w-AzhdavSJxynApjAlY3tVcejK5JUm_t0QpyHf08WHCOw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/35000000/34110000/34108200/34108120/4ed8dd3a.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/24aw3gkuSMVTmGiB5D5dkHGxxKoOXCAoX_rR6cH80RMXMXTvTucfPYVAc8OjQSNfTfSWrgFM36puUHggRsTQ4J7_rtutF5UrtGYhx5gktVqPDNEQY5dIF0jpF2b64KcCAApNzrnYJTHoD9CurmGzgH0PqTn6DSA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZhoOPuB0F5ScQEyC2GZ5i9hvGs06PQpenvk_4KYij-LuWCi8d6aTtNG2wKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPncvBhQ3nG9m-EPX9yc2mQZa_hO30Ey8p2vqJtHbUiB-8O4z7zVYVhitv9XuuyZDWVjABR7XzW2eLkoDMd7awtI-XJidwhiTRffACbtQKzOi7KhGqVLSA"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 3.9,
+      "amenities": [
+        "Beach access",
+        "Fireplace",
+        "Ironing board",
+        "Kitchen",
+        "Outdoor grill",
+        "Smoke-free",
+        "Cable TV",
+        "Paid Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No elevator",
+        "No fitness center",
+        "No hot tub",
+        "No microwave",
+        "Not pet-friendly",
+        "Not wheelchair accessible",
+        "No parking"
+      ],
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 6",
+        "3 bedrooms",
+        "2 bathrooms",
+        "3 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQxOuE-tKVx_qMARoNL2cvMTFrczE2MTZmeRAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQxOuE-tKVx_qMARoNL2cvMTFrczE2MTZmeRAC"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Big & Bright Golden Gate flat, half block to water, walkable to SF fun",
+      "property_token": "ChkQlOLWucmbyYdcGg0vZy8xMWtyYnY5eXBwEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQlOLWucmbyYdcGg0vZy8xMWtyYnY5eXBwEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80537414550781,
+        "longitude": -122.43902587890625
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "11:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Fillmore St & Beach St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "34 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 23 min"
+            }
+          ]
+        },
+        {
+          "name": "Milos Meze",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "7 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/wR0yXK2oySFUUmroGXj7torl8JwYCURd7B8Maq3mHVEu4n31QXiEalYsJu9-eJhmZ-Ns86ASZpDu9WiZBmow6PXLbSOGApSp7NxOZPS7GPVIeIlCkqDtnenb_cFxElPxLkYtVhndIbk47mMLPMzUTKI_GdnRdQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZnMSckSoKzHkCZgukGqRl5m_Fjn2ABqmYhj7eDNfe4quUATAJsrf-KAmrCzF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2VoRa_hO30Ey8p2tq6VPIUu_-8O4z7zXYmZq-vxHtqqZRXY5Ay1eAjS1dLgoDMd7awtI-XJidwhik6iqDSB8sgiMCiINFcHMHA"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/q0fuwq6Spt71vEejEFl0h8GFxAVLM9xYQXUCmn9UXC4JI2IWh6ddClIIrrL403S3-bSkZV4_l6jscjI2jXr9CDVSux2YkJqi79nXkxM-8hXP7MRU3SeWOgz_IKzGGuzDf0d8jBS3Sde5yRfibiyW5YofaUHTbg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/ae4010ed.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/D9tDllT_KuZZrEuG7SXIhPsSjsjwq5bRFCMhPd7J_jbLCYmwukpdYsFpTL5P2-qS-73Mik-FyrkmW92wolEgdAEJi0_D3nTka8EGbxPH2s4EXvjQSODt65mkuTKt2Nv63ej3ERPP6IydnHjiufkxoVRlCoZnJYE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/ae4010ed.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/2YfeAF6VmqP1QaomQjp7ryFRqoOePu0QmJjnV9Gk1f8zWcgYHu8fDazbJOH43XhiqazkEFGya5etwu5-45k29CD8rlCBd7j0IPgvnngZrxuQUUaZsQpVqPuDQXxos_lnCbuzMq4iF_7qcR-N4YPRK9AqeKvV8w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/bfe8646f.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/K8MFrkmQryJaXUg6AZSRZ1auUdzYCRC28Ee6L1mcZ-3kC-L911msTpW7J4o_45v7ZWjgXpZUODjuvHKTplIttt4RSO39xVhDyg7GnP6f5X9B5gEfXGL1fLZPbrqc2f53CZuQRL5A7sCuxtvve-5lrIDMmi1VTw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0Zg8WJ4Cwp7lFnEzuST8YRy23TtnnwEe67nR-dPt7ahIWTCTJWxrb2DAroITF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2VoRa_hO30Ey8p2tq6VPIUu_-8O4z7zXYmZq-vxHtqqZDFw4Fz1ZWRumcL8-e8w6Ry1hpxBcQhRLNxykUWUipXSC74X7XDQgS0qWfclk0TMAK57kAxuem4rXkcAB"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/5OlkqB9IGDp_TsFEyDefPTsuQM9e1bEBTW0szLgwNMmq3stesXI0sgovet-aXxCdVkJY0jBopSjRsTy0_z19FWRKOr8IMijLlyxQyytCl2T29Idi4KX5O5HX4lq9FxoZMhblb6wkUXs97rUcKEpBOWQy1VpZtQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/5e50681c.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/rFrydKCcYMmS_6nu2fskFT8NYEdp49kQRE_8OcjpMP-rBvpamc0FCs78E_mPzhx4tTpLaLLIxLOYta2Jz58GF-zlF4k0u5U4LkDoGfHB8VtCWguglERFen9UEkC0snHdtLoPZitkWgZE0O5HRzIStprtSMPZWA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://p.fih.io/v2/nSr0o-3gbZN8o1xMecXCcG-BkDeQVo3k-wOeVogkTe7ajuFOX7O-WA8aRWhXz1jsToZif_TsA_xCWfhWRa0ZmMuolRB0tlAbCE-OV5lSsjbJm17qOb-7m07PE975hemPAzZxwJ7CNlXXKTF4en3ketkYyx1j1dLbUfhlOgkNcIcn9PwNtk_AU2csbUk6dd9sHrY9VmP2oVtSPacx5dpRpY0tdfs0O2klORT9A5pSgPnevBhQ3nG9m-EPX9ye2VoRa_hO30Ey8p2tq6VPIUu_-8O4z7zXYmZq-vxHtqqZDW44AD10AyCIWr4oDMd7awtI-XJidwhiaWCbnB_PPpOqw-N0VH_OHg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/DiEA3t8auMrdJa7FKdUorSA1Tm3vqFHVrhdRZxo7rvTjz14YHvOdliG17u-SRjWwQVSdKHp3l294cPQBIzVUQorzNcMKEORAU_nMmM3MrWQJNua98A5JkVNIvUdS31ffeDV1vSRZ5miPyj65BwamQqZtx6lJPw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/4f4db0a4.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/3gFvhQldPbGk1xnmdIQOviQAx7pBRvZoUrlGu88VSza6GC0QY_cOiLZ9AtSPfWSWSy4nGDmKRO30s_cxom5lH8eIDBOQYyVVt5GNU_JOb0nR0S5igjC7mB3WvY08xfnskwtBWI_nJDHyGZgmdEd17JUEbj1evA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/37000000/36630000/36621500/36621415/4f4db0a4.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 4.6,
+      "amenities": [
+        "Beach access",
+        "Kid-friendly",
+        "Heating",
+        "Ironing board",
+        "Kitchen",
+        "Microwave",
+        "Oven stove",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free parking",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No elevator",
+        "No fireplace",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No outdoor pool",
+        "Not pet-friendly",
+        "Not wheelchair accessible"
+      ],
+      "essential_info": [
+        "Entire cottage",
+        "Sleeps 5",
+        "2 bedrooms",
+        "2 bathrooms",
+        "4 beds",
+        "1,701 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQlOLWucmbyYdcGg0vZy8xMWtyYnY5eXBwEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQlOLWucmbyYdcGg0vZy8xMWtyYnY5eXBwEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Beautiful, spacious luxury Marina District home in the heart of it all!",
+      "link": "https://www.bluepillow.com/search/6811a19da74f8eb5bd2cdebf?dest=bpex&cat=House&lat=37.80085&lng=-122.44356&language=en",
+      "property_token": "ChkQjuOjiZrNwv1RGg0vZy8xMXZ6YzQxdDA1EAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQjuOjiZrNwv1RGg0vZy8xMXZ6YzQxdDA1EAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.80084991455078,
+        "longitude": -122.44355773925781
+      },
+      "nearby_places": [
+        {
+          "name": "Divisadero St & Francisco St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "33 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 22 min"
+            }
+          ]
+        },
+        {
+          "name": "Causwells",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Bsmu-zWPMLwSD_iaPtDeRzO9-kj77ldBe8fmaRqXeBdh5hkXXyaqtgjycAjM5-MZUr4OBjWoE6uYRCTfXG_vyB9Bc7go7EgPqy6ToL9Y_jp4X3FPnAXWl3ZpmZyW8a6U0WNiHvfuyzMyYkSh62sQmEZxauk9Dg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/5b2d9dee.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/J-iLCv1pNo2OLTL2EHPK44SgLBwun0wKtCGgkIY9XPmrnKg212kbdnfYlyIta10ZKMVOnx1Ttx_iUxDPjqhqiPuavsLVBJ5g7z9hJBTPGDLlL9Xk5mkODoUAPXluXUfQ7GrO_Vr01twbUBIAzrscHwfEkpeoj_Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/48798b36.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/5EdgTfvN24z9pitkX2q5WUTVmtQgZzym_gt2hn9CAYom7W328UIZB8VvTie75ZeXRwKGK1aoV8TJ_vd00lxEm3CwbjV3Llg2bkZ_Q2equHWAvz67UxQjazFkoPvdTlFRi_UhDhXVgheRxPVMzH64duUeMbDtBcY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/24d2d932.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ZGpxu2WB_fhd6BKfCoKrOmPDAotznZbiBofdufq5r8vHsoOJidXkBaT__FDceKjdhgQVHPycF7pSJR7dhx55jX7UYSyGGXn7xVO169hzu9ktV7J8-8ZsgRh02gxJTORpCl6wgACGDtgNhZsm0r2uUZAaDSVmHA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/a8e286f5.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/NEceBdMfDzsjvfcgkS61iFr2InqtXmP19a57uDZbQJXYAiTb8gaR9CkCYzPa7Sa3sT8kaFM6ZUfEqqGI0miRslA-X5I0xfOT2g2whsJhsTc2v1r5XsmFe9LN2-tyKaRHOctYyg7y_YAEiVdd6GMnlrr9frjYWg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/22871503.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/FmAp3Qwz2HoWdi0zn5x6GpQBe8Ig1Tt43h5nwY578qXzeck3mkSkDOzTZ-llE02gbFho0n0Kp9IqXVz7sL_5N9sz_LlKsB6aG7AESGX7uCLKnzHtQVDk6WD9NiasQoFX0NsTihVjPjefAJqvzP9nPxrhpPfXeQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/24b42134.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/AxIg5zx0lxRMza36fJJwKZJLS2HLfQgG-IpqoqV82tT87HMtHmFdhexiAZ8Sci1sXKbNUCr0OiTuCmiiyB_COsooGJ0VZr-7kQyh2N15M2ueN7ooXXCVArmuSFwQRtDel6Ly7CNgzMw7fXuZTpSLacRA_mFRAw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/3f79dcf8.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/0OSm-vP5C4NCyF5e6WT5d3G5Qzvepy_w2zDoN-rRLEC-RGVhSe8k0Lf8nYfTIbUnKl33MJUiK92FyS5_dAf-_gYPFHF5uwXCLY8KscghP5oW4JiovKCDaCO_OiJiMGNzbO6qVQurv6YoUEbLfW3rFHxLZDZApcE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/301bc0ea.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/yeATz70jB9LQfuY2_C0MLva0Lxr3v9drs3AGkVRZXDENDLyKJHj3U5LC_R46p9sLLBn-Nq4y7dryQ-PKbDIohN6vtkjPZKT2GJoXKgEerBZwVkqVrLA5n8NgSIEH1RhEV2LmQWlSp0aGE8FrWo3DQiE8mds_Mg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/34000000/33700000/33696200/33696187/a71d8f1e.jpg?impolicy=ccrop&w=1000&h=666&q=medium"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 4.3,
+      "amenities": [
+        "Ironing board",
+        "Kitchen",
+        "Outdoor grill",
+        "Smoke-free",
+        "Cable TV"
+      ],
+      "excluded_amenities": [
+        "No parking",
+        "No Wi-Fi"
+      ],
+      "essential_info": [
+        "Entire house",
+        "Sleeps 8",
+        "4 bedrooms",
+        "3 bathrooms",
+        "4 beds"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQjuOjiZrNwv1RGg0vZy8xMXZ6YzQxdDA1EAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQjuOjiZrNwv1RGg0vZy8xMXZ6YzQxdDA1EAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Cozy Marina Studio w/ Murphy Bed & Garden Oasis",
+      "link": "https://hostwell.com/property/cozy-marina-studio-w-murphy-bed-garden-oasis?src=ggl",
+      "property_token": "ChkQ39qzueKc6d5pGg0vZy8xMXk4bTBqajFiEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkQ39qzueKc6d5pGg0vZy8xMXk4bTBqajFiEAI&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true",
+      "gps_coordinates": {
+        "latitude": 37.803741455078125,
+        "longitude": -122.44241333007812
+      },
+      "check_in_time": "4:00\u202fPM",
+      "check_out_time": "10:00\u202fAM",
+      "nearby_places": [
+        {
+          "name": "Divisadero St & Beach St",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "San Francisco International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "40 min"
+            },
+            {
+              "type": "Public transport",
+              "duration": "1 hr 25 min"
+            }
+          ]
+        },
+        {
+          "name": "Causwells",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "10 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/mVmKvgecBkAyH6oP9uCmJ-LeLwlHfQRVQ9-oAZqeZSTBkB9vWqyaabMkJOYECrumZjnC2Cctrk9ItT8OpwNrghBlLSJtOOWUpBI2aXHpHSw5-567p_tDI9f-Jx_yllbr7p03DvqMd4EfTFo7oEeJ59v3MqGwBpU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/111000000/110420000/110419200/110419106/967f25ea.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/474yJlrlzLbX1RnHper8fgsNho3lK_asmCkB521vsr2_6S21KtzerKDzk-VE4t3vkar7-tFO8SnIWbT8SXU8McQk5HXNxGnwnAr0Cck7b5wc5UIHeY1sbXKmMwAoTzRyMIBbHe6bnBQOut6vB4i5AAPTO0hqM48=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://assets.whimstay.com/2e12640b-1507-4e85-ac98-ee156129e21b/d2aedc23-30a3-4b1a-a5dc-6d0ba90e1634/e1c23d661b3717dc6388526963e75747-16"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/IrtqGCHfEewJyoP-8TBDLRgalv7gdb-1WYyZMxhdPq7FuYP7DDdddifdSi590c12m2kFXyBZNrO2mj6ls5lJQh8CMTd3Y8Por_JNAIlrAiNWctC6PJh77slnxbHVR6_K_yPsBI7UCB4M786S7o7EOKTInzDhpyo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://assets.whimstay.com/2e12640b-1507-4e85-ac98-ee156129e21b/d2aedc23-30a3-4b1a-a5dc-6d0ba90e1634/b703034c7cb243c1ccc759c5bf7dc5ea-17"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/OtC7VdJNcTBRa6FOj6mH6e4t24Vasz2evS-8rxJgGbwxmt3C7kf4VdFr3D6jFvocsVAdYzuMKRhvrkYQrPFcWoGGU1-IcCXDZlYYDGjydyWVh7N9F3klpZ-zytqaFozthLxfrPv5aOek5VqUXth68FQxv6slXuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/111000000/110420000/110419200/110419106/93cf011a_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/2PdzRmvQivmkagPtFPujyZE0BV5yn5Im3xd3_J6KQEIZol6MlJhtwYdvxOPQtYR91LoUCGArTXvpgzos2T34OOU4KbhA1-nZdaB1FDvl0IVucE_HA4GSAtLSdhZ2IUiP-CRMrTmOScqK6xii_dV5tMIzSyV3mw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://assets.whimstay.com/2e12640b-1507-4e85-ac98-ee156129e21b/d2aedc23-30a3-4b1a-a5dc-6d0ba90e1634/7f62aee097c4ba8cd7a16d76306801ce-19"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/HYJP1A_lRhYHoUlw1APCZBJBMh4Vz5Xa-eyztXFkDZIpkQAqikXibfXUQ-bKSFRGGzQjh7VL-K0EFXHkBg9U2VShOw8TKpUomi5J8kXQ3ZBzbyxgutVQA2WWVWKdK2aX96zZsWpv5lDPTVbG-D3vEEsWOP8sLg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://assets.whimstay.com/2e12640b-1507-4e85-ac98-ee156129e21b/d2aedc23-30a3-4b1a-a5dc-6d0ba90e1634/5db8b933e6f658fe568783068e0357d4-24"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/n7OO4GTPuEAApA7k4RxYkUXccaenoyBE1TYDSPAbYf_wS5P50ynXxPgHKq5nGL-Gfg4bafjzOlZ90OaSkoBzDA8RZdCkulu0-lcw3hfXtKs4snJnW7Vio23hECIStEWGBl3AMepPKGmDd6FBtnEJMTF0sjjGGRc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://assets.whimstay.com/2e12640b-1507-4e85-ac98-ee156129e21b/d2aedc23-30a3-4b1a-a5dc-6d0ba90e1634/45641d56ec723cba16b9b43b1bc463ba-21"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/6KBNdnXtMqXnNDuk1WE5N0u32mGMRF9xhCGxf-yzggxec1rNRgP2C34tQqLcG1VtQOJGMBptJTOWNkTbRp4Qbci5EY96kaZKMsV4YnVsufG23YL2EO6VHaPNyW-I_nVffMsIexuY8Z2klrDmm3UmL98vjs8tpQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://orbirental-images.s3.amazonaws.com/f5aacea1-7234-46cb-a1c3-e2a358e7b9ae"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/y5xs-rP5vUQjnnCWT5snqYZLlnsGESYw3PvBMuOl33kkN03ulEKiwpP4-ZrGxwagvpk4H50yx61MH6rWpmX6kJytqz5QORj01KsFe8tzy4ug-CIhGBP1rdJpqiyF8phPdcoGjVSsSqf2NOWE1zl03UIyZWSPed4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://media.vrbo.com/lodging/111000000/110420000/110419200/110419106/82dbaae1.jpg"
+        }
+      ],
+      "overall_rating": 4.5555553,
+      "reviews": 18,
+      "location_rating": 4.4,
+      "amenities": [
+        "Kid-friendly",
+        "Elevator",
+        "Heating",
+        "Kitchen",
+        "Microwave",
+        "Patio",
+        "Smoke-free",
+        "Cable TV",
+        "Washer",
+        "Free Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "No air conditioning",
+        "No airport shuttle",
+        "No balcony",
+        "No beach access",
+        "No crib",
+        "No fireplace",
+        "No free breakfast",
+        "No fitness center",
+        "No hot tub",
+        "No indoor pool",
+        "No ironing board",
+        "No outdoor grill",
+        "No outdoor pool",
+        "No oven stove",
+        "Not pet-friendly",
+        "Not wheelchair accessible",
+        "No parking"
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "essential_info": [
+        "Entire apartment",
+        "Sleeps 2",
+        "1 bedroom",
+        "1 bathroom",
+        "1 bed",
+        "500 sq ft"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQ39qzueKc6d5pGg0vZy8xMXk4bTBqajFiEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQ39qzueKc6d5pGg0vZy8xMXk4bTBqajFiEAI"
+    }
+  ],
+  "brands": [],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&next_page_token=CBI%3D&q=Marina+District+San+Francisco&sort_by=8&vacation_rentals=true"
+  }
+}

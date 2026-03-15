@@ -1,0 +1,1339 @@
+{
+  "search_metadata": {
+    "search_id": "PVG_ATL_2026-03-09_20260305_112707",
+    "departure": "PVG",
+    "arrival": "ATL",
+    "outbound_date": "2026-03-09",
+    "return_date": null,
+    "trip_type": "One way",
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Economy",
+    "currency": "USD",
+    "search_timestamp": "2026-03-05T11:27:07.647261"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 23:35"
+          },
+          "arrival_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2026-03-10 04:50"
+          },
+          "duration": 615,
+          "airplane": "Boeing 777",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 871",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 527 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Hamad International Airport",
+            "id": "DOH",
+            "time": "2026-03-10 08:10"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-10 16:15"
+          },
+          "duration": 905,
+          "airplane": "Airbus A350",
+          "airline": "Qatar Airways",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+          "travel_class": "Economy",
+          "flight_number": "QR 755",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 681 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 200,
+          "name": "Hamad International Airport",
+          "id": "DOH",
+          "overnight": true
+        }
+      ],
+      "total_duration": 1720,
+      "carbon_emissions": {
+        "this_flight": 1210000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 45
+      },
+      "price": 909,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3RSVWpnM01YeFJVamMxTlJvTENJbkdCUkFDR2dOVlUwUTRISENKeGdVPSIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIkRPSCIsbnVsbCwiUVIiLCI4NzEiXSxbIkRPSCIsIjIwMjYtMDMtMTAiLCJBVEwiLG51bGwsIlFSIiwiNzU1Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 18:25"
+          },
+          "arrival_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-03-09 19:00"
+          },
+          "duration": 815,
+          "airplane": "Boeing 787",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 128",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 727 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Dallas Fort Worth International Airport",
+            "id": "DFW",
+            "time": "2026-03-09 20:46"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 23:53"
+          },
+          "duration": 127,
+          "airplane": "Boeing 737",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 2749",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 120 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 106,
+          "name": "Dallas Fort Worth International Airport",
+          "id": "DFW"
+        }
+      ],
+      "total_duration": 1048,
+      "carbon_emissions": {
+        "this_flight": 848000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 2
+      },
+      "price": 999,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3hCUVRFeU9IeEJRVEkzTkRrYUN3aWxqQVlRQWhvRFZWTkVPQnh3cFl3RyIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIkRGVyIsbnVsbCwiQUEiLCIxMjgiXSxbIkRGVyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkFBIiwiMjc0OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 18:00"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-09 13:55"
+          },
+          "duration": 655,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 280",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 574 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-09 15:59"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 23:43"
+          },
+          "duration": 284,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 560",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 267 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 124,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        }
+      ],
+      "total_duration": 1063,
+      "carbon_emissions": {
+        "this_flight": 843000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 1
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3RFVERJNE1IeEVURFUyTUJvTENNcmJCaEFDR2dOVlUwUTRISERLMndZPSIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIlNFQSIsbnVsbCwiREwiLCIyODAiXSxbIlNFQSIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiNTYwIl1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 13:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 09:40"
+          },
+          "duration": 670,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 858",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 663 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 11:05"
+          },
+          "arrival_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-09 17:03"
+          },
+          "duration": 238,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 186 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "George Bush Intercontinental Airport",
+            "id": "IAH",
+            "time": "2026-03-09 18:25"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 21:30"
+          },
+          "duration": 125,
+          "airplane": "Boeing 737MAX 9 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1329",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 97 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 85,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        },
+        {
+          "duration": 82,
+          "name": "George Bush Intercontinental Airport",
+          "id": "IAH"
+        }
+      ],
+      "total_duration": 1200,
+      "carbon_emissions": {
+        "this_flight": 948000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 14
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFaEpWUVRnMU9IeFZRVFl4T1h4VlFURXpNamthQ3dqSzJ3WVFBaG9EVlZORU9CeHd5dHNHIixbWyJQVkciLCIyMDI2LTAzLTA5IiwiU0ZPIixudWxsLCJVQSIsIjg1OCJdLFsiU0ZPIiwiMjAyNi0wMy0wOSIsIklBSCIsbnVsbCwiVUEiLCI2MTkiXSxbIklBSCIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIlVBIiwiMTMyOSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 13:30"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 09:40"
+          },
+          "duration": 670,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 858",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 663 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 21:30"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-10 05:08"
+          },
+          "duration": 278,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1603",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 286 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 710,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1658,
+      "carbon_emissions": {
+        "this_flight": 950000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 14
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3hWUVRnMU9IeFZRVEUyTURNYUN3aksyd1lRQWhvRFZWTkVPQnh3eXRzRyIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIlNGTyIsbnVsbCwiVUEiLCI4NTgiXSxbIlNGTyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIlVBIiwiMTYwMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 20:15"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-09 16:50"
+          },
+          "duration": 695,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 38",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 551 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-09 21:55"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-10 05:02"
+          },
+          "duration": 247,
+          "airplane": "Airbus A321",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 783",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 255 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 305,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        }
+      ],
+      "total_duration": 1247,
+      "carbon_emissions": {
+        "this_flight": 807000,
+        "typical_for_this_route": 834000,
+        "difference_percent": -3
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3BFVERNNGZFUk1Oemd6R2dzSXl0c0dFQUlhQTFWVFJEZ2NjTXJiQmc9PSIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIkxBWCIsbnVsbCwiREwiLCIzOCJdLFsiTEFYIiwiMjAyNi0wMy0wOSIsIkFUTCIsbnVsbCwiREwiLCI3ODMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 20:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-09 17:25"
+          },
+          "duration": 690,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 199",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 495 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-09 23:10"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-10 05:18"
+          },
+          "duration": 248,
+          "airplane": "Airbus A321neo",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 545",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 187 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-10 07:15"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-10 10:20"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2249",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 117 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 345,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        },
+        {
+          "duration": 117,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
+        }
+      ],
+      "total_duration": 1525,
+      "carbon_emissions": {
+        "this_flight": 801000,
+        "typical_for_this_route": 834000,
+        "difference_percent": -4
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFaEpWUVRFNU9YeFZRVFUwTlh4VlFUSXlORGthQ3dqSzJ3WVFBaG9EVlZORU9CeHd5dHNHIixbWyJQVkciLCIyMDI2LTAzLTA5IiwiTEFYIixudWxsLCJVQSIsIjE5OSJdLFsiTEFYIiwiMjAyNi0wMy0wOSIsIk9SRCIsbnVsbCwiVUEiLCI1NDUiXSxbIk9SRCIsIjIwMjYtMDMtMTAiLCJBVEwiLG51bGwsIlVBIiwiMjI0OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 20:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-09 17:25"
+          },
+          "duration": 690,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 199",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 495 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-10 00:25"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-10 06:20"
+          },
+          "duration": 235,
+          "airplane": "Boeing 777",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1117",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 213 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-10 07:15"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-10 10:20"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 2249",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 117 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 420,
+          "name": "Los Angeles International Airport",
+          "id": "LAX"
+        },
+        {
+          "duration": 55,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
+        }
+      ],
+      "total_duration": 1525,
+      "carbon_emissions": {
+        "this_flight": 826000,
+        "typical_for_this_route": 834000,
+        "difference_percent": -1
+      },
+      "price": 1101,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFaE5WUVRFNU9YeFZRVEV4TVRkOFZVRXlNalE1R2dzSXl0c0dFQUlhQTFWVFJEZ2NjTXJiQmc9PSIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIkxBWCIsbnVsbCwiVUEiLCIxOTkiXSxbIkxBWCIsIjIwMjYtMDMtMTAiLCJPUkQiLG51bGwsIlVBIiwiMTExNyJdLFsiT1JEIiwiMjAyNi0wMy0xMCIsIkFUTCIsbnVsbCwiVUEiLCIyMjQ5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 08:30"
+          },
+          "arrival_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-03-09 12:15"
+          },
+          "duration": 165,
+          "airplane": "Boeing 767",
+          "airline": "ANA",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+          "travel_class": "Economy",
+          "flight_number": "NH 972",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 179 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Haneda Airport",
+            "id": "HND",
+            "time": "2026-03-09 18:20"
+          },
+          "arrival_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-09 16:10"
+          },
+          "duration": 710,
+          "airplane": "Boeing 787-10",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 882",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 412 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-03-09 18:08"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 21:12"
+          },
+          "duration": 124,
+          "airplane": "Boeing 737",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1398",
+          "ticket_also_sold_by": [
+            "ANA"
+          ],
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 109 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 365,
+          "name": "Haneda Airport",
+          "id": "HND"
+        },
+        {
+          "duration": 118,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
+        }
+      ],
+      "total_duration": 1482,
+      "carbon_emissions": {
+        "this_flight": 702000,
+        "typical_for_this_route": 834000,
+        "difference_percent": -16
+      },
+      "price": 1581,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFaEpPU0RrM01ueFZRVGc0TW54VlFURXpPVGdhQ3dqTjBna1FBaG9EVlZORU9CeHd6ZElKIixbWyJQVkciLCIyMDI2LTAzLTA5IiwiSE5EIixudWxsLCJOSCIsIjk3MiJdLFsiSE5EIiwiMjAyNi0wMy0wOSIsIk9SRCIsbnVsbCwiVUEiLCI4ODIiXSxbIk9SRCIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIlVBIiwiMTM5OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 14:00"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-03-09 17:10"
+          },
+          "duration": 130,
+          "airplane": "Airbus A330",
+          "airline": "Korean Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KE.png",
+          "travel_class": "Economy",
+          "flight_number": "KE 888",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 100 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-03-09 19:25"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 20:00"
+          },
+          "duration": 815,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 26",
+          "ticket_also_sold_by": [
+            "Korean Air"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 699 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 135,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1080,
+      "carbon_emissions": {
+        "this_flight": 800000,
+        "typical_for_this_route": 834000,
+        "difference_percent": -4
+      },
+      "price": 3412,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3BMUlRnNE9IeEVUREkyR2dzSWsra1VFQUlhQTFWVFJEZ2NjSlBwRkE9PSIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIklDTiIsbnVsbCwiS0UiLCI4ODgiXSxbIklDTiIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMjYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 13:10"
+          },
+          "arrival_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-03-09 16:00"
+          },
+          "duration": 110,
+          "airplane": "Boeing 777",
+          "airline": "Asiana Airlines",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OZ.png",
+          "travel_class": "Business Class",
+          "flight_number": "OZ 364",
+          "extensions": [
+            "Lie flat seat",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 429 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "Incheon International Airport",
+            "id": "ICN",
+            "time": "2026-03-09 18:00"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 18:35"
+          },
+          "duration": 815,
+          "airplane": "Airbus A350",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 188",
+          "ticket_also_sold_by": [
+            "Korean Air"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 699 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 120,
+          "name": "Incheon International Airport",
+          "id": "ICN"
+        }
+      ],
+      "total_duration": 1045,
+      "carbon_emissions": {
+        "this_flight": 1129000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 35
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3RQV2pNMk5IeEVUREU0T0RnYyIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIklDTiIsbnVsbCwiT1oiLCIzNjQiXSxbIklDTiIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiMTg4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-09 14:05"
+          },
+          "arrival_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 10:00"
+          },
+          "duration": 655,
+          "airplane": "Boeing 777",
+          "airline": "China Eastern",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MU.png",
+          "travel_class": "Economy",
+          "flight_number": "MU 589",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 652 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        },
+        {
+          "departure_airport": {
+            "name": "San Francisco International Airport",
+            "id": "SFO",
+            "time": "2026-03-09 14:20"
+          },
+          "arrival_airport": {
+            "name": "Hartsfield-Jackson Atlanta International Airport",
+            "id": "ATL",
+            "time": "2026-03-09 22:00"
+          },
+          "duration": 280,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 715",
+          "ticket_also_sold_by": [
+            "China Eastern"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 229 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 260,
+          "name": "San Francisco International Airport",
+          "id": "SFO"
+        }
+      ],
+      "total_duration": 1195,
+      "carbon_emissions": {
+        "this_flight": 882000,
+        "typical_for_this_route": 834000,
+        "difference_percent": 6
+      },
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+      "booking_token": "WyJDalJJWmtaV2JFTm1abGQyWkc5QlFtZ3dVMEZDUnkwdExTMHRMUzB0TFMxMmQyZG9Na0ZCUVVGQlIyMXZMVUZ6UlVSMlJ6WkJFZ3ROVlRVNE9YeEVURGN4TlRnYyIsW1siUFZHIiwiMjAyNi0wMy0wOSIsIlNGTyIsbnVsbCwiTVUiLCI1ODkiXSxbIlNGTyIsIjIwMjYtMDMtMDkiLCJBVEwiLG51bGwsIkRMIiwiNzE1Il1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 909,
+    "price_level": "high",
+    "typical_price_range": [
+      560,
+      790
+    ],
+    "price_history": [
+      [
+        1767369600,
+        716
+      ],
+      [
+        1767456000,
+        716
+      ],
+      [
+        1767542400,
+        716
+      ],
+      [
+        1767628800,
+        716
+      ],
+      [
+        1767715200,
+        717
+      ],
+      [
+        1767801600,
+        566
+      ],
+      [
+        1767888000,
+        565
+      ],
+      [
+        1767974400,
+        566
+      ],
+      [
+        1768060800,
+        567
+      ],
+      [
+        1768147200,
+        567
+      ],
+      [
+        1768233600,
+        567
+      ],
+      [
+        1768320000,
+        567
+      ],
+      [
+        1768406400,
+        585
+      ],
+      [
+        1768492800,
+        578
+      ],
+      [
+        1768579200,
+        579
+      ],
+      [
+        1768665600,
+        579
+      ],
+      [
+        1768752000,
+        579
+      ],
+      [
+        1768838400,
+        553
+      ],
+      [
+        1768924800,
+        553
+      ],
+      [
+        1769011200,
+        553
+      ],
+      [
+        1769097600,
+        535
+      ],
+      [
+        1769184000,
+        534
+      ],
+      [
+        1769270400,
+        701
+      ],
+      [
+        1769356800,
+        701
+      ],
+      [
+        1769443200,
+        701
+      ],
+      [
+        1769529600,
+        703
+      ],
+      [
+        1769616000,
+        703
+      ],
+      [
+        1769702400,
+        703
+      ],
+      [
+        1769788800,
+        704
+      ],
+      [
+        1769875200,
+        702
+      ],
+      [
+        1769961600,
+        702
+      ],
+      [
+        1770048000,
+        702
+      ],
+      [
+        1770134400,
+        703
+      ],
+      [
+        1770220800,
+        707
+      ],
+      [
+        1770307200,
+        704
+      ],
+      [
+        1770393600,
+        707
+      ],
+      [
+        1770480000,
+        703
+      ],
+      [
+        1770566400,
+        707
+      ],
+      [
+        1770652800,
+        705
+      ],
+      [
+        1770739200,
+        735
+      ],
+      [
+        1770825600,
+        512
+      ],
+      [
+        1770912000,
+        512
+      ],
+      [
+        1770998400,
+        513
+      ],
+      [
+        1771084800,
+        512
+      ],
+      [
+        1771171200,
+        512
+      ],
+      [
+        1771257600,
+        512
+      ],
+      [
+        1771344000,
+        512
+      ],
+      [
+        1771430400,
+        512
+      ],
+      [
+        1771516800,
+        512
+      ],
+      [
+        1771603200,
+        512
+      ],
+      [
+        1771689600,
+        512
+      ],
+      [
+        1771776000,
+        512
+      ],
+      [
+        1771862400,
+        512
+      ],
+      [
+        1771948800,
+        512
+      ],
+      [
+        1772035200,
+        515
+      ],
+      [
+        1772121600,
+        517
+      ],
+      [
+        1772208000,
+        517
+      ],
+      [
+        1772294400,
+        864
+      ],
+      [
+        1772380800,
+        914
+      ],
+      [
+        1772467200,
+        914
+      ],
+      [
+        1772553600,
+        911
+      ],
+      [
+        1772640000,
+        909
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "PVG",
+            "name": "Shanghai Pudong International Airport"
+          },
+          "city": "Shanghai",
+          "country": "China",
+          "country_code": "CN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTujsAS0i3-zbeimLQQ8RJnTX80xFZm7VnTsswhTD6W1aHQZWxzA7pNb0BMAVpelCNQq3SEx1592gylHw",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSf_rHrecM1vgBbjjdc3hHmMhc7Ur5d25JUiJtkb1TFjyb8o00dh6hVYtkXSkreGSokUxE8IQygysyFoMm4DaIoR8oEdOOr1fKHxMByxDQ"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "ATL",
+            "name": "Hartsfield-Jackson Atlanta International Airport"
+          },
+          "city": "Atlanta",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYBXd-jsaFCOrq3Ftbagud_RXYRp8gK_jeDmxAfPmI5pP7SIRedYhExpUTLErX68PeHFvOzs8P_D0v_w",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJh6WEANkd6cril2a8Csnk2i_WTs-ZTUE-pamQ4iTfpTi0hlx5P9xhDKrUeBWRPb-4hiLgvoegdgPZ2t2R8qpkN_a7BzJjUNSnSonV664"
+        }
+      ]
+    }
+  ]
+}

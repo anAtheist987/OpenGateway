@@ -1,0 +1,46 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+# Build artifacts
+/target
+node_modules/
+out/
+.next/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+agents.env
+credentials.json
+*.local
+
+# Runtime
+var/
+logs/
+*.log
+
+# Project-specific
+.memory/
+.claude/
+kvcache/
+node.tar.xz
+agents.env.memory/

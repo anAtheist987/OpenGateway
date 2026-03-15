@@ -1,0 +1,47 @@
+[package]
+name = "agent-core"
+version = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
+publish = { workspace = true }
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+go-parse-duration.workspace = true
+durationfmt.workspace = true
+arc-swap.workspace = true
+anyhow.workspace = true
+arcstr.workspace = true
+bytes.workspace = true
+http.workspace = true
+hyper-util.workspace = true
+itertools.workspace = true
+once_cell.workspace = true
+opentelemetry.workspace = true
+opentelemetry-http.workspace = true
+opentelemetry-otlp.workspace = true
+opentelemetry_sdk.workspace = true
+pin-project-lite.workspace = true
+prometheus-client.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-appender.workspace = true
+tracing-core.workspace = true
+tracing-log.workspace = true
+tracing-subscriber.workspace = true
+crossbeam-channel.workspace = true
+itoa.workspace = true
+value-bag.workspace = true
+time.workspace = true
+
+[build-dependencies]
+rustc_version.workspace = true
+
+[lints.rust]
+# This rule makes code more confusing
+mismatched_lifetime_syntaxes = "allow"

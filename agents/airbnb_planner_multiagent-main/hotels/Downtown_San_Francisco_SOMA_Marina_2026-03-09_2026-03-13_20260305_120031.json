@@ -1,0 +1,1240 @@
+{
+  "search_metadata": {
+    "search_id": "Downtown_San_Francisco_SOMA_Marina_2026-03-09_2026-03-13_20260305_120031",
+    "location": "Downtown San Francisco SOMA Marina",
+    "check_in_date": "2026-03-09",
+    "check_out_date": "2026-03-13",
+    "guests": {
+      "adults": 1,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "vacation_rentals",
+    "currency": "USD",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2026-03-05T12:00:31.924471"
+  },
+  "search_information": {
+    "total_results": 68
+  },
+  "properties": [
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.790550231933594,
+        "longitude": -122.40692901611328
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 1,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.79151916503906,
+        "longitude": -122.40827178955078
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.79072952270508,
+        "longitude": -122.40322875976562
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.782012939453125,
+        "longitude": -122.41055297851562
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.78932189941406,
+        "longitude": -122.40979766845703
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.79164123535156,
+        "longitude": -122.4070816040039
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.7907600402832,
+        "longitude": -122.40670776367188
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.791015625,
+        "longitude": -122.40769958496094
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 54,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.7869987487793,
+        "longitude": -122.4087905883789
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.78921127319336,
+        "longitude": -122.40973663330078
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.791038513183594,
+        "longitude": -122.40707397460938
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 4,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.791011810302734,
+        "longitude": -122.40723419189453
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.790985107421875,
+        "longitude": -122.40723419189453
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "health_and_safety": {
+        "groups": [
+          {
+            "title": "Minimized contact",
+            "list": [
+              {
+                "title": "No-contact check-in and check-out",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.79058837890625,
+        "longitude": -122.41021728515625
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.79021072387695,
+        "longitude": -122.40223693847656
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "gps_coordinates": {
+        "latitude": 37.79045867919922,
+        "longitude": -122.4097900390625
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.78913116455078,
+        "longitude": -122.4072494506836
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    },
+    {
+      "type": "vacation rental",
+      "link": "#",
+      "gps_coordinates": {
+        "latitude": 37.78517150878906,
+        "longitude": -122.40975189208984
+      },
+      "nearby_places": [
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Taxi"
+            },
+            {
+              "type": "Public transport"
+            }
+          ]
+        },
+        {
+          "transportations": [
+            {
+              "type": "Walking"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        },
+        {
+          "thumbnail": "#",
+          "original_image": "https://lh5.googleusercontent.com/p/#=s10000"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos"
+    }
+  ],
+  "brands": [],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=1&check_in_date=2026-03-09&check_out_date=2026-03-13&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&next_page_token=CBI%3D&q=Downtown+San+Francisco+SOMA+Marina&vacation_rentals=true"
+  }
+}

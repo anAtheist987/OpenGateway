@@ -1,0 +1,201 @@
+# Copyright 2026 Tsinghua University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# This file was created by Tsinghua University and is not part of
+# the original agentgateway project by Solo.io.
+
+# Travel Agent Demo — AgentGateway 配置
+#
+# 场景：多 Agent 旅行规划系统，通过 AgentGateway 统一代理。
+#
+# 架构：
+#   Port 3000 — LLM 路由（工作记忆 / 知识管理 Demo）
+#   Port 3001 — Host Agent 代理       → localhost:8083
+#   Port 3002 — Weather Agent 代理    → localhost:10001
+#   Port 3003 — Airbnb Agent 代理     → localhost:10002
+#   Port 3004 — TripAdvisor 代理      → localhost:10003
+#   Port 3005 — Event Agent 代理      → localhost:10004
+#   Port 3006 — Finance Agent 代理    → localhost:10005
+#   Port 3007 — Flight Agent 代理     → localhost:10006
+#   Port 3008 — Hotel Agent 代理      → localhost:10007
+#
+# 使用前请设置环境变量：
+#   export DASHSCOPE_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+config:
+  adminAddr: "localhost:15000"
+  statsAddr: "0.0.0.0:15020"
+  readinessAddr: "0.0.0.0:15021"
+  knowledge:
+    workingMemoryCapacity: 500
+  taskRouter:
+    baseUrl: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    plannerModel: "qwen-plus"
+    apiKey: $DASHSCOPE_API_KEY
+    complexityThreshold: 0.6
+    maxSubtasks: 8
+    routingStrategy: "vectorPrefilterLlm"
+    embeddingModel: "text-embedding-v3"
+
+binds:
+  # ── Port 3000: LLM Routes (知识管理 + 工作记忆 Demo) ─────────────────────
+  - port: 3000
+    listeners:
+      - routes:
+          - matches:
+              - path:
+                  exact: "/v1/chat/completions"
+            backends:
+              - ai:
+                  name: qwen-plus
+                  provider:
+                    openAI:
+                      model: qwen-plus
+                  hostOverride: "dashscope.aliyuncs.com:443"
+                  pathOverride: "/compatible-mode/v1/chat/completions"
+                  policies:
+                    backendAuth:
+                      key: $DASHSCOPE_API_KEY
+                    backendTLS: {}
+
+          - matches:
+              - path:
+                  pathPrefix: "/v1/fast"
+            backends:
+              - ai:
+                  name: qwen-turbo
+                  provider:
+                    openAI:
+                      model: qwen-turbo
+                  hostOverride: "dashscope.aliyuncs.com:443"
+                  pathOverride: "/compatible-mode/v1/chat/completions"
+                  policies:
+                    backendAuth:
+                      key: $DASHSCOPE_API_KEY
+                    backendTLS: {}
+
+  # ── Port 3001: Host Agent (协调器) ────────────────────────────────────────
+  - port: 3001
+    listeners:
+      - name: "host-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:8083"
+
+  # ── Port 3002: Weather Agent ──────────────────────────────────────────────
+  - port: 3002
+    listeners:
+      - name: "weather-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10001"
+
+  # ── Port 3003: Airbnb Agent ───────────────────────────────────────────────
+  - port: 3003
+    listeners:
+      - name: "airbnb-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10002"
+
+  # ── Port 3004: TripAdvisor Agent ──────────────────────────────────────────
+  - port: 3004
+    listeners:
+      - name: "tripadvisor-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10003"
+
+  # ── Port 3005: Event Agent ────────────────────────────────────────────────
+  - port: 3005
+    listeners:
+      - name: "event-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10004"
+
+  # ── Port 3006: Finance Agent ──────────────────────────────────────────────
+  - port: 3006
+    listeners:
+      - name: "finance-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10005"
+
+  # ── Port 3007: Flight Agent ───────────────────────────────────────────────
+  - port: 3007
+    listeners:
+      - name: "flight-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10006"
+
+  # ── Port 3008: Hotel Agent ────────────────────────────────────────────────
+  - port: 3008
+    listeners:
+      - name: "hotel-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10007"
+
+  # ── Port 3009: Finance Document Agent ─────────────────────────────────────
+  - port: 3009
+    listeners:
+      - name: "finance-doc-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10009"
+
+  # ── Port 3010: Infosec Document Agent ─────────────────────────────────────
+  - port: 3010
+    listeners:
+      - name: "infosec-doc-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10010"
+
+  # ── Port 3011: Dept Doc Reader Agent ──────────────────────────────────────
+  - port: 3011
+    listeners:
+      - name: "dept-doc-listener"
+        routes:
+          - matches:
+              - path:
+                  pathPrefix: "/"
+            backends:
+              - host: "localhost:10011"

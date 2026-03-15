@@ -1,0 +1,1094 @@
+// Modified by Tsinghua University, 2026
+// Original source: https://github.com/agentgateway/agentgateway
+// Licensed under the Apache License, Version 2.0
+
+syntax = "proto3";
+
+package agentgateway.dev.resource;
+
+import "google/protobuf/duration.proto";
+import "google/protobuf/struct.proto";
+import "workload.proto";
+
+option go_package = "github.com/agentgateway/agentgateway/go/api;api";
+
+message Resource {
+  oneof kind {
+    Bind bind = 1;
+    Listener listener = 2;
+    Route route = 3;
+    Backend backend = 4;
+    Policy policy = 5;
+    TCPRoute tcp_route = 6;
+    istio.workload.Workload workload = 7;
+    // Service represents a service - a group of workloads that can be accessed together.
+    istio.workload.Service service = 8;
+  }
+}
+
+message Bind {
+  // Protocol defines the bind-level protocol to use. Individual listeners will have more details about this.
+  // For instance, a Bind protocol TLS may have TLS termination and TLS passthrough listeners.
+  // However, it indicates we need to process TLS
+  enum Protocol {
+    HTTP = 0;
+    TCP = 1;
+    TLS = 2;
+  }
+  // TunnelProtocol defines the tunnel protocol to use. This will wrap outside of the Protocol.
+  enum TunnelProtocol {
+    DIRECT = 0;
+    PROXY = 1;
+    HBONE_WAYPOINT = 2;
+    HBONE_GATEWAY = 3;
+  }
+  string key = 1;
+  uint32 port = 2;
+  Protocol protocol = 3;
+  TunnelProtocol tunnel_protocol = 4;
+}
+
+message RouteName {
+  string kind = 1;
+  string name = 2;
+  string namespace = 3;
+  optional string rule_name = 4;
+}
+
+message ListenerName {
+  string gateway_name = 1;
+  string gateway_namespace = 2;
+  string listener_name = 3;
+  // If the listener is derive from a listenerset, the metadata of the listenerset
+  ResourceName listener_set = 4;
+}
+
+message ResourceName {
+  string name = 1;
+  string namespace = 2;
+}
+
+message TypedResourceName {
+  string name = 1;
+  string namespace = 2;
+  string kind = 3;
+}
+
+message Listener {
+  // Unique key for this listener
+  string key = 1;
+  // Key for the bind this is a part of.
+  string bind_key = 2;
+  // User facing name for this resource
+  ListenerName name = 3;
+
+  string hostname = 4;
+  Protocol protocol = 5;
+  TLSConfig tls = 6;
+}
+
+message Route {
+  // Unique key for this route
+  string key = 1;
+  // Key for the listener this is a part of.
+  string listener_key = 2;
+  // User facing name for this resource
+  RouteName name = 3;
+
+  repeated string hostnames = 5;
+  repeated RouteMatch matches = 6;
+  repeated RouteBackend backends = 7;
+  repeated TrafficPolicySpec traffic_policies = 8;
+}
+
+message TCPRoute {
+  // Unique key for this route
+  string key = 1;
+  // Key for the listener this is a part of.
+  string listener_key = 2;
+  // User facing name for this resource
+  RouteName name = 3;
+
+  repeated string hostnames = 5;
+  repeated RouteBackend backends = 6;
+}
+
+message Policy {
+  // Unique key for this policy
+  string key = 1;
+  // User facing name for this resource
+  TypedResourceName name = 2;
+  PolicyTarget target = 3;
+
+  oneof kind {
+    TrafficPolicySpec traffic = 4;
+    BackendPolicySpec backend = 5;
+    FrontendPolicySpec frontend = 6;
+  }
+}
+message Backend {
+  // Unique key for this policy
+  string key = 1;
+  // User facing name for this resource
+  ResourceName name = 2;
+  oneof kind {
+    StaticBackend static = 3;
+    AIBackend ai = 4;
+    MCPBackend mcp = 5;
+    DynamicForwardProxy dynamic = 6;
+  }
+  repeated BackendPolicySpec inline_policies = 7;
+}
+
+message TLSConfig {
+  enum TLSVersion {
+    TLS_VERSION_UNSPECIFIED = 0;
+
+    // TLS 1.0/1.1 are not currently supported 
+    // Keep the old number/name reserved for future support
+    reserved "TLS_V1_0";
+    reserved 1;
+    reserved "TLS_V1_1";
+    reserved 2;
+    TLS_V1_2 = 3;
+    TLS_V1_3 = 4;
+  }
+
+  // Cipher suites supported by agentgateway
+  // Keep in sync with `crates/agentgateway/src/transport/tls.rs` (`ALL_CIPHER_SUITES`).
+  enum CipherSuite {
+    CIPHER_SUITE_UNSPECIFIED = 0;
+
+    // TLS 1.3 cipher suites
+    TLS_AES_256_GCM_SHA384 = 1;
+    TLS_AES_128_GCM_SHA256 = 2;
+    TLS_CHACHA20_POLY1305_SHA256 = 3;
+
+    // TLS 1.2 cipher suites
+    TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 = 4;
+    TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 = 5;
+    TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 = 6;
+    TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 = 7;
+    TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 = 8;
+    TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 = 9;
+  }
+
+  bytes cert = 1;
+  bytes private_key = 2;
+  // Root to verify client certificates. If not set, mTLS will not be used
+  optional bytes root = 3;
+  repeated CipherSuite cipher_suites = 4;
+  optional TLSVersion min_version = 5;
+  optional TLSVersion max_version = 6;
+}
+
+enum Protocol {
+  UNKNOWN = 0;
+  HTTP = 1;
+  HTTPS = 2;
+  TLS = 3;
+  TCP = 4;
+  HBONE = 5;
+}
+
+message Timeout {
+  google.protobuf.Duration request = 1;
+  google.protobuf.Duration backend_request = 2;
+}
+
+message Retry {
+  repeated int32 retry_status_codes = 1;
+  int32 attempts = 2;
+  google.protobuf.Duration backoff = 3;
+}
+
+message BackendAuthPolicy {
+  oneof kind {
+    Passthrough passthrough = 1;
+    Key key = 2;
+    Gcp gcp = 3;
+    Aws aws = 4;
+    Azure azure = 5;
+  }
+}
+
+// No fields needed for passthrough authentication.
+message Passthrough {}
+
+// Contains a secret for authentication, e.g. an API key.
+message Key {
+  string secret = 1;
+}
+
+// GCP-specific backend authentication.
+message Gcp {
+  message AccessToken {}
+
+  message IdToken {
+    // Optional; else will use the backend hostname
+    optional string audience = 1;
+  }
+
+  oneof token_type {
+    // Default if unset
+    AccessToken access_token = 1;
+    IdToken id_token = 2;
+  }
+}
+
+// AWS-specific backend authentication.
+message Aws {
+  oneof kind {
+    AwsExplicitConfig explicit_config = 1;
+    AwsImplicit implicit = 2;
+  }
+}
+
+// Azure-specific backend authentication.
+message Azure {
+  oneof kind {
+    AzureExplicitConfig explicit_config = 1;
+    AzureDeveloperImplicit developer_implicit = 2;
+  }
+}
+
+// Explicit AWS credentials configuration
+message AwsExplicitConfig {
+  // AWS Access Key ID for authentication
+  string access_key_id = 1;
+  // AWS Secret Access Key for authentication
+  string secret_access_key = 2;
+  // AWS Region (e.g., "us-west-2", "us-east-1"). Optional for AWS backends.
+  string region = 3;
+  // Optional session token for temporary credentials
+  optional string session_token = 4;
+  // TODO: make service configurable
+}
+
+// Use implicit AWS authentication (environment variables, IAM roles, etc.)
+message AwsImplicit {}
+
+// Explicit Azure credentials configuration
+message AzureExplicitConfig {
+  oneof credential_source {
+    AzureClientSecret client_secret = 1;
+    AzureManagedIdentityCredential managed_identity_credential = 2;
+    AzureWorkloadIdentityCredential workload_identity_credential = 3;
+  }
+}
+
+// Azure Client Secret authentication method
+message AzureClientSecret {
+  // Azure tenant ID
+  string tenant_id = 1;
+  // Azure client ID (application ID)
+  string client_id = 2;
+  // Azure client secret
+  string client_secret = 3;
+}
+
+// Azure Managed Identity authentication method
+message AzureManagedIdentityCredential {
+  message UserAssignedIdentity {
+    oneof id {
+      string client_id = 1;
+      string object_id = 2;
+      string resource_id = 3;
+    }
+  }
+  // The UAMI to be used to authenticate. If not set, the system-assigned identity will be used.
+  optional UserAssignedIdentity user_assigned_identity = 1;
+}
+
+// Azure Workload Identity authentication method
+message AzureWorkloadIdentityCredential {}
+
+// Use implicit Azure authentication for developer use-cases only
+message AzureDeveloperImplicit {}
+
+message RouteMatch {
+  PathMatch path = 1;
+  repeated HeaderMatch headers = 2;
+  MethodMatch method = 3;
+  repeated QueryMatch query_params = 4;
+}
+
+message PathMatch {
+  oneof kind {
+    string exact = 1;
+    string path_prefix = 2;
+    string regex = 3;
+  }
+}
+
+message QueryMatch {
+  string name = 1;
+  oneof value {
+    string exact = 2;
+    string regex = 3;
+  }
+}
+
+message MethodMatch {
+  string exact = 1;
+}
+
+message HeaderMatch {
+  string name = 1;
+
+  oneof value {
+    string exact = 2;
+    string regex = 3;
+  }
+}
+
+message CORS {
+  bool allow_credentials = 1;
+  repeated string allow_headers = 2;
+  repeated string allow_methods = 3;
+  repeated string allow_origins = 4;
+  repeated string expose_headers = 5;
+  // max_age is in seconds, use google.protobuf.Duration if available, otherwise uint64 for seconds
+  google.protobuf.Duration max_age = 6;
+}
+
+message DirectResponse {
+  uint32 status = 1;
+  bytes body = 2;
+}
+
+message HeaderModifier {
+  repeated Header add = 1;
+  repeated Header set = 2;
+  repeated string remove = 3;
+}
+
+message RequestMirrors {
+  message Mirror {
+    BackendReference backend = 1;
+    // 0-100
+    double percentage = 2;
+  }
+  repeated Mirror mirrors = 1;
+}
+
+message RequestRedirect {
+  string scheme = 1;
+  string host = 2;
+  oneof path {
+    string full = 3;
+    string prefix = 4;
+  }
+  uint32 port = 5;
+  uint32 status = 6;
+}
+
+message UrlRewrite {
+  string host = 1;
+  oneof path {
+    string full = 2;
+    string prefix = 3;
+  }
+}
+
+message Header {
+  string name = 1;
+  string value = 2;
+}
+
+message RouteBackend {
+  BackendReference backend = 1;
+  int32 weight = 2;
+  // Reserved tag number for removed field: filters(4)
+  reserved 4;
+  repeated BackendPolicySpec backend_policies = 5;
+}
+
+message PolicyTarget {
+  message ServiceTarget {
+    string namespace = 1;
+    string hostname = 2;
+    optional uint32 port = 3;
+  }
+  message BackendTarget {
+    string name = 1;
+    string namespace = 2;
+    optional string section = 3;
+  }
+  message GatewayTarget {
+    string name = 1;
+    string namespace = 2;
+    optional string listener = 3;
+  }
+  message RouteTarget {
+    string name = 1;
+    string namespace = 2;
+    optional string route_rule = 3;
+    string kind = 4;
+  }
+  oneof kind {
+    GatewayTarget gateway = 1;
+    RouteTarget route = 2;
+    BackendTarget backend = 3;
+    ServiceTarget service = 4;
+  }
+}
+
+message KeepaliveConfig {
+  // Time before sending keepalive probes
+  google.protobuf.Duration time = 1;
+
+  // Interval between keepalive probes
+  google.protobuf.Duration interval = 2;
+
+  // Number of keepalive retries before giving up
+  optional uint32 retries = 3;
+}
+
+message FrontendPolicySpec {
+  message HTTP {
+    optional uint32 max_buffer_size = 1;
+    optional uint32 http1_max_headers = 2;
+    google.protobuf.Duration http1_idle_timeout = 3;
+    optional uint32 http2_window_size = 4;
+    optional uint32 http2_connection_window_size = 5;
+    optional uint32 http2_frame_size = 6;
+    google.protobuf.Duration http2_keepalive_interval = 7;
+    google.protobuf.Duration http2_keepalive_timeout = 8;
+  }
+  message TLS {
+    // TLS handshake timeout
+    google.protobuf.Duration handshake_timeout = 1;
+
+    // Unset: use defaults (h2,http/1.1)
+    // Set but empty: send none
+    // Set with values: send those values
+    Alpn alpn = 2;
+
+    // Cipher suites allowed for negotiating TLS.
+    // If empty, defaults are used.
+    repeated TLSConfig.CipherSuite cipher_suites = 3;
+
+    // TLS version range allowed for negotiating TLS.
+    // If unset, defaults are used.
+    optional TLSConfig.TLSVersion min_version = 4;
+    optional TLSConfig.TLSVersion max_version = 5;
+
+    // TODO: allow setting mTLS things as well
+  }
+
+  message TCP {
+    // TCP keepalive configuration
+    KeepaliveConfig keepalives = 1;
+  }
+  // Logging configuration policy
+  message Logging {
+    // CEL expression to filter out logs. If unset, all logs are considered.
+    optional string filter = 1;
+
+    message Field {
+      string name = 1;
+      string expression = 2;
+    }
+
+    // Additional log fields configuration
+    message Fields {
+      // Field keys to remove from logs
+      repeated string remove = 1;
+      // Field keys to add with CEL expressions
+      repeated Field add = 2;
+    }
+
+    // Fields applied to logs
+    Fields fields = 2;
+  }
+
+  message Tracing {
+    BackendReference provider_backend = 1;
+    repeated TracingAttribute attributes = 2;
+    repeated TracingAttribute resources = 3;
+
+    // remove is a list of attribute keys to remove from emitted spans.
+    // This is applied before `attributes` are evaluated/added, so it can drop defaults
+    // or avoid duplicates.
+    repeated string remove = 8;
+
+    // random_sampling is a CEL expression to determine the amount of random sampling.
+    // Random sampling will initiate a new trace span if the incoming request does not
+    // have a trace initiated already. This should evaluate to a float between 0.0-1.0,
+    // or a boolean (true/false). If unspecified, random sampling is disabled.
+    optional string random_sampling = 4;
+
+    // client_sampling is a CEL expression to determine the amount of client sampling.
+    // Client sampling determines whether to initiate a new trace span if the incoming
+    // request already has a trace. This should evaluate to a float between 0.0-1.0,
+    // or a boolean (true/false). If unspecified, client sampling is 100% enabled.
+    optional string client_sampling = 5;
+
+    // OTLP path. Default is /v1/traces 
+    optional string path = 6;
+
+    // protocol specifies the OTLP protocol variant to use. Default is HTTP
+    Protocol protocol = 7;
+
+    enum Protocol {HTTP = 0; GRPC = 1;}
+  }
+
+  message TracingAttribute {
+    string name = 1;
+    string value = 2;  // CEL expression
+  }
+
+  oneof kind {
+    TCP tcp = 1;
+    TLS tls = 2;
+    HTTP http = 3;
+    Logging logging = 4;
+    Tracing tracing = 5;
+  }
+}
+
+message TrafficPolicySpec {
+  message RemoteRateLimit {
+    string domain = 1;
+    repeated Descriptor descriptors = 2;
+    BackendReference target = 3;
+
+    enum Type {REQUESTS = 0; TOKENS = 1;}
+    message Descriptor {
+      repeated Entry entries = 1;
+      Type type = 2;
+    }
+    message Entry {
+      string key = 1;
+      string value = 2; // CEL expr
+    }
+  }
+  message LocalRateLimit {
+    enum Type {
+      REQUEST = 0;
+      TOKEN = 1;
+    }
+    uint64 max_tokens = 1;
+    uint64 tokens_per_fill = 2;
+    google.protobuf.Duration fill_interval = 3;
+    Type type = 4;
+  }
+  message ExternalAuth {
+    enum FailureMode {
+      DENY = 0;
+      ALLOW = 1;
+      DENY_WITH_STATUS = 2;
+    }
+    message BodyOptions {
+      uint32 max_request_bytes = 1;
+      bool allow_partial_message = 2;
+      bool pack_as_bytes = 3;
+    }
+    message GRPCProtocol {
+      map<string, string> context = 1;
+      map<string, string> metadata = 2;
+    }
+    message HTTPProtocol {
+      optional string path = 1;
+      optional string redirect = 2;
+      repeated string include_response_headers = 3;
+      map<string, string> add_request_headers = 4;
+      map<string, string> metadata = 5;
+    }
+    BackendReference target = 1;
+    oneof protocol {
+      GRPCProtocol grpc = 2;
+      HTTPProtocol http = 3;
+    }
+    FailureMode failure_mode = 4;
+    optional uint32 status_on_error = 5;
+    repeated string include_request_headers = 6;
+    BodyOptions include_request_body = 7;
+    google.protobuf.Duration timeout = 8;
+  }
+  message RBAC {
+    repeated string allow = 1;
+    repeated string deny = 2;
+  }
+  message JWTProvider {
+    // JWT issuer that must match the 'iss' claim
+    string issuer = 1;
+
+    // List of audiences - the 'aud' claim must be in this list
+    repeated string audiences = 2;
+
+    // JWKS configuration - where to get the keys for validation
+    oneof jwks_source {
+      // Inline JWKS as a JSON string
+      string inline = 3;
+    }
+  }
+  // JWT authentication configuration
+  message JWT {
+    // Validation mode for JWT authentication
+    enum Mode {
+      // Default mode - if a token exists, validate it
+      OPTIONAL = 0;
+      // A valid token must be present
+      STRICT = 1;
+      // Requests are never rejected (useful for claims in later steps)
+      PERMISSIVE = 2;
+    }
+
+    // How the JWT validation should behave
+    Mode mode = 1;
+    repeated JWTProvider providers = 2;
+  }
+
+  // Basic authentication configuration using htpasswd file
+  message BasicAuthentication {
+    // Validation mode for basic authentication
+    enum Mode {
+      // Requires valid credentials
+      STRICT = 0;
+      // If credentials exist, validate them (default)
+      OPTIONAL = 1;
+    }
+
+    // Htpasswd file content
+    string htpasswd_content = 1;
+
+    // Realm name for WWW-Authenticate header
+    optional string realm = 2;
+
+    // How the basic authentication should behave
+    Mode mode = 3;
+  }
+
+  // API Key authentication
+  message APIKey {
+    // Validation mode for API Key authentication
+    enum Mode {
+      // Requires valid credentials
+      STRICT = 0;
+      // If credentials exist, validate them (default)
+      OPTIONAL = 1;
+    }
+
+    message User {
+      string key = 1;
+      google.protobuf.Struct metadata = 2;
+    }
+
+    repeated User api_keys = 1;
+
+    // How the API key authentication should behave
+    Mode mode = 2;
+  }
+
+  message TransformationPolicy {
+    message Transform {
+      repeated HeaderTransformation set = 1;
+      repeated HeaderTransformation add = 2;
+      repeated string remove = 3;
+      BodyTransformation body = 4;
+    }
+    Transform request = 1;
+    Transform response = 2;
+  }
+
+  message HeaderTransformation {
+    string name = 1;
+    string expression = 2;
+  }
+
+  message BodyTransformation {
+    string expression = 1;
+  }
+
+  // Cross-Site Request Forgery (CSRF) policy configuration.
+  message CSRF {
+    // Additional origins that are allowed for CSRF validation beyond the same-origin policy.
+    // If a request's origin header matches any of these exact origins, the request will be allowed.
+    // Each origin should be in the format "scheme://host[:port]" (e.g., "https://www.example.com")
+    repeated string additional_origins = 1;
+  }
+
+  message ExtProc {
+    enum FailureMode{
+      FAIL_CLOSED = 0;
+      FAIL_OPEN = 1;
+    }
+    BackendReference target = 1;
+    FailureMode failure_mode = 2;
+  }
+  enum PolicyPhase{
+    ROUTE = 0;
+    GATEWAY = 1;
+  }
+
+  message HostRewrite {
+    enum Mode {
+      NONE = 0;
+      AUTO = 1;
+    }
+    Mode mode = 1;
+  }
+
+  PolicyPhase phase = 1;
+  oneof kind {
+    Timeout timeout = 2;
+    Retry retry = 3;
+    LocalRateLimit local_rate_limit = 4;
+    ExternalAuth ext_authz = 5;
+    RBAC authorization = 6;
+    JWT jwt = 7;
+    TransformationPolicy transformation = 8;
+    RemoteRateLimit remote_rate_limit = 9;
+    CSRF csrf = 10;
+    ExtProc ext_proc = 11;
+    HeaderModifier request_header_modifier = 12;
+    HeaderModifier response_header_modifier = 13;
+    RequestRedirect request_redirect = 14;
+    UrlRewrite url_rewrite = 15;
+    RequestMirrors request_mirror = 16;
+    DirectResponse direct_response = 17;
+    CORS cors = 18;
+    BasicAuthentication basic_auth = 19;
+    APIKey api_key_auth = 20;
+    HostRewrite host_rewrite = 21;
+  }
+}
+
+message BackendPolicySpec {
+  message Ai {
+    message Message {
+      string role = 1;
+      string content = 2;
+    }
+
+    message PromptEnrichment {
+      repeated Message append = 1;
+      repeated Message prepend = 2;
+    }
+
+    enum BuiltinRegexRule {
+      BUILTIN_UNSPECIFIED = 0;
+      SSN = 1;
+      CREDIT_CARD = 2;
+      PHONE_NUMBER = 3;
+      EMAIL = 4;
+      CA_SIN = 5;
+    }
+
+    message RegexRule {
+      oneof kind {
+        BuiltinRegexRule builtin = 1;
+        string regex = 2;
+      }
+    }
+
+    enum ActionKind {
+      ACTION_UNSPECIFIED = 0;
+      MASK = 1;
+      REJECT = 2;
+    }
+
+    message RegexRules {
+      ActionKind action = 1;
+      repeated RegexRule rules = 2;
+    }
+
+    message Webhook {
+      BackendReference backend = 1;
+      repeated HeaderMatch forward_header_matches = 3;
+    }
+
+    message Moderation {
+      // Model to use. Defaults to `omni-moderation-latest`
+      optional string model = 1;
+      repeated BackendPolicySpec inline_policies = 2;
+    }
+
+    // Response sent when rejecting a request
+    message RequestRejection {
+      bytes body = 1;
+      uint32 status = 2;
+    }
+
+    // Configuration for guarding/processing LLM responses
+    message ResponseGuard {
+      // Response to send when response is rejected
+      RequestRejection rejection = 1;
+      oneof kind {
+        RegexRules regex = 2;
+        Webhook webhook = 3;
+      }
+    }
+
+    // Configuration for guarding/processing prompts
+    message RequestGuard {
+      // Response to send when request is rejected
+      RequestRejection rejection = 1;
+      oneof kind {
+        RegexRules regex = 2;
+        Webhook webhook = 3;
+        Moderation openai_moderation = 4;
+      }
+    }
+
+    message PromptGuard {
+      // Guards applied to client requests before they reach the LLM
+      repeated RequestGuard request = 1;
+      // Guards applied to LLM responses before they reach the client
+      repeated ResponseGuard response = 2;
+    }
+
+    PromptGuard prompt_guard = 1;
+    // Default JSON key-value pairs to add to the LLM request if the key is not set in the request.
+    message PromptCaching {
+      bool cache_system = 1;
+      bool cache_messages = 2;
+      bool cache_tools = 3;
+      optional uint32 min_tokens = 4;
+    }
+
+    map<string, string> defaults = 2;
+    // Override JSON key-value pairs to set in the LLM request regardless of whether they are set in the request.
+    map<string, string> overrides = 3;
+    PromptEnrichment prompts = 4;
+    // Model aliases - map from alias name to actual model name
+    map<string, string> model_aliases = 5;
+    PromptCaching prompt_caching = 6;
+
+    // RouteType specifies how incoming requests should be processed
+    // based on the URL path.
+    enum RouteType {
+      // Unspecified defaults to COMPLETIONS
+      UNSPECIFIED = 0;
+      // Processes OpenAI /v1/chat/completions format requests
+      COMPLETIONS = 1;
+      // Processes Anthropic /v1/messages format requests
+      MESSAGES = 2;
+      // Handles /v1/models endpoint (returns available models)
+      MODELS = 3;
+      // Sends requests to upstream as-is without LLM processing
+      PASSTHROUGH = 4;
+      // Processes OpenAI /responses format requests
+      RESPONSES = 5;
+      // Processes Anthropic /v1/messages/count_tokens format requests
+      ANTHROPIC_TOKEN_COUNT = 6;
+      // Processes OpenAI /v1/embeddings format requests
+      EMBEDDINGS = 7;
+      // OpenAI /v1/realtime
+      REALTIME = 8;
+    }
+
+    // Routes defines how to identify the type of LLM request to handle.
+    // The keys are URL suffix matches (e.g., "/v1/chat/completions", "/v1/messages").
+    // The special "*" wildcard matches any path.
+    // If empty or no route matches, the implementation defaults to COMPLETIONS behavior.
+    map<string, RouteType> routes = 7;
+  }
+  message A2a {
+  }
+  message InferenceRouting {
+    enum FailureMode {
+      UNKNOWN = 0;
+      FAIL_CLOSED = 1;
+      FAIL_OPEN = 2;
+    }
+    BackendReference endpoint_picker = 1;
+    FailureMode failure_mode = 2;
+  }
+  message BackendTLS {
+    enum VerificationMode {
+      STRICT = 0;
+      INSECURE_HOST = 1;
+      INSECURE_ALL = 2;
+    }
+    optional bytes cert = 1;
+    optional bytes key = 2;
+    // Root to verify. If not set, system certs will be used.
+    // If no verification is desired, use 'insecure'
+    optional bytes root = 3;
+    VerificationMode verification = 4;
+    // If set, override the SNI explicitly. Otherwise, it is auto-derived.
+    optional string hostname = 5;
+    // If set, the request must come from one of these hostnames. Otherwise, the destination
+    // is used.
+    repeated string verify_subject_alt_names = 6;
+    // Unset: use defaults (h2,http/1.1)
+    // Set but empty: send none
+    // Set with values: send those values
+    Alpn alpn = 7;
+  }
+  message BackendHTTP {
+    enum HttpVersion {
+      UNSPECIFIED = 0;
+      HTTP1 = 1;
+      HTTP2 = 2;
+    }
+    HttpVersion version = 1;
+    google.protobuf.Duration request_timeout = 2;
+  }
+  message BackendTCP {
+    KeepaliveConfig keepalive = 1;
+    google.protobuf.Duration connect_timeout = 2;
+  }
+  message McpAuthorization {
+    repeated string allow = 1;
+    repeated string deny = 2;
+  }
+
+  message McpAuthentication {
+    message ResourceMetadata {
+      map<string, google.protobuf.Value> extra = 1;
+    }
+
+    enum McpIDP {
+      UNSPECIFIED = 0;
+      AUTH0 = 1;
+      KEYCLOAK = 2;
+    }
+
+    // Validation mode for JWT authentication
+    enum Mode {
+      // Default mode - if a token exists, validate it
+      OPTIONAL = 0;
+      // A valid token must be present
+      STRICT = 1;
+      // Requests are never rejected (useful for claims in later steps)
+      PERMISSIVE = 2;
+    }
+
+    string issuer = 1;
+    repeated string audiences = 2;
+    string jwks_inline = 3;
+    McpIDP provider = 4;
+    ResourceMetadata resource_metadata = 5;
+    // How the JWT validation should behave
+    Mode mode = 6;
+  }
+
+  oneof kind {
+    A2a a2a = 1;
+    InferenceRouting inference_routing = 2;
+    BackendTLS backend_tls = 3;
+    BackendAuthPolicy auth = 4;
+    McpAuthorization mcp_authorization = 5;
+    McpAuthentication mcp_authentication = 6;
+    Ai ai = 7;
+    HeaderModifier request_header_modifier = 8;
+    HeaderModifier response_header_modifier = 9;
+    RequestRedirect request_redirect = 10;
+    RequestMirrors request_mirror = 11;
+    BackendHTTP backend_http = 12;
+    BackendTCP backend_tcp = 13;
+  }
+}
+
+message StaticBackend {
+  string host = 1;
+  int32 port = 2;
+}
+
+message DynamicForwardProxy {
+}
+
+message AIBackend {
+  message HostOverride {
+    string host = 1;
+    int32 port = 2;
+  }
+  message OpenAI {
+    optional string model = 1;
+  }
+  message Gemini {
+    optional string model = 1;
+  }
+  message Vertex {
+    optional string model = 1;
+    string region = 2;
+    string project_id = 3;
+  }
+  message Anthropic {
+    optional string model = 1;
+  }
+  message Bedrock {
+    optional string model = 1;
+    string region = 2;
+    optional string guardrail_identifier = 3;
+    optional string guardrail_version = 4;
+  }
+  message AzureOpenAI {
+    optional string model = 1;
+    string host = 2;
+    optional string api_version = 3;
+  }
+
+  message Provider {
+    string name = 1;
+    HostOverride host_override = 2;
+    optional string path_override = 3;
+    oneof provider {
+      OpenAI openai = 4;
+      Gemini gemini = 5;
+      Vertex vertex = 6;
+      Anthropic anthropic = 7;
+      Bedrock bedrock = 8;
+      AzureOpenAI azureopenai = 11;
+    }
+    repeated BackendPolicySpec inline_policies = 10;
+  }
+  message ProviderGroup {
+    repeated Provider providers = 1;
+  }
+  repeated ProviderGroup provider_groups = 1;
+}
+
+message MCPBackend {
+  enum StatefulMode {
+    STATEFUL = 0;
+    STATELESS = 1;
+  }
+
+  enum PrefixMode {
+    CONDITIONAL = 0;
+    ALWAYS = 1;
+  }
+
+  repeated MCPTarget targets = 2;
+  // Whether or not this backend should serve stateful MCP connections.
+  // We set this at the backend level because it would be illegal/nonsensical
+  // to mix stateful and stateless targets in the same backend.
+  StatefulMode stateful_mode = 3;
+  // Whether to always prefix the tool name using the target name
+  PrefixMode prefix_mode = 4;
+}
+
+message MCPTarget {
+  enum Protocol {
+    UNDEFINED = 0;
+    SSE = 1;
+    STREAMABLE_HTTP = 2;
+  }
+  string name = 1;
+  BackendReference backend = 2;
+  string path = 3;
+  Protocol protocol = 4;
+}
+
+message BackendReference {
+  message Service {
+    string namespace = 1;
+    string hostname = 2;
+  }
+  oneof kind {
+    Service service = 1;
+    // A Backend object. The format is "<backend key>"
+    string backend = 2;
+  }
+  // Port, used only with 'service' type
+  uint32 port = 3;
+}
+
+message Alpn {
+  repeated string protocols = 1;
+}

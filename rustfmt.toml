@@ -1,0 +1,8 @@
+hard_tabs = true
+match_block_trailing_comma = true
+tab_spaces = 2
+
+# Things we like but are nightly only
+#group_imports = "StdExternalCrate"
+#imports_granularity = "Module"
+#normalize_comments = true

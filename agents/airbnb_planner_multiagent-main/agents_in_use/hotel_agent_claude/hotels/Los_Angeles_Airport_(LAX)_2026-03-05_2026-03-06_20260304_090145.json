@@ -1,0 +1,4102 @@
+{
+  "search_metadata": {
+    "search_id": "Los_Angeles_Airport_(LAX)_2026-03-05_2026-03-06_20260304_090145",
+    "location": "Los Angeles Airport (LAX)",
+    "check_in_date": "2026-03-05",
+    "check_out_date": "2026-03-06",
+    "guests": {
+      "adults": 2,
+      "children": 0,
+      "children_ages": null
+    },
+    "search_type": "hotels",
+    "currency": "USD",
+    "filters": {
+      "sort_by": null,
+      "hotel_class": null,
+      "amenities": null,
+      "property_types": null,
+      "brands": null,
+      "free_cancellation": false,
+      "special_offers": false,
+      "bedrooms": null
+    },
+    "search_timestamp": "2026-03-04T09:01:45.257221"
+  },
+  "search_information": {
+    "total_results": 1070
+  },
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Ramada by Wyndham Hawthorne/LA Stadium",
+      "link": "https://www.wyndhamhotels.com/ramada/hawthorne-california/ramada-hawthorne-lax-la-stadium/overview?CID=LC:wmcic5n98gs1g0r:1405&iata=00093796",
+      "property_token": "ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.916064999999996,
+        "longitude": -118.3720833
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "12:00",
+      "rate_per_night": {
+        "lowest": "US$69",
+        "extracted_lowest": 69,
+        "before_taxes_fees": "US$61",
+        "extracted_before_taxes_fees": 61
+      },
+      "total_rate": {
+        "lowest": "US$69",
+        "extracted_lowest": 69,
+        "before_taxes_fees": "US$61",
+        "extracted_before_taxes_fees": 61
+      },
+      "nearby_places": [
+        {
+          "name": "El Segundo Bl & Isis Ave EB",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "36\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Bossa Nova Brazilian Cuisine",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepa93ahRwRpFNEwLi1kWchgrlwChq1qy-HGCXzCVA2QW1Twmegoa1YBinE6ksNfXtYEGSiBIn0shHRag9O8TkiESTlU0AihcpZw07oSA_Tk2UTeHDYNBHnMuF-PvEM96MUN9tNLrHeBwCBs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhDKzrp11QXJxf53-NQUAvuT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPg0sUut1MAIk2vqxSZzj48e-8_mGVWUHtDseOf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPg0sUut1MAIk2vqxSZzj48e-8_mGVWUHtDseOf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPGP5mDxSI5JWiWx0BeAm0Cw_OEu9kb4it7jeqZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPGP5mDxSI5JWiWx0BeAm0Cw_OEu9kb4it7jeqZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqPPndxcKExedbLPR7AnKcBpJTTF9OyTVJwcYtclYdfIjsSfD1saAOHKnwvtLvmg3_Lu6tBVMaWH_zDy4q2ejyq68VJ-9BqiwlHWyX1q1Fpzs525ybT3rHLOVNp9KfWnFKva5wmZpcy5Dc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhADycKzLghhtWfKscwADaGb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMmOb5vwS9gvoJ6UqSLmW6yeY7XjfWWGjqpZdLk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMmOb5vwS9gvoJ6UqSLmW6yeY7XjfWWGjqpZdLk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNREWjAoKlQbTTvPWMYXrCWKERtKddKRQYi8JzW=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNREWjAoKlQbTTvPWMYXrCWKERtKddKRQYi8JzW=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM2jXqwB9x_ArObn0XHnlLIryNN9a2ArL_wG8FQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM2jXqwB9x_ArObn0XHnlLIryNN9a2ArL_wG8FQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMNFMpgf1mHF7t5YVaclB_uMEClRCop83H1eIIO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMNFMpgf1mHF7t5YVaclB_uMEClRCop83H1eIIO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjqNUmaQ-mCmaussmJm3EdiOsY9xOpyPVufeqQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMjqNUmaQ-mCmaussmJm3EdiOsY9xOpyPVufeqQ=s10000"
+        }
+      ],
+      "overall_rating": 2.7,
+      "reviews": 1981,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 422
+        },
+        {
+          "stars": 4,
+          "count": 251
+        },
+        {
+          "stars": 3,
+          "count": 294
+        },
+        {
+          "stars": 2,
+          "count": 272
+        },
+        {
+          "stars": 1,
+          "count": 742
+        }
+      ],
+      "location_rating": 3.0,
+      "reviews_breakdown": [
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 314,
+          "positive": 13,
+          "negative": 286,
+          "neutral": 15,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 446,
+          "positive": 132,
+          "negative": 284,
+          "neutral": 30,
+          "category_token": "vZgKdHica1yRnFiSmp5fVDl5eXBqUVlmcirTsmdzep92LQQAsDINWg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=vZgKdHica1yRnFiSmp5fVDl5eXBqUVlmcirTsmdzep92LQQAsDINWg&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        },
+        {
+          "name": "\u623f\u95f4",
+          "description": "Room amenities",
+          "total_mentioned": 210,
+          "positive": 21,
+          "negative": 178,
+          "neutral": 11,
+          "category_token": "dR1Ab3ica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox07JnHftfTt8CAAvJEE4",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=dR1Ab3ica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmox07JnHftfTt8CAAvJEE4&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 628,
+          "positive": 120,
+          "negative": 470,
+          "neutral": 38,
+          "category_token": "WDaYE3ica1yRnFiSmp5fVDl5RUBRfkFqUUkl05qn6xY969j_YmvLs10TACRKEok",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=WDaYE3ica1yRnFiSmp5fVDl5RUBRfkFqUUkl05qn6xY969j_YmvLs10TACRKEok&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 184,
+          "positive": 33,
+          "negative": 132,
+          "neutral": 19,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        },
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 89,
+          "positive": 26,
+          "negative": 56,
+          "neutral": 7,
+          "category_token": "GnXjhHica1yRnFiSmp5fVDl5uVtmSV5qcTHTsqeNS1_sWg0AsJkNng",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GnXjhHica1yRnFiSmp5fVDl5uVtmSV5qcTHTsqeNS1_sWg0AsJkNng&engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIsq6MmpfCgaElGgwvZy8xaGM2bHkxankQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u83ab\u7279\u5c14\u516d\u6d1b\u6749\u77f6LAX",
+      "link": "https://www.motel6.com/property/motel-inglewood-california-us-294400?lid=Local_Milestone&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my%20business&utm_medium=organic%20listing&utm_campaign=visit%20website&utm_content=global",
+      "property_token": "ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9459477,
+        "longitude": -118.3672491
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$80",
+        "extracted_lowest": 80,
+        "before_taxes_fees": "US$69",
+        "extracted_before_taxes_fees": 69
+      },
+      "total_rate": {
+        "lowest": "US$80",
+        "extracted_lowest": 80,
+        "before_taxes_fees": "US$69",
+        "extracted_before_taxes_fees": 69
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 24%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Century / Felton",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "37\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Casa Gami\u00f1o Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPB7W-GQsc3qOUYRUr0I-rvNHRCoWBpYzNpp088=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPB7W-GQsc3qOUYRUr0I-rvNHRCoWBpYzNpp088=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP50NcZHNe-ugmKDUd9XgJerBMziBTvmY8Nt4zf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP50NcZHNe-ugmKDUd9XgJerBMziBTvmY8Nt4zf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPxlYjZO6kR04Iy8xYPVByFtDTRtd4uQdxlkwSZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPxlYjZO6kR04Iy8xYPVByFtDTRtd4uQdxlkwSZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOTxKJZtxgYyzXz7DlxlPytKX5auLuWrYXFceHM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOTxKJZtxgYyzXz7DlxlPytKX5auLuWrYXFceHM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNWj-KsZpz6h0Nkb3ljcDWZsk0O4CQ1UPbxXGoi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNWj-KsZpz6h0Nkb3ljcDWZsk0O4CQ1UPbxXGoi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPWigDfpyqfbupqDu_akf_U6PD4ak6Ip2uQwFHZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPWigDfpyqfbupqDu_akf_U6PD4ak6Ip2uQwFHZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNNagyrQpIcNOoywYVaEALKynAUsKwHk9r7vwXE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNNagyrQpIcNOoywYVaEALKynAUsKwHk9r7vwXE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPOdoYNg_bzzn0QYz1HLNkbQhz9HjWhRXPYSgfM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPOdoYNg_bzzn0QYz1HLNkbQhz9HjWhRXPYSgfM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN1lhHjvsoTmBN7gHAZRyEy_KezKsuiP7E03Ax9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN1lhHjvsoTmBN7gHAZRyEy_KezKsuiP7E03Ax9=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 7900,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3840
+        },
+        {
+          "stars": 4,
+          "count": 1504
+        },
+        {
+          "stars": 3,
+          "count": 1083
+        },
+        {
+          "stars": 2,
+          "count": 558
+        },
+        {
+          "stars": 1,
+          "count": 915
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 731,
+          "positive": 469,
+          "negative": 151,
+          "neutral": 111,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        },
+        {
+          "name": "\u5ba0\u7269",
+          "description": "Pets",
+          "total_mentioned": 184,
+          "positive": 120,
+          "negative": 50,
+          "neutral": 14,
+          "category_token": "05ITH3ica1yRnFiSmp5fVDl5SUBqSTHjsqfrFjzvXAkAjnAMTg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=05ITH3ica1yRnFiSmp5fVDl5SUBqSTHjsqfrFjzvXAkAjnAMTg&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 1051,
+          "positive": 747,
+          "negative": 162,
+          "neutral": 142,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 410,
+          "positive": 135,
+          "negative": 225,
+          "neutral": 50,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        },
+        {
+          "name": "\u5b89\u5168",
+          "description": "Safety",
+          "total_mentioned": 343,
+          "positive": 178,
+          "negative": 138,
+          "neutral": 27,
+          "category_token": "OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 2950,
+          "positive": 2345,
+          "negative": 489,
+          "neutral": 116,
+          "category_token": "HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ&engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgInZy_x_j1t5vcARoLL2cvMXRoZmZxNGgQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u6d1b\u6749\u77f6\u673a\u573a\u5e0c\u5c14\u987f\u9152\u5e97",
+      "link": "https://www.hilton.com/en/hotels/laxahhh-hilton-los-angeles-airport/?SEO_id=GMB-AMER-HH-LAXAHHH&y_source=1_MTIyMDkzMi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "property_token": "ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9462252,
+        "longitude": -118.38162939999998
+      },
+      "check_in_time": "16:00",
+      "check_out_time": "12:00",
+      "rate_per_night": {
+        "lowest": "US$166",
+        "extracted_lowest": 166,
+        "before_taxes_fees": "US$146",
+        "extracted_before_taxes_fees": 146
+      },
+      "total_rate": {
+        "lowest": "US$166",
+        "extracted_lowest": 166,
+        "before_taxes_fees": "US$146",
+        "extracted_before_taxes_fees": 146
+      },
+      "nearby_places": [
+        {
+          "name": "Century / International",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "28\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "The Cafe",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPdaxWfmI6mYuYfDZAgfs2m4gNYdJ5e0_qoL8Xu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPdaxWfmI6mYuYfDZAgfs2m4gNYdJ5e0_qoL8Xu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNSuT7MXEyt01jZp2TNaU31vWhPS_au5aByrzCQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNSuT7MXEyt01jZp2TNaU31vWhPS_au5aByrzCQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/kXO1W1OlKAlafpBWSQGBoP2_AmeLB8NUXSR7k64ULME05b3UgQSLBNK7nv7Ev5-RjW9XWjCtbPpbER9dZULENquE_QNDgT_YkucerSm4UDJFKW2wuoNIuVpvuHyqQy0aGOyPe6A03HJGBZFl7v4OpPyUgM_LzT0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KAJfGagMFAOLbIZdCtWQO_XEjZ7DSjTI"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/FcaKJOqQsblR7V_3j76jEtmQ1rZ5NEMSZ09A-HKE6bJA2O52K0OUGTKTfru3-esm57X2llEWJzIf9UPNjCA5LTc3sNq7KYuBIYwlWybAY__aIjY_1bJs6OGc7vdGaq5DyJFHztOaNrfvQAVxp0VgDNzk0fcRojQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/08/087530/087530a_hb_ro_105.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN-zdR0P6ixc6CaEMUQQmYaVJjd7T_CNnViZNwp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN-zdR0P6ixc6CaEMUQQmYaVJjd7T_CNnViZNwp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOdJJymCbJyb-QYLRX1AYjAxmJWMiM-UzoT71hf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOdJJymCbJyb-QYLRX1AYjAxmJWMiM-UzoT71hf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPedbHrB7Yi-HKCGDJyN6QC0qBKJwZkJ0XvwUdU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPedbHrB7Yi-HKCGDJyN6QC0qBKJwZkJ0XvwUdU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOeA-Nl2tEjWZMEMZeKZnop2vY_erEgUzonyY7I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOeA-Nl2tEjWZMEMZeKZnop2vY_erEgUzonyY7I=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMRMjRrGgeh_xi0fG9-A5wdfHo2-pKAGT82JE6d=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMRMjRrGgeh_xi0fG9-A5wdfHo2-pKAGT82JE6d=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 11908,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 5098
+        },
+        {
+          "stars": 4,
+          "count": 3196
+        },
+        {
+          "stars": 3,
+          "count": 1638
+        },
+        {
+          "stars": 2,
+          "count": 799
+        },
+        {
+          "stars": 1,
+          "count": 1177
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 1447,
+          "positive": 898,
+          "negative": 327,
+          "neutral": 222,
+          "category_token": "8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 1229,
+          "positive": 265,
+          "negative": 741,
+          "neutral": 223,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 1558,
+          "positive": 1062,
+          "negative": 298,
+          "neutral": 198,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 2601,
+          "positive": 1696,
+          "negative": 755,
+          "neutral": 150,
+          "category_token": "HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        },
+        {
+          "name": "\u9152\u5427",
+          "description": "Bar or lounge",
+          "total_mentioned": 461,
+          "positive": 223,
+          "negative": 175,
+          "neutral": 63,
+          "category_token": "nCJZhnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDspetk55OWA4A9rsPSg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nCJZhnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDspetk55OWA4A9rsPSg&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        },
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 937,
+          "positive": 157,
+          "negative": 704,
+          "neutral": 76,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Wi-Fi ($)",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIv9qv7r6x3L5nGgwvZy8xaGR6N2Z4eHkQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u6d1b\u6749\u77f6\u559c\u6765\u767b\u9152\u5e97",
+      "link": "https://www.marriott.com/en-us/hotels/laxsi-sheraton-gateway-los-angeles-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9464489,
+        "longitude": -118.3907235
+      },
+      "check_in_time": "16:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$166",
+        "extracted_lowest": 166,
+        "before_taxes_fees": "US$143",
+        "extracted_before_taxes_fees": 143
+      },
+      "total_rate": {
+        "lowest": "US$166",
+        "extracted_lowest": 166,
+        "before_taxes_fees": "US$143",
+        "extracted_before_taxes_fees": 143
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 20%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Airport Blvd/Century Blvd",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "28\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6cbf\u6d77\u5c0f\u9152\u9928",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOikUVi7XD5QfhnCI-8OxW5lD39xv6w5rN6bInR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOikUVi7XD5QfhnCI-8OxW5lD39xv6w5rN6bInR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_f2q8pEPHeGZy-H7urDT89dYVp2ArrqQeZNvi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP_f2q8pEPHeGZy-H7urDT89dYVp2ArrqQeZNvi=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCq7F0Sd21DACFEonOFWn-vqyulZI0WaAsqVgV=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNCq7F0Sd21DACFEonOFWn-vqyulZI0WaAsqVgV=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMkf-ruLPV5mzbcf00KLu1IPzNit766Oi9pODtk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMkf-ruLPV5mzbcf00KLu1IPzNit766Oi9pODtk=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPlpPUG3fXyepcOIaXr61cEKNfBYNaPW3ljIutI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPlpPUG3fXyepcOIaXr61cEKNfBYNaPW3ljIutI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOPz_7P9a4AqNmZqLtlC5Q7-FGKzuZ_fOWlw16g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOPz_7P9a4AqNmZqLtlC5Q7-FGKzuZ_fOWlw16g=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOlc9jB57tzb9yGTnBnmzq0QCOhQVzTma-0CvP0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOlc9jB57tzb9yGTnBnmzq0QCOhQVzTma-0CvP0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPhJfyaDZ2QqImFecMyfoegseEwODuKqvV5O7na=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPhJfyaDZ2QqImFecMyfoegseEwODuKqvV5O7na=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO0QuOv4bRrx6YOjduUHTLN7qz7X-3ygWzytI29=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO0QuOv4bRrx6YOjduUHTLN7qz7X-3ygWzytI29=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 5523,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2651
+        },
+        {
+          "stars": 4,
+          "count": 1398
+        },
+        {
+          "stars": 3,
+          "count": 524
+        },
+        {
+          "stars": 2,
+          "count": 253
+        },
+        {
+          "stars": 1,
+          "count": 697
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 652,
+          "positive": 425,
+          "negative": 135,
+          "neutral": 92,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 448,
+          "positive": 94,
+          "negative": 289,
+          "neutral": 65,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 1380,
+          "positive": 785,
+          "negative": 527,
+          "neutral": 68,
+          "category_token": "thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 782,
+          "positive": 566,
+          "negative": 120,
+          "neutral": 96,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        },
+        {
+          "name": "\u9152\u5427",
+          "description": "Bar or lounge",
+          "total_mentioned": 312,
+          "positive": 191,
+          "negative": 86,
+          "neutral": 35,
+          "category_token": "iS-K13ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjspetk55OWA4A9sMPSw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=iS-K13ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjspetk55OWA4A9sMPSw&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        },
+        {
+          "name": "\u5546\u4e1a\u8bbe\u65bd",
+          "description": "Business",
+          "total_mentioned": 171,
+          "positive": 78,
+          "negative": 50,
+          "neutral": 43,
+          "category_token": "tOtzKHicASIA3f-BqGNhdGVnb3J5k6hCdXNpbmVzcwCs5ZWG5Lia6K6-5pa9IUkSfg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=tOtzKHicASIA3f-BqGNhdGVnb3J5k6hCdXNpbmVzcwCs5ZWG5Lia6K6-5pa9IUkSfg&engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgInb6tgoeB9-GPARoLL2cvMXRrYjVjZjUQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "H3 Inn & Suites - LAX Airport",
+      "link": "https://www.h3innsuiteslax.com/",
+      "property_token": "ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9456882,
+        "longitude": -118.3604403
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$79",
+        "extracted_lowest": 79,
+        "before_taxes_fees": "US$68",
+        "extracted_before_taxes_fees": 68
+      },
+      "total_rate": {
+        "lowest": "US$79",
+        "extracted_lowest": 79,
+        "before_taxes_fees": "US$68",
+        "extracted_before_taxes_fees": 68
+      },
+      "nearby_places": [
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "14\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "35\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Melo Burger",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWuzDvoNl6o9s52hg_PEfE4xWeafj5uqWdnBceLC9DZUWh27GlnLNyERLWMeEUqMMEFiNVH7UfgLw2tonz0TPvCGlA_2bXoh21JCCVVCJbI9zuQnIuPXlqHkmeY3QSKHgQwcfR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICs6qzACQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/zlYhPAxYLeR3CU02vkhHKL0HmHpuXbNSVMSxt-O0FJ7Nm52Z4bh-zc1Iheit0QVcvtnXLdcX2bpZcrkU3ve63nieAw9Tgo24luH4e9K4ayTx4AyURd4el05WuuW4wzDhrhIEY4AhOcvSNFYbWfuyB1IMo0VBqEo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_a_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/ecHzAoFZJXdwhAgLPk0qgUTXVMKV3NaZPYJduu2cRYMXWeY22MO9Kg3HUUGziJOSh0g0LZK_Hvo1uIbE91OAC8gJJSVss6ORA9ZcrzOWXjXTFrh-I63kHJWPOsxAV3qUNUAVm5FHvUbIesjsjDetPB54C9JeEQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_l_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/a5GPanss-8E2ygqCBTPHGlZavZ6irCVbBsd20bbPyGfPO9ae6WvAJux5B_WhQlZf9ARyKp73-s_cSRqxKRpYZMPINm04CpFJhitHzmlt0lzScRrNJ1AAyRGdH_wjbJGKfZEEwQnSzOOcSLNQzm-pmskxSgQt7g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/75000000/74530000/74528400/74528319/w1198h801x0y0-1e78571b_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ixo2XrCMfNtQgyDgfffCrIfHjaBYBRrOLatsWXEQse0JMIYzpMXRxZ-zXAde6E4yKbd14aomDe6SIofguupe1Xpc-KK_eO0BAFdSvaHgft59466Bn7aiQZ7exFchjWPVzAVs0YnrFHD-8E0OHUQIlLmaw59t3A0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_r_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/KzsyEyj902PCkTkZNNFjs2ltaNl9eWwosXe4X52am9DvkbW4lC1WVu3mBthXieScFF6vt8V1nubxTfvUQmZg8BUI-HmmragseQlAx9hHLDs5mfMBky2BmbeXtJJk_AII742OMcnufac0RxdaieK23P4qN4VPTQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_w_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/yXZfOmD-9Z-nMwIczw1uinRTeStY9ZNeS3nXCVps2EHfX-kfh9xzNwOS48O3qjAxyJRb4Oq_KPZAUtbcK1omZtcDywZeDtGfNPUeCV0V-HHchLYN9OfgAPUvH0dk3DEtehdToRGXunOWnOGiJPtV_4cDzMO7FA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_w_007.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/0YL12rgCpMWLYsTR6GIkyy1nfhM4v4FMC2r9JRA-vRNensRqCRt7qGpVuzXu6x5BELzYDHFyQSpqyivDG4obVQXNYaxe0k09P4PCpFmc5b6YM6PWhaDw99drvG8Mwu1EykHG4Brqc4Ld5LZz6UpWJXLe8KmpwA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/67/678533/678533a_hb_f_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerknJVnrP4BsrlbyTpMjRB_3eZvn3OtTo8fpJ57Rd4WX-_Go7I3hiQC1rzjCfaPvdt4uNu7NL0xkxfEOZ3S88e1OjB4Xz0hx7lDbsYKOoMyM8ujqvm4exgkk0rqVDb_GhxlzSWxeg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICs6qywrgE=s10000"
+        }
+      ],
+      "overall_rating": 3.6,
+      "reviews": 700,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 254
+        },
+        {
+          "stars": 4,
+          "count": 169
+        },
+        {
+          "stars": 3,
+          "count": 121
+        },
+        {
+          "stars": 2,
+          "count": 62
+        },
+        {
+          "stars": 1,
+          "count": 94
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "\u65e9\u9910",
+          "description": "Breakfast",
+          "total_mentioned": 36,
+          "positive": 7,
+          "negative": 22,
+          "neutral": 7,
+          "category_token": "jrBeNnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcOyZ9NXvlwyAQDIXA5A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jrBeNnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcOyZ9NXvlwyAQDIXA5A&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        },
+        {
+          "name": "\u9910\u5385",
+          "description": "Restaurant",
+          "total_mentioned": 20,
+          "positive": 2,
+          "negative": 12,
+          "neutral": 6,
+          "category_token": "A-3RHnica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnTspdLJjztawUA19cOqw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=A-3RHnica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnTspdLJjztawUA19cOqw&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        },
+        {
+          "name": "\u5b89\u5168",
+          "description": "Safety",
+          "total_mentioned": 33,
+          "positive": 14,
+          "negative": 16,
+          "neutral": 3,
+          "category_token": "OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 43,
+          "positive": 14,
+          "negative": 23,
+          "neutral": 6,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        },
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 39,
+          "positive": 29,
+          "negative": 4,
+          "neutral": 6,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 83,
+          "positive": 56,
+          "negative": 14,
+          "neutral": 13,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Restaurant",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIlryI19XVoKf1ARoLL2cvMXRrNjd6MGYQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u6d1b\u6749\u77f6\u673a\u573a\u7687\u51a0\u5047\u65e5\u9152\u5e97",
+      "link": "https://www.sonesta.com/sonesta-hotels-resorts/ca/los-angeles/sonesta-los-angeles-airport-lax?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "property_token": "ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9464969,
+        "longitude": -118.38919879999999
+      },
+      "check_in_time": "16:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$195",
+        "extracted_lowest": 195,
+        "before_taxes_fees": "US$168",
+        "extracted_before_taxes_fees": 168
+      },
+      "total_rate": {
+        "lowest": "US$195",
+        "extracted_lowest": 195,
+        "before_taxes_fees": "US$168",
+        "extracted_before_taxes_fees": 168
+      },
+      "nearby_places": [
+        {
+          "name": "Airport Blvd/Century Blvd",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "28\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Century Taproom",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqmGPZ8fcZnNCWGE5pQvsK2sHakKrESz5V_7nZbsmLBrnKVKEk0lr0Uag0kYxxTAc6X7h3Ny5wPn9yjfiKF95gYz-SYZFlX4bTA4oTujmbUBPJFVouNWiTwZEjr6Dc87xDGlt_oiCzX1Q2l=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAsD2ms34zz4wNMKfqRKhHF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPjE6eTriVzhqwgmAAm-BI17hE1EXHETTxaAAn8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPjE6eTriVzhqwgmAAm-BI17hE1EXHETTxaAAn8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJSe_amRSdpqPFvh_vRjmhnxK24k1Qrp0lYwDlPzgeDg1xQe5PZW5CbsMX1s1hpTzdYPMzahHkqa1YQgQ-5y2LGY_oVLddx2hs3LfuDk5u6cv-cvnTaMcXoQo4VaCnjJzgdaLns9kzuuee=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhD7B1DptyI2BDQ4CmlPRVRj=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/UqOYo8XMjRr8L1yr1dniM1GJyEMiYGUrM4HmHckGTClv5QXpGso5TLk8hkW4CVkjoPXV-Wt9sq7O0y43qo2JXhzEWmvclBzFw-bIn6sh1sHhNb5-NXDE3COvBVbMRob-2De_ldsaogk_h6kNvihihJQXm4FnXr8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/01/014736/014736a_hb_w_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFZ8llgnpoZIjvslRBLlA7ETK7kEb2_3rk-6QM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFZ8llgnpoZIjvslRBLlA7ETK7kEb2_3rk-6QM=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Ws-5h9JJUTirUDdx1R5MqB3u8RuIqywEjcgbQpiRESxUh1RqXie02A4qIVz-eHhne8UyAV5KKGqh4z_CeZHrQWRda0mHUPnLpfEvIvJe-hfw2HEbDrVe72wq4R4KIQxpbHa3KD5wvOIPC9CSHlL1bqLtLasKsQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/ostrovok/zz/3b/ad3b3ec598e0107e8a86a02b2632455d8377f82a.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerDUaTWTLWX0OLwA_qdpV3IGFItZhSJPJqnIJZ-h7ts-LHIT4RPmqWbgnrvo5RyBV6vxprK3v69kX2pcXdRtdpBSeKzRYh0NUG224P7euJu8c8VbnfTLouKWcyEAKE4-fBBusFb8w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDysaSBzgE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWapqxv_GK2scg1yGZ3kDV2MzUfSqTkEMnrf7-35UgrRA3ykx3BkWDEddAi8ps_FGsyHD9bMf3D6ND9Bp-y1DiPycjw9DP7dWYm8t95A1mzBYBF4eEDs3eDDP-R-r94-IxXMvi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDE4cSq_AE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqclXFzRgTvqIo0rSxJj85SAeSbgd2zLoShqYL7Ff8KF68uvgoCIEJkZ1cenwdwM3lAXmdNuDq6PnObw0S7DgZdZeGbzuK_mlkMr7AmszzQwrji5X0XK3DdIfledCTfhnu19HbP3w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID-pe3wngE=s10000"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 5386,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2263
+        },
+        {
+          "stars": 4,
+          "count": 1519
+        },
+        {
+          "stars": 3,
+          "count": 733
+        },
+        {
+          "stars": 2,
+          "count": 304
+        },
+        {
+          "stars": 1,
+          "count": 567
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 693,
+          "positive": 409,
+          "negative": 180,
+          "neutral": 104,
+          "category_token": "8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 748,
+          "positive": 530,
+          "negative": 119,
+          "neutral": 99,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 389,
+          "positive": 98,
+          "negative": 226,
+          "neutral": 65,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 1151,
+          "positive": 735,
+          "negative": 355,
+          "neutral": 61,
+          "category_token": "thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 1245,
+          "positive": 770,
+          "negative": 365,
+          "neutral": 110,
+          "category_token": "uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        },
+        {
+          "name": "\u9910\u996e",
+          "description": "Food and Beverage",
+          "total_mentioned": 268,
+          "positive": 172,
+          "negative": 71,
+          "neutral": 25,
+          "category_token": "-cixIHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq47KXSya8XLoOAC_OEOg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=-cixIHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoq47KXSya8XLoOAC_OEOg&engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Pet-friendly",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI_uSzq8ii9NOqARoLL2cvMXRmem1sdGgQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u6d1b\u6749\u77f6\u673a\u573a\u4e07\u8c6a\u9152\u5e97",
+      "link": "https://www.marriott.com/en-us/hotels/laxap-los-angeles-airport-marriott/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+      "property_token": "ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9460662,
+        "longitude": -118.3844208
+      },
+      "check_in_time": "16:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$205",
+        "extracted_lowest": 205,
+        "before_taxes_fees": "US$179",
+        "extracted_before_taxes_fees": 179
+      },
+      "total_rate": {
+        "lowest": "US$205",
+        "extracted_lowest": 205,
+        "before_taxes_fees": "US$179",
+        "extracted_before_taxes_fees": 179
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 16%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Airport Blvd/Century Blvd",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "11\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "31\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "JW Steakhouse",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPLK2sSnG0ULC34tycnjAXEmPZdFPTsKJyZ8cIj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPLK2sSnG0ULC34tycnjAXEmPZdFPTsKJyZ8cIj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNfMj8vJm4v1AAxVgIx4JERBCyCtGDvh6UlJXcz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNfMj8vJm4v1AAxVgIx4JERBCyCtGDvh6UlJXcz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/6cnIl1F3to65VNI3pZIO-71fcRMjowLg4jn-FPDZ99q85BII-Wwwv8LJHRe13PY3lqRPDCaMD4fFnDp36sP1ys9q8rPexIhBZh-SY-6VER9XrFJIkRZOh8kOHQdXrSBGVZwijbOVmJj52dgh_60dNgO9nIHPVdk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/198990/198990a_hb_r_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepyiZiN48iaTeoAJWyoIKsH5WUDjSTsb_PsZDAwWL_No7RCh5jSyCO1ADTqT0xtIgJPylvAdwTIMM0wTQaXFZ_37hf0ygO1hMmkipUG3ZMtLJ20I2yMpj3zwI7Y9MwndxiH81es=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICZv6_mVA=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/oBFyIYLZ5SDtoK9JKdHZdv4YUhf9vya5aVmASmUm4iOwVn8XVvTkhmctK-JLX2W1Ka3sWXXPjtDhAa4h9vPUf_3UF71KA1PDAWPDU2NXONYpqsqGmm_uUhNzJV2MesYc4XFWQhhv_j4YcYurLf6ozlSqaH2Vh80=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/198990/198990a_hb_w_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM2bQmYVrrD_alPVVQcNtulwLaZIaVpFtr-OueH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM2bQmYVrrD_alPVVQcNtulwLaZIaVpFtr-OueH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKC6IqSQxNNPtZlZ-EcSGb86WIhrnTPvwNpVKX3XMsMkhZnZOP9KTB4VuvYnTq-OffRzN576iSvXGArwQ4Jy1PpMKWFc3ydW8bdqVmGJK2EUiS3sXBwRnEUkfOSI15lj2_k9fh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC72rnxBw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwernDY_0arbiBXztc4qO6ci8ak7a3WQIqbNrliayrsy_BDimbMlVnwVH7CQ12Dn2suwCVJUDMrLczYea9F5mLc5yiWp_TYf33xK8dcPcN3OBQ5xc6YwcSvO-uzNzr37jx9jwbomG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICmloPPaw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0RtYcBOKBGACVwjdH4HDWakp1-Mb_rvlSWcOs8Ws-VCTe07xFymdKcqRMzPcVbDsbePMfyP7KY648HAqAi-1sRkdczlOxUYMtr7qP6j2LFSFxDWA300TAicC5SVu3LHNSIdjp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICcnMmpLg=s10000"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 6762,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3659
+        },
+        {
+          "stars": 4,
+          "count": 1817
+        },
+        {
+          "stars": 3,
+          "count": 624
+        },
+        {
+          "stars": 2,
+          "count": 257
+        },
+        {
+          "stars": 1,
+          "count": 405
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 749,
+          "positive": 498,
+          "negative": 128,
+          "neutral": 123,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        },
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 420,
+          "positive": 325,
+          "negative": 64,
+          "neutral": 31,
+          "category_token": "C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 566,
+          "positive": 205,
+          "negative": 279,
+          "neutral": 82,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        },
+        {
+          "name": "\u9152\u5427",
+          "description": "Bar or lounge",
+          "total_mentioned": 403,
+          "positive": 285,
+          "negative": 74,
+          "neutral": 44,
+          "category_token": "iS-K13ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjspetk55OWA4A9sMPSw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=iS-K13ica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirjspetk55OWA4A9sMPSw&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 837,
+          "positive": 624,
+          "negative": 116,
+          "neutral": 97,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 1418,
+          "positive": 1038,
+          "negative": 312,
+          "neutral": 68,
+          "category_token": "HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ&engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Wi-Fi ($)",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChYIrufHwpiC4MFkGgovbS8wbXg1Z2g2EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Studio 6 Suites Los Angeles, CA - Los Angeles - LAX",
+      "link": "https://www.studio6.com/en/home/motels.la.losangeles.7329.html?lid=Local_Milestone&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my%20business&utm_medium=organic%20listing&utm_campaign=visit%20website&utm_content=global",
+      "property_token": "ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.945938,
+        "longitude": -118.367185
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$83",
+        "extracted_lowest": 83,
+        "before_taxes_fees": "US$72",
+        "extracted_before_taxes_fees": 72
+      },
+      "total_rate": {
+        "lowest": "US$83",
+        "extracted_lowest": 83,
+        "before_taxes_fees": "US$72",
+        "extracted_before_taxes_fees": 72
+      },
+      "nearby_places": [
+        {
+          "name": "Century / Felton",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "37\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Casa Gami\u00f1o Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOxnav__3bzLDyn-Mi4stvLo6dp_gJYIex6uBNb=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOxnav__3bzLDyn-Mi4stvLo6dp_gJYIex6uBNb=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOMbqjwYaYeK_VxcJSafre5Pr0a35ws2CHHGqat=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOMbqjwYaYeK_VxcJSafre5Pr0a35ws2CHHGqat=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOTREz-_pkL7l6o0ZgZVTx5L7rg0-99C-R6Yadq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOTREz-_pkL7l6o0ZgZVTx5L7rg0-99C-R6Yadq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMZXVlSvg9FO1_hh1Rf4iIFBd4445Gq9zIsVUKj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMZXVlSvg9FO1_hh1Rf4iIFBd4445Gq9zIsVUKj=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNkdhBmj4k0XyXwBQOzGeqtQxfWmYghw3On5RIz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNkdhBmj4k0XyXwBQOzGeqtQxfWmYghw3On5RIz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7wzDp2FqmxJjYtbwaAOBxA3r1g5LJ_62lnYde=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO7wzDp2FqmxJjYtbwaAOBxA3r1g5LJ_62lnYde=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/4xunzjbpTypCj5Eubf4drxOOdAf6UA6n2Je9acHEhivWJo9USpc4Yiy-JZ6Jz6cgvZGYRB7Ndd5Xahu0lsQc1fqm7fP2NY6npMY6JLvsgsBzURn-EPnoAqwIMs-Jizrj6SfbSIo4Xdu8cu5VMfnxUq9S8QN0COo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KADeOYQYFAJOD7SyUJOJBa34KLnpsOJQ"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/jykfwZqEVyS5dm-MJS2TvbIW0cOjXva2hnQWso4s0NNM2VugYGIbRKrDqRqPkrZT6rc4HiU5JKPWDpkb_1k9zC3u2ReupIfbG132jbXFUOMcRv1uwWR7e8aZdpP--DlGWGA3fWQbI0dJen0synVtkid9pI8-jA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://i.giatamedia.com/m.php?m=AQABAAAAla4KADuOYQYFAJauXlG68Xcid7XtJ4D06zs"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/oZk6H1NN9XYDxJe3wzOh1o8wn5kSsakMySf-cz8DFpcjDdZpjFjhf7BzkFErxVUjEv65qjw_lBAxeRFP4UE6BZw08dhSylggHZu3DlIaxolDYyJ56PHJ3qmYy3MU5vLyqLP0HBVyelxCMuLPCmtqmdyRZ5TFwgU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/9a/db/9adb09e9fe9fb39a35788893a1021cb04d16d283.jpeg"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 718,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 492
+        },
+        {
+          "stars": 4,
+          "count": 116
+        },
+        {
+          "stars": 3,
+          "count": 50
+        },
+        {
+          "stars": 2,
+          "count": 21
+        },
+        {
+          "stars": 1,
+          "count": 39
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 64,
+          "positive": 44,
+          "negative": 6,
+          "neutral": 14,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 95,
+          "positive": 72,
+          "negative": 9,
+          "neutral": 14,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 345,
+          "positive": 308,
+          "negative": 28,
+          "neutral": 9,
+          "category_token": "HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        },
+        {
+          "name": "\u5b89\u5168",
+          "description": "Safety",
+          "total_mentioned": 29,
+          "positive": 17,
+          "negative": 12,
+          "neutral": 0,
+          "category_token": "OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        },
+        {
+          "name": "\u5ba0\u7269",
+          "description": "Pets",
+          "total_mentioned": 7,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "aoclznica1yRnFiSmp5fVDl5SUBqSTHDsqfrFjzvXAkAjmgMTQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=aoclznica1yRnFiSmp5fVDl5SUBqSTHDsqfrFjzvXAkAjmgMTQ&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 28,
+          "positive": 9,
+          "negative": 16,
+          "neutral": 3,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Pet-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI7vDA3Z2z3oHYARoNL2cvMTF2MHgzcHoxdhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "LA Adventure Hotel",
+      "link": "https://www.laadventureinglewood.com/",
+      "property_token": "ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9451965,
+        "longitude": -118.34886009999998
+      },
+      "check_in_time": "14:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$75",
+        "extracted_lowest": 75,
+        "before_taxes_fees": "US$65",
+        "extracted_before_taxes_fees": 65
+      },
+      "total_rate": {
+        "lowest": "US$75",
+        "extracted_lowest": 75,
+        "before_taxes_fees": "US$65",
+        "extracted_before_taxes_fees": 65
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 22%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Century / Freeman",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "18\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "37\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Pardon My Cheesesteak",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/ApNTT9gvZm6qQk9kPo5vN4hMx-VHs3x0VxHzB3aVv19SN7-pH0ja01wqU761XBGqdhPWGhAfGStqF8IUOKxOG_Ecn-0ohoEtOjKyk_FCT3a6Xq-_j5BSXDxrzHKicxIPIucHMSz5PNdhm2byquePYqA9_NIxPA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/10000/7900/7889/ae8b5de7_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/VD4BbezNCckXqTvQq9G4WjEhmfTEycsN19q44wf1zgPN09RL6wPbY7P8xbeWcNgo9Am-eNVDgjJ4a9GjdUgOmB-ej9ksIpq0mii7SiFYMz3CXJeJ9M5p_scv2oiR2SEJGSvFJ1n9lN0XX-KrU0OGDguaWpykVw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/316540/316540a_hb_a_021.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep4td7pYjeMuCN_She03WCgykgfdC5kvlQzPFMFsfxR0KWA709sOqQwe8_MgYkTNwV5sKm-07gCMMHSYYTFylMtzJZbt02wg3dd2vMH8BwZMHy4Cm83uoCZQTzhmOYsWBjVn-0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDs7paCIg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoz1y6xUtroknRbgXktoqEgKJUtV3rfYV0wftRohGX3HUnesgwnuOdrdmm1C63WVKi4iqkf4zDC6HZ8Qi-fnz4nc25UMgKXCB_EuRG-pP3KWl-JGWWqzKvd12zXArxdfP8pKIW0ow=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgICz7s2E3AE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/G2p5TC4zTIPV2MwFxLjGi0G1CvgliQaOtZfI9a2YMcN1FBQ-2Ymx4C3i43My9eOGENcRSO6XyQLrIH9g_tKmWv_hXlRLycgZxsutuPbapIx33kGM7FgE71_jqkRlbJknZq4R1pRgHbKUQLfpbasla-3FOsCtOA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/316540/316540a_hb_a_011.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/b0pZjwFdYuN-7C_p77RzuXqm6AA26RV3DvCpz-tfCDL3UZe7q7S_BMsF8VFWc50awNvtGjRuoF5dDJ4-Zzl9oSaMP7mmIs97wDqpN8d_N60PsUM6IegZEpsag-TPOBiKCYxQfaoLKqAP7_6QG7za0c6evIycEQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/88/aa/e2/los-angeles-adventurers.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/WSc6xslaE913uCQ39NyjQQUZyrtaWYSh5luP96AIlBwMMN9xXf4pqmMgNRtnhWUcPRWIxWr65PKo9W0jS8bI9NNYdKin0Pw0bIsLwrFHjH7LLMlHzq99_nCD9UaMKd77Jv9rOCy9XrUCRWRSPqHcKUGwN-73HNg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/ea/f6/84/20180129-161445-largejpg.jpg?w=1000&h=800&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/D07KgiqMGv0TPYarXg04od_oGQjBicUkDjTImrNLuvBw2auH0KGWPQtVVScP4AO1BbERnVANyC6ADOqKI9i0IpChsZPTMn6PaJn7BT3IuwrGRiL5qJgNBCZYDIcWkQuabBit4ZLKzZneSs5Ytvfol269reGkPA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/316540/316540a_hb_w_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/J7uKghWiTUj3tlFsFx2kQdLJqSPvChL0FOTfbwVGOfYZYf6ILxI8ENnoGhx5m7IvjuupZAzwafA6RvpD4378qeg_S7WUBgmi4s0lHTSlZnJipt8E_osOvSrwPBeBlSpQJGzim8q_xrzgEg4YL6P9YAOUWOgyjA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/316540/316540a_hb_a_022.jpg"
+        }
+      ],
+      "overall_rating": 2.5,
+      "reviews": 1359,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 289
+        },
+        {
+          "stars": 4,
+          "count": 162
+        },
+        {
+          "stars": 3,
+          "count": 157
+        },
+        {
+          "stars": 2,
+          "count": 129
+        },
+        {
+          "stars": 1,
+          "count": 622
+        }
+      ],
+      "location_rating": 4.2,
+      "reviews_breakdown": [
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 107,
+          "positive": 43,
+          "negative": 51,
+          "neutral": 13,
+          "category_token": "JTdWcXica1yRnFiSmp5fVDl5uVtmSV5qcTHDsqeNS1_sWg0AsIkNnA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JTdWcXica1yRnFiSmp5fVDl5uVtmSV5qcTHDsqeNS1_sWg0AsIkNnA&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        },
+        {
+          "name": "\u9152\u5427",
+          "description": "Bar or lounge",
+          "total_mentioned": 57,
+          "positive": 25,
+          "negative": 24,
+          "neutral": 8,
+          "category_token": "nCJZhnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDspetk55OWA4A9rsPSg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nCJZhnica1yRnFiSmp5fVDl5rVNikUJ-kUJOfmleeirDspetk55OWA4A9rsPSg&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        },
+        {
+          "name": "\u5b89\u5168",
+          "description": "Safety",
+          "total_mentioned": 98,
+          "positive": 7,
+          "negative": 81,
+          "neutral": 10,
+          "category_token": "LjUw8Xica1yRnFiSmp5fVDl5WXBiWmpJJdOyp-s6n7auAACkXg0D",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=LjUw8Xica1yRnFiSmp5fVDl5WXBiWmpJJdOyp-s6n7auAACkXg0D&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        },
+        {
+          "name": "\u6e38\u6cf3\u6c60",
+          "description": "Pool",
+          "total_mentioned": 49,
+          "positive": 31,
+          "negative": 10,
+          "neutral": 8,
+          "category_token": "EYiJSHica1yRnFiSmp5fVDl5SUB-fg7jymc7djzbvPnZxgUAuhgO3A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=EYiJSHica1yRnFiSmp5fVDl5SUB-fg7jymc7djzbvPnZxgUAuhgO3A&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        },
+        {
+          "name": "\u9002\u5408\u5bb6\u5ead",
+          "description": "Family friendly",
+          "total_mentioned": 54,
+          "positive": 6,
+          "negative": 43,
+          "neutral": 5,
+          "category_token": "kAgLH3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJdOalw1NTyd0PF237emutQCLEBTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kAgLH3ica1yRnFiSmp5fVDl5vVtibmZOpUJaUWZqXkpOJdOalw1NTyd0PF237emutQCLEBTU&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 92,
+          "positive": 12,
+          "negative": 72,
+          "neutral": 8,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Airport shuttle",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIsfK15YSI-YH2ARoML2cvMXB0eTB4bHl3EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Skyways Hotel",
+      "link": "https://www.skywayshotellosangeles.com/",
+      "property_token": "ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.952523899999996,
+        "longitude": -118.38508309999999
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$96",
+        "extracted_lowest": 96,
+        "before_taxes_fees": "US$84",
+        "extracted_before_taxes_fees": 84
+      },
+      "total_rate": {
+        "lowest": "US$96",
+        "extracted_lowest": 96,
+        "before_taxes_fees": "US$84",
+        "extracted_before_taxes_fees": 84
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 20%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Westchester/Airport",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "1\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "29\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u7b2c96\u8857\u5c0f\u9152\u9928",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO75y42uLXD10TyP0-VH7kMzWr8oRbUP5JBOUcq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO75y42uLXD10TyP0-VH7kMzWr8oRbUP5JBOUcq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOJxv4mYpkA-1MZNa34Ux6tJvuB_7rBasOf0cDg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOJxv4mYpkA-1MZNa34Ux6tJvuB_7rBasOf0cDg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMMoVI2jmKJCka2Q1-ele7-7CLmUuqV69g0JPMO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMMoVI2jmKJCka2Q1-ele7-7CLmUuqV69g0JPMO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMZTs41_C6VwaELYmq0szQcdNauit_uhJUZ3tdT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMZTs41_C6VwaELYmq0szQcdNauit_uhJUZ3tdT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoeYlMRFTTzzBoZVAoJi1sEdNqIzIU_bzIO31emlmPXBCtC6aGlgn8eSDf50Npf1SBbX9PsbIqr0Ws_rQvleC49DOsaLw30HeVNtGNCXiJlnGN4_SVEcrpfAnAQ1UxYi9JAlEPM1w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDFyLer8AE=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/yqv3giCyB2lUQZ1lXSCJALiXTrDjjEOmkQoxRB-6E4l8Dl9vzuIkLLgs5Y4un2fqof-_ZbTuXvZHgg-3n5p_Gtm1ae8vuIBH91vhdl4ocOHkdQpT1IMLLnNCsCisJIQYVjt9ACo16KFsqVOsw7o8ge1xYXnP2cU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/130000/123100/123048/851701d6_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOcT2hjxDebACSSIx6cl2SgSSGhaeerwggAnf3X=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOcT2hjxDebACSSIx6cl2SgSSGhaeerwggAnf3X=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOk-1Qx8Iiq3YrjVBjDzFs4VKGNTXhzOSeU7Vrn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOk-1Qx8Iiq3YrjVBjDzFs4VKGNTXhzOSeU7Vrn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWMQrGqBbU3UJFoVqwo_vj4aUK6fmhEozlEwieQP8beJVJJREDpmF15mOm4b7z7h2ic8USmQzZJsncGyu3i6BX2fcQ3tBCBjGhMqZs2QCSDlz5IrPHdUy-UPrD_h0ZjlsZvPzJWFzTmvnf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhDlxOVDKo6UCq7fVEiitngk=s10000"
+        }
+      ],
+      "overall_rating": 3.6,
+      "reviews": 196,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 69
+        },
+        {
+          "stars": 4,
+          "count": 47
+        },
+        {
+          "stars": 3,
+          "count": 34
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 26
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 49,
+          "positive": 34,
+          "negative": 3,
+          "neutral": 12,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 60,
+          "positive": 44,
+          "negative": 5,
+          "neutral": 11,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        },
+        {
+          "name": "\u7761\u7720",
+          "description": "Sleep",
+          "total_mentioned": 35,
+          "positive": 18,
+          "negative": 14,
+          "neutral": 3,
+          "category_token": "dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        },
+        {
+          "name": "\u6e05\u6d01\u670d\u52a1",
+          "description": "Cleanliness",
+          "total_mentioned": 45,
+          "positive": 32,
+          "negative": 11,
+          "neutral": 2,
+          "category_token": "kW5uxXica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx45pnO1qfbWl8Nqf3addCAE2cE0E",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kW5uxXica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx45pnO1qfbWl8Nqf3addCAE2cE0E&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 54,
+          "positive": 33,
+          "negative": 17,
+          "neutral": 4,
+          "category_token": "uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        },
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 16,
+          "positive": 5,
+          "negative": 11,
+          "neutral": 0,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI2qDF-cWusI_hARoNL2cvMTFxczhqeHpsaxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "\u4e9a\u7f8e\u5229\u5361\u5ef6\u4f4f\u9152\u5e97 - \u6d1b\u6749\u77f6 - \u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a - \u57c3\u5c14\u585e\u8d21\u591a",
+      "link": "https://www.extendedstayamerica.com/hotels/ca/los-angeles/lax-airport-el-segundo?channel=gmb-listing&utm_source=google&utm_medium=organic&utm_campaign=gmb_listing",
+      "property_token": "ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9232295,
+        "longitude": -118.39493019999999
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$106",
+        "extracted_lowest": 106,
+        "before_taxes_fees": "US$95",
+        "extracted_before_taxes_fees": 95
+      },
+      "total_rate": {
+        "lowest": "US$106",
+        "extracted_lowest": 106,
+        "before_taxes_fees": "US$95",
+        "extracted_before_taxes_fees": 95
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 20%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "Pacific Coast Hwy / Mariposa",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "12\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPImjWXbSa4A4MPOpdZIRJOaj6PjDn-Coa3WUu0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPImjWXbSa4A4MPOpdZIRJOaj6PjDn-Coa3WUu0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMcAGXD1fVMqDkSnGry0Q6z_akAXCxjW-PoXQSm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMcAGXD1fVMqDkSnGry0Q6z_akAXCxjW-PoXQSm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPGiCa3aFTpeGRyCf3bU3G5lWE8_foErKT7HegX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPGiCa3aFTpeGRyCf3bU3G5lWE8_foErKT7HegX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMH6LcLZgSans9R5miSM7zXmRD1qUt6Mg5vW-b9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMH6LcLZgSans9R5miSM7zXmRD1qUt6Mg5vW-b9=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM0bS_ZJ0-NMJvKo-gwSwk4ajOMUFpEbpEZcD19=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipM0bS_ZJ0-NMJvKo-gwSwk4ajOMUFpEbpEZcD19=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPdh1h2bu5w-dhnqCmEbJkX9VHEGvj5Adgg17W7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPdh1h2bu5w-dhnqCmEbJkX9VHEGvj5Adgg17W7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN1Bmr_aFsy-LwDi_-DRM6vAy_t6MDRlEnPney3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN1Bmr_aFsy-LwDi_-DRM6vAy_t6MDRlEnPney3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOBlUFjm6cTkjzkdp69A5QOlryrVsyxNcwjcNWR=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOBlUFjm6cTkjzkdp69A5QOlryrVsyxNcwjcNWR=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7lOY8LdnP1ObZfX6klVhlP8SORuMcKP6YKN8p=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO7lOY8LdnP1ObZfX6klVhlP8SORuMcKP6YKN8p=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 631,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 272
+        },
+        {
+          "stars": 4,
+          "count": 129
+        },
+        {
+          "stars": 3,
+          "count": 87
+        },
+        {
+          "stars": 2,
+          "count": 51
+        },
+        {
+          "stars": 1,
+          "count": 92
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 168,
+          "positive": 108,
+          "negative": 54,
+          "neutral": 6,
+          "category_token": "thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        },
+        {
+          "name": "\u6e05\u6d01\u670d\u52a1",
+          "description": "Cleanliness",
+          "total_mentioned": 118,
+          "positive": 57,
+          "negative": 58,
+          "neutral": 3,
+          "category_token": "0bP1gHica1yRnFiSmp5fVDl5tXNOamJeTmZeanExw5pnO1qfbWl8Nqf3addCAE2OE0A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=0bP1gHica1yRnFiSmp5fVDl5tXNOamJeTmZeanExw5pnO1qfbWl8Nqf3addCAE2OE0A&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 141,
+          "positive": 69,
+          "negative": 58,
+          "neutral": 14,
+          "category_token": "uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 93,
+          "positive": 69,
+          "negative": 12,
+          "neutral": 12,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        },
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 50,
+          "positive": 5,
+          "negative": 41,
+          "neutral": 4,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        },
+        {
+          "name": "\u7761\u7720",
+          "description": "Sleep",
+          "total_mentioned": 64,
+          "positive": 20,
+          "negative": 42,
+          "neutral": 2,
+          "category_token": "G5xByXica1yRnFiSmp5fVDl5aXBOamoB07Lncxc-n7MAAJjzDKk",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=G5xByXica1yRnFiSmp5fVDl5aXBOamoB07Lncxc-n7MAAJjzDKk&engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Air conditioning",
+        "Pet-friendly",
+        "Kitchen",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI-quika3tw8ESGgwvZy8xaG01azA0MjcQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u6d1b\u6749\u77f6 - \u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a\u5047\u65e5\u9152\u5e97",
+      "link": "https://www.ihg.com/holidayinn/hotels/us/en/los-angeles/laxia/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-LAXIA",
+      "property_token": "ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.946200999999995,
+        "longitude": -118.37091900000001
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "12:00",
+      "rate_per_night": {
+        "lowest": "US$163",
+        "extracted_lowest": 163,
+        "before_taxes_fees": "US$140",
+        "extracted_before_taxes_fees": 140
+      },
+      "total_rate": {
+        "lowest": "US$163",
+        "extracted_lowest": 163,
+        "before_taxes_fees": "US$140",
+        "extracted_before_taxes_fees": 140
+      },
+      "nearby_places": [
+        {
+          "name": "Century / La Cienega",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "13\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "32\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Mariella\u2019s Tacos",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNaIwuGmvVDm9oLxgffPsLAtqXtP_BFiWmnZFSf=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNaIwuGmvVDm9oLxgffPsLAtqXtP_BFiWmnZFSf=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMNEojW_6wz8daXlXNhvnQueNAkELQdxEanXWfU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMNEojW_6wz8daXlXNhvnQueNAkELQdxEanXWfU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN7x-WX7f_DAO7G8fB4QSH8zqd06ZPw67Ke33qN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN7x-WX7f_DAO7G8fB4QSH8zqd06ZPw67Ke33qN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPu4kw6BSL4-GsKE75Uuvh8NuyL-3BaGZdS_lYB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPu4kw6BSL4-GsKE75Uuvh8NuyL-3BaGZdS_lYB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7C60TKgyuSmr5yTuHUJ0XnNlsQ0jcsXFBrzHN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO7C60TKgyuSmr5yTuHUJ0XnNlsQ0jcsXFBrzHN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMy2CE6_suc99ot48sEAtc3mN_QVzYWF_Tyc8kp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMy2CE6_suc99ot48sEAtc3mN_QVzYWF_Tyc8kp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOwmAQRcugMQffyTW1_EbWmVE_jaEsPqOd_zalq=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOwmAQRcugMQffyTW1_EbWmVE_jaEsPqOd_zalq=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvg8khAcmReBiuQXgKwWcOsrEkevRFdUrfzweM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOvg8khAcmReBiuQXgKwWcOsrEkevRFdUrfzweM=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPP-J-7LqCgxtl3qSPyl_-lDUIa3tsGanFc0bKD=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPP-J-7LqCgxtl3qSPyl_-lDUIa3tsGanFc0bKD=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 4883,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1774
+        },
+        {
+          "stars": 4,
+          "count": 1244
+        },
+        {
+          "stars": 3,
+          "count": 864
+        },
+        {
+          "stars": 2,
+          "count": 418
+        },
+        {
+          "stars": 1,
+          "count": 583
+        }
+      ],
+      "location_rating": 4.1,
+      "reviews_breakdown": [
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 551,
+          "positive": 298,
+          "negative": 158,
+          "neutral": 95,
+          "category_token": "8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 662,
+          "positive": 413,
+          "negative": 144,
+          "neutral": 105,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 1149,
+          "positive": 686,
+          "negative": 395,
+          "neutral": 68,
+          "category_token": "thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 354,
+          "positive": 57,
+          "negative": 246,
+          "neutral": 51,
+          "category_token": "ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ktbF4nica1yRnFiSmp5fVDl5eUBiUXZmXjrTsqeNc17sXQYAr-wNgw&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        },
+        {
+          "name": "\u65e9\u9910",
+          "description": "Breakfast",
+          "total_mentioned": 269,
+          "positive": 114,
+          "negative": 118,
+          "neutral": 37,
+          "category_token": "jrBeNnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcOyZ9NXvlwyAQDIXA5A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jrBeNnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCcOyZ9NXvlwyAQDIXA5A&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        },
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 311,
+          "positive": 42,
+          "negative": 240,
+          "neutral": 29,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI09bUqvnU56SjARoLL2cvMXRnOXN6MGcQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Quality Inn & Suites Los Angeles Airport - Stadium District",
+      "link": "https://www.choicehotels.com/california/inglewood/quality-inn-hotels/ca063?mc=llgoxxpx",
+      "property_token": "ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.944914,
+        "longitude": -118.364546
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$105",
+        "extracted_lowest": 105,
+        "before_taxes_fees": "US$92",
+        "extracted_before_taxes_fees": 92
+      },
+      "total_rate": {
+        "lowest": "US$105",
+        "extracted_lowest": 105,
+        "before_taxes_fees": "US$92",
+        "extracted_before_taxes_fees": 92
+      },
+      "nearby_places": [
+        {
+          "name": "Century / Felton",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "33\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Lalos Mariscos Seafood, Mexican and Italian Cusine",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN6co0ndqWQPpm07K5yx60e08-tpFf4kVlzhaKN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN6co0ndqWQPpm07K5yx60e08-tpFf4kVlzhaKN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPf9b_CKhNOFZr39IgiMy4ZAGGK7KGc35PGF64H=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPf9b_CKhNOFZr39IgiMy4ZAGGK7KGc35PGF64H=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPwD1fA_6QwbQR5WAn43mMzf3Irh5Oyrbk7o5EF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPwD1fA_6QwbQR5WAn43mMzf3Irh5Oyrbk7o5EF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOormQOC3OGzrXpwsmu5PvLuhcr7L9QuIVSasSt=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOormQOC3OGzrXpwsmu5PvLuhcr7L9QuIVSasSt=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTVpM7BFgfLMpB3XSMHjCoTDAabNjqA7dcQv9SD2if1njQfQt8jloT6ZAa7rxnAA1CkfbOW_PKpd813w9uUeQ0qDebhff-GgFSdjVt44f5Ti6Mz9r6Bp1GDGsSv3W7elUajWCE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDa_MvEGA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIV9H2pGs86kRhs6uj7-TwmyxwHw1iHCANvWIO=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNIV9H2pGs86kRhs6uj7-TwmyxwHw1iHCANvWIO=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNVJq2iYnyWEl1zdpKAveIGKrVaVJYu54uyZFMg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNVJq2iYnyWEl1zdpKAveIGKrVaVJYu54uyZFMg=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/MnDbEmtNu5_VaTB_Jcfe8t-5vGI8GvUSGfzUpH7hL8PEdefY9fMRYmcsj7mhIpraODCkiDqKwxxm41o23wba2znnk2Dv4lftAadNUk99kmXt5ikSAhW8DU1voYEA5iMldFKuohZVKgSQt48cA09_CFs8Vf2Dog=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/3/0/49/88/110/p_0008_P.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNJKbh-iZOMTORon9jhovoQy0wPG8wcIvqmXckm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNJKbh-iZOMTORon9jhovoQy0wPG8wcIvqmXckm=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 1283,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 453
+        },
+        {
+          "stars": 4,
+          "count": 361
+        },
+        {
+          "stars": 3,
+          "count": 219
+        },
+        {
+          "stars": 2,
+          "count": 99
+        },
+        {
+          "stars": 1,
+          "count": 151
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "\u65e9\u9910",
+          "description": "Breakfast",
+          "total_mentioned": 139,
+          "positive": 106,
+          "negative": 23,
+          "neutral": 10,
+          "category_token": "ApJDSXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeOyZ9NXvlwyAQDIZA5B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ApJDSXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeOyZ9NXvlwyAQDIZA5B&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        },
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 121,
+          "positive": 84,
+          "negative": 27,
+          "neutral": 10,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        },
+        {
+          "name": "\u9910\u5385",
+          "description": "Restaurant",
+          "total_mentioned": 51,
+          "positive": 42,
+          "negative": 6,
+          "neutral": 3,
+          "category_token": "KbB9VHica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjspdLJjztawUA188Oqg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=KbB9VHica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjspdLJjztawUA188Oqg&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 175,
+          "positive": 124,
+          "negative": 30,
+          "neutral": 21,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 70,
+          "positive": 29,
+          "negative": 34,
+          "neutral": 7,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        },
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 28,
+          "positive": 10,
+          "negative": 16,
+          "neutral": 2,
+          "category_token": "GnXjhHica1yRnFiSmp5fVDl5uVtmSV5qcTHTsqeNS1_sWg0AsJkNng",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GnXjhHica1yRnFiSmp5fVDl5uVtmSV5qcTHTsqeNS1_sWg0AsJkNng&engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Pools",
+        "Hot tub",
+        "Air conditioning",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIw72chuufxbjtARoLL2cvMXRobG5iOGMQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "\u970d\u5229\u514b\u96f7\u65af\u7279\u9152\u5e97 - \u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+      "link": "https://www.hollycrestinglewood.com/",
+      "property_token": "ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9458111,
+        "longitude": -118.34499330000001
+      },
+      "check_in_time": "14:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$50",
+        "extracted_lowest": 50,
+        "before_taxes_fees": "US$43",
+        "extracted_before_taxes_fees": 43
+      },
+      "total_rate": {
+        "lowest": "US$50",
+        "extracted_lowest": 50,
+        "before_taxes_fees": "US$43",
+        "extracted_before_taxes_fees": 43
+      },
+      "nearby_places": [
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "38\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Cork & Batter",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOgKYd2OjYVGcYyT8rYrWkIA1NimzHwCUbsbwC8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOgKYd2OjYVGcYyT8rYrWkIA1NimzHwCUbsbwC8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO6UuAne_0vBUpuso7LijGl9WNEh94EMlNdkb0M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO6UuAne_0vBUpuso7LijGl9WNEh94EMlNdkb0M=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweosLKbLcOaR95JxUvsaAk_g-k9zrxnSmk_x9RY-0YQaXNnUwxa55Vipwv3dGdmOQC6MsTyIiXHBINNJ7U-bC8iI56DW_h_6IWC4ssg4-5kqlztwbDUcIkPz16ijeYQ38vCuMGpX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDZz-GN8QE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMCDE7JVvqi-djEwE78bcG6MA5-dQGs9PKO6T66=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMCDE7JVvqi-djEwE78bcG6MA5-dQGs9PKO6T66=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOJsZ8gAGpy1ucNLLgLoaeko0eAD9Z42OCci_ZZ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOJsZ8gAGpy1ucNLLgLoaeko0eAD9Z42OCci_ZZ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPFa6WWQOjIDm01LbqUS9V-yJATyOWxG3SkMOkC=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPFa6WWQOjIDm01LbqUS9V-yJATyOWxG3SkMOkC=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbH7K2-nt8J567ATaIMelOoQiS4bW1vB8_6dZn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPbH7K2-nt8J567ATaIMelOoQiS4bW1vB8_6dZn=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO0VcAVO6bJK4pCpKzVpt65asMDcSk-uGsWbZP1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipO0VcAVO6bJK4pCpKzVpt65asMDcSk-uGsWbZP1=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNvXgxuCZ9BR4OkSF9EJcMtwKyqRUsFn6q3tqeL=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNvXgxuCZ9BR4OkSF9EJcMtwKyqRUsFn6q3tqeL=s10000"
+        }
+      ],
+      "overall_rating": 2.7,
+      "reviews": 242,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 56
+        },
+        {
+          "stars": 4,
+          "count": 27
+        },
+        {
+          "stars": 3,
+          "count": 43
+        },
+        {
+          "stars": 2,
+          "count": 20
+        },
+        {
+          "stars": 1,
+          "count": 96
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 58,
+          "positive": 12,
+          "negative": 34,
+          "neutral": 12,
+          "category_token": "ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ZjU2lnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmox07JnW7c8XbcEAJ52E_M&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        },
+        {
+          "name": "\u7761\u7720",
+          "description": "Sleep",
+          "total_mentioned": 31,
+          "positive": 5,
+          "negative": 25,
+          "neutral": 1,
+          "category_token": "G5xByXica1yRnFiSmp5fVDl5aXBOamoB07Lncxc-n7MAAJjzDKk",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=G5xByXica1yRnFiSmp5fVDl5aXBOamoB07Lncxc-n7MAAJjzDKk&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        },
+        {
+          "name": "\u5b89\u5168",
+          "description": "Safety",
+          "total_mentioned": 9,
+          "positive": 1,
+          "negative": 7,
+          "neutral": 1,
+          "category_token": "OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=OnfjAHica1yRnFiSmp5fVDl5WXBiWmpJJcOyp-s6n7auAACkTg0B&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 24,
+          "positive": 15,
+          "negative": 4,
+          "neutral": 5,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        },
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 7,
+          "positive": 3,
+          "negative": 1,
+          "neutral": 3,
+          "category_token": "8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        },
+        {
+          "name": "\u505c\u8f66",
+          "description": "Parking",
+          "total_mentioned": 8,
+          "positive": 3,
+          "negative": 3,
+          "neutral": 2,
+          "category_token": "kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kIJ7zXica1yRnFiSmp5fVDl5eUBiUXZmXjrDsqeNc17sXQYAr9wNgQ&engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Pet-friendly",
+        "Kitchen",
+        "Accessible"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgI6ObE5vnlw5SyARoLL2cvMXY0azZzZnMQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Travelodge by Wyndham LAX",
+      "link": "https://www.wyndhamhotels.com/travelodge/el-segundo-california/travelodge-by-wyndham-lax/overview?CID=LC:fkqqcjhla7b6gbb:9496&iata=00093796",
+      "property_token": "ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9279234,
+        "longitude": -118.396886
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$124",
+        "extracted_lowest": 124,
+        "before_taxes_fees": "US$110",
+        "extracted_before_taxes_fees": 110
+      },
+      "total_rate": {
+        "lowest": "US$124",
+        "extracted_lowest": 124,
+        "before_taxes_fees": "US$110",
+        "extracted_before_taxes_fees": 110
+      },
+      "nearby_places": [
+        {
+          "name": "Pacific Coast Hwy / Maple",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "12\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "36\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Petit Caf\u00e9",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/TVfMlRLdvkJZuL_sy8Qqgnwz6LwZXdA-y_yyTshb8XYT0sJSucb8ThqWGG4c6oTq1gvijIWENgw7ByoS_J8_GdVxcYw9S5kSvW4lYk6oXUBij4WziM4qfi86rXp5f4pN6D_b6klvbN8bb_axs0gt1hv514sxAg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/20000/19900/19832/74b067bd_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/jAfJHddXnMvTEA8ND_kSuF2YmmgVkpv6jRSguQWmTlSmmph8p9qXSo85ehrXGhEbuA_3EqXzbG5yfbuRmCpeuy0mtlJyEoH94FdSRQ5EJOTQlThawoYtMOX4T5JRbtqKoE-74Az3HP7pYFhWc7LC3XBIfUxMQQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/08/084215/084215a_hb_a_011_20251225_211143.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCm1YRsVGBByGwOaNisAk1Rk5mAC0jn6kByt4R=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNCm1YRsVGBByGwOaNisAk1Rk5mAC0jn6kByt4R=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPrK_KoanHrIh_bmX0VvNnPVIveZu3ZYihmSrsE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPrK_KoanHrIh_bmX0VvNnPVIveZu3ZYihmSrsE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMj-DybAmmI68r-pZKsT1ZVWYy5KuAeJZnqqd0Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipMj-DybAmmI68r-pZKsT1ZVWYy5KuAeJZnqqd0Q=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/SOr6u8r3RjKO4TG2NAef1oBYl64fVbIUtOqdJhbXhmWPLOaBEWqq15D8I-N4_bJyuID3iyohyftHk10ZyfDoVzWkafWYZM3AfeTBK29KZMkjfQDpBduNW-K9E5buDTOz1hJPl8PSxt2NQBqfOiS9FHx7iCpr9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/20000/19900/19832/68c4cda7_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/DaQUVtofYT_-y5j991hAW3lcL9M7wPw23ntXSec8pbegZiylNADbeLcqk-agfSIvsRMMoc3rLRQ2lHBQriVArLec2Wwturf6MqIBt43QGZ8Gq2OUZtGCTyq9yh3JNPKFDkUda8I80_nTdAocoduHURs80Cx9MuM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/08/084215/084215a_hb_p_009_20251225_211127.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqaM9vRIJxDncfgH3TmUIFGvanlVq89vblCTLnNqPpSJe-KwlcLUet_PbL-ynYx0N9RnPNCm9L1GGTXMFdejfl6Vpsm6CLSnGM0JH5kApqOcNDwBLmI8XmwOwj0afUQ8tJzBzxXrKHTmQoF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIABIhAZzQKd3ubKNxheRmFyNmu5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-R6KY5F4kOU9K89BJqVjTYITFgWyJtODzaVtqJLXKeCBdWgah3yMs8Sb8TXkiGAPH9oT-3sPl8-7xPxQq_XCUc1la-jwGpqyCVBXZ2pBu-iB-fCAkuzwI3aYhmvz7knwOce4ALg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgID7vNmL7AE=s10000"
+        }
+      ],
+      "overall_rating": 3.6,
+      "reviews": 1885,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 696
+        },
+        {
+          "stars": 4,
+          "count": 460
+        },
+        {
+          "stars": 3,
+          "count": 291
+        },
+        {
+          "stars": 2,
+          "count": 163
+        },
+        {
+          "stars": 1,
+          "count": 275
+        }
+      ],
+      "location_rating": 3.6,
+      "reviews_breakdown": [
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 442,
+          "positive": 269,
+          "negative": 150,
+          "neutral": 23,
+          "category_token": "thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=thcrPHica1yRnFiSmp5fVDl5eXBqUVlmcirDsmdzep92LQQAsCINWA&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 490,
+          "positive": 250,
+          "negative": 179,
+          "neutral": 61,
+          "category_token": "uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=uFUdyHica1yRnFiSmp5fVDl5RUBRfkFqUUklw5qn6xY969j_YmvLs10TACQuEoc&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        },
+        {
+          "name": "\u6e05\u6d01\u670d\u52a1",
+          "description": "Cleanliness",
+          "total_mentioned": 405,
+          "positive": 256,
+          "negative": 113,
+          "neutral": 36,
+          "category_token": "0bP1gHica1yRnFiSmp5fVDl5tXNOamJeTmZeanExw5pnO1qfbWl8Nqf3addCAE2OE0A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=0bP1gHica1yRnFiSmp5fVDl5tXNOamJeTmZeanExw5pnO1qfbWl8Nqf3addCAE2OE0A&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        },
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 350,
+          "positive": 221,
+          "negative": 62,
+          "neutral": 67,
+          "category_token": "8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=8xgVF3ica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJw7KnrWue7FoCAAw2EEs&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 377,
+          "positive": 265,
+          "negative": 49,
+          "neutral": 63,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        },
+        {
+          "name": "\u7761\u7720",
+          "description": "Sleep",
+          "total_mentioned": 242,
+          "positive": 87,
+          "negative": 112,
+          "neutral": 43,
+          "category_token": "dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc&engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Air conditioning",
+        "Golf",
+        "Accessible",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcI-Iev7tGL28YRGgsvZy8xdGRyeGt4MRAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Crystal Inn Suites & Spas LAX",
+      "link": "https://www.crystalinnlax.com/",
+      "property_token": "ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.933445,
+        "longitude": -118.3448468
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "12:00",
+      "rate_per_night": {
+        "lowest": "US$92",
+        "extracted_lowest": 92,
+        "before_taxes_fees": "US$80",
+        "extracted_before_taxes_fees": 80
+      },
+      "total_rate": {
+        "lowest": "US$92",
+        "extracted_lowest": 92,
+        "before_taxes_fees": "US$80",
+        "extracted_before_taxes_fees": 80
+      },
+      "nearby_places": [
+        {
+          "name": "Prairie / 111th",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "39\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Cork & Batter",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNTxl_NjOLPJHl_d62O7ka77YWOz1UqaeHFUChm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNTxl_NjOLPJHl_d62O7ka77YWOz1UqaeHFUChm=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/O7NGJh8FNKowvbE_mTFX9G5AYTS4v-514rl8nEwZhCJh1dlTEx6inI0ptP3Ka58CZa4fXo8wfN3ItN7XuquCcQwE1P1HcXLuSWlK_1jz3k4_1EJSaVC4TxkkrClj0GqzHQDLfo0ElvNb4-qwzRF0xnJdqUvk_9Lr3Ai2CYQMYg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/WBTcUA9WAL8AAAQYfeg1GQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwequoCnGN0siDlXIsNDRCmQ3iIkroRtZSkb2feNcI52o67WQKeDY_Jzk1tkj7p2pV8QuWPmMlWklEwD8wkxwrky5xPzeCm3eCXnHtVhbT3H-O6QjlbRaOT1zd1jWymsgw8-_BlFi=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDpgISinQE=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN9nSjuh1GZDxS0naGRTNi7bSV4gXhlpEJ66VjG=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN9nSjuh1GZDxS0naGRTNi7bSV4gXhlpEJ66VjG=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPQfOl_OYtARMOcBHX50U4V2jMt3PtkzEZT9L1k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPQfOl_OYtARMOcBHX50U4V2jMt3PtkzEZT9L1k=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPNjz7hyA4IcAYyyId060TfsMmnox7k3LN6z5x6=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPNjz7hyA4IcAYyyId060TfsMmnox7k3LN6z5x6=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOli0z6f_s1RPjsfAXVfcmtizTJjtQTy8JHQ9x0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOli0z6f_s1RPjsfAXVfcmtizTJjtQTy8JHQ9x0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNnQaTvxeTcdJGeGzLVnOzUaeC7GRAcCX078dFz=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNnQaTvxeTcdJGeGzLVnOzUaeC7GRAcCX078dFz=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPSc-1UzkoH_BgGZNmvphtAojfG-qKJioJBC88E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPSc-1UzkoH_BgGZNmvphtAojfG-qKJioJBC88E=s10000"
+        }
+      ],
+      "overall_rating": 3.8,
+      "reviews": 734,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 329
+        },
+        {
+          "stars": 4,
+          "count": 163
+        },
+        {
+          "stars": 3,
+          "count": 101
+        },
+        {
+          "stars": 2,
+          "count": 51
+        },
+        {
+          "stars": 1,
+          "count": 90
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "\u70ed\u6c34\u6d74\u7f38",
+          "description": "Hot tub",
+          "total_mentioned": 16,
+          "positive": 9,
+          "negative": 7,
+          "neutral": 0,
+          "category_token": "H-MsjnicASEA3v-BqGNhdGVnb3J5k6dIb3QgdHViAKzng63msLTmtbTnvLgO0RIP",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=H-MsjnicASEA3v-BqGNhdGVnb3J5k6dIb3QgdHViAKzng63msLTmtbTnvLgO0RIP&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        },
+        {
+          "name": "\u5065\u8eab\u623f",
+          "description": "Gym",
+          "total_mentioned": 10,
+          "positive": 10,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "E_NmwXica1yRnFiSmp5fVDl5sXtlLuPKp41LX-xa_axjPwCrjg4a",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=E_NmwXica1yRnFiSmp5fVDl5sXtlLuPKp41LX-xa_axjPwCrjg4a&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        },
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 21,
+          "positive": 16,
+          "negative": 2,
+          "neutral": 3,
+          "category_token": "C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        },
+        {
+          "name": "\u5065\u5eb7\u670d\u52a1",
+          "description": "Wellness",
+          "total_mentioned": 10,
+          "positive": 7,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "49nY5Hica1yRnFiSmp5fVDl5RXhqTk5eanEx45qnjUuf7tr-bE7v066FACFfEj0",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=49nY5Hica1yRnFiSmp5fVDl5RXhqTk5eanEx45qnjUuf7tr-bE7v066FACFfEj0&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        },
+        {
+          "name": "\u6e38\u6cf3\u6c60",
+          "description": "Pool",
+          "total_mentioned": 13,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "EYiJSHica1yRnFiSmp5fVDl5SUB-fg7jymc7djzbvPnZxgUAuhgO3A",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=EYiJSHica1yRnFiSmp5fVDl5SUB-fg7jymc7djzbvPnZxgUAuhgO3A&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        },
+        {
+          "name": "\u7761\u7720",
+          "description": "Sleep",
+          "total_mentioned": 79,
+          "positive": 33,
+          "negative": 40,
+          "neutral": 6,
+          "category_token": "dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=dbQVlXica1yRnFiSmp5fVDl5aXBOamoBw7Lncxc-n7MAAJjjDKc&engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Golf",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcImJ2mxOKFuqF8GgsvZy8xdGd3bXo2XxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Hawthorne Plaza Inn",
+      "link": "https://hawthorneplazainn.com/",
+      "property_token": "ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9228307,
+        "longitude": -118.35293650000001
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "12:00",
+      "rate_per_night": {
+        "lowest": "US$81",
+        "extracted_lowest": 81,
+        "before_taxes_fees": "US$72",
+        "extracted_before_taxes_fees": 72
+      },
+      "total_rate": {
+        "lowest": "US$81",
+        "extracted_lowest": 81,
+        "before_taxes_fees": "US$72",
+        "extracted_before_taxes_fees": 72
+      },
+      "deal": "\u6bd4\u5e73\u65f6\u4ef7\u683c\u4f4e 17%",
+      "deal_description": "Deal",
+      "nearby_places": [
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Chips Restaurant",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "5\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/B5W_a5TnCrUZyRzNTU05Z-ZA4PT5QxBFiVLzioeMBzn7TCfL1Sn_ecNkW2VDaxB7K8vd3JN3L4FghQPsHQ7tecy0kHC0xjNa1Uth_VID6R2l8zVYQBqT8ko09Prgk0Je4d8efg3fPCnjpoOkr8uCcRUycEnBDfY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_028.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/XSFABrfgptYUv6ZnPBnbJ2MZdyW_st_GFxiEPQwRb_6XLJGYG3QIkZQ8StKCenwoqIIU9M_nMcKmeZweJbGurantdvbxVaA8nESz7asCUS0AzOpKf8fNs9g_Oa_FMBbagukLGyTuYs6te0cvEWNOcAV-vI7PjtE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4880000/4877100/4877023/b2b5d8e0_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/gfQvHCI-zoHh1nnWqTNENittxCKHy-64u0fGXW2nhHmcDAo3PGkOHpL7HdYFUhAFqSPlQdHU52WErfhcOQ5FoeRR6AiI04CO8BxXVIsixPXuOZ9iFu-juzYmL5Tz1spQ5OPzYRzEEMecQpavBwzoW1-owCVwlA0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_018.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Egv_h7MBt_WbfjSPXtVvK8EPvgPD9D4x8VaBe4WAUEXZfOAYurmJlh16XzSgjb_5hdvXQ3j2iNJx2R5hG0u4U-TsL0XwWJs52kAvrSTz8W4CtmC9w4Z0959NlF1IK2_tSZdi2RMJDoaj6evTXm5GpErHHS28438=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_l_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFmUdVjwSVz2hvx2gUoBVdnV0jRa2W7NtQGLtCoG16U7uC26TznECG2y1UCW2GigQ7Z539W5f9kdsa4mZ8EQZ7urjGOxA7-5oSCtmKfXQjF7sGMcE-43NrOwN14EabOqZFzYQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDTvcuAeA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/db0HT6e05a0DTEHpKz71gJqPV95KKMgXEopF9cIox92Hd2ohkz2g03sZc1tYcdB1S9bcH14JzlvTfNzBSNU-RNH72Z3l29WkHm41IMYmDfWefjmflRn-wFDP3spG4ftcRNpxMyWGAuHkPHgT27E97Np4u8wEYG4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/MCMf-z3p4A09Hh-d34V31BMfWwCGmw_yb0BmL9ZDQvTeH7MMaVSFaUmvAX7tlvfltBnNQWfzdzYDuGOhdhEctHllmOsNLmY5PIDaiR8NVrwVuk8wlyyqkz35dGMSWLJ_oR7YljCBE3X1BWc8zi7_dh6SLFpFrBI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_022.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AwoCoJ5nIbJKIRGKRzWh03JArmy1dCq6xJ6v0wwVTPLNBmQBdg0oK9Lmma3NRgvQTczI-Z8QRWOby8YAORvBowjStDxBADoZoIUU0pfUQYqwpDsQK65wQxwnZ5tvISNV3ef-xd3ogKoyf9B-63df4DH0vuH_VHQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_009.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/6fLjyJjyFIANEkcAz8mV-R5KoE6yPPcD0ic9jwVH8hF7sOg1QvhcuFJOVtz2v0qgZncBXqb9s3wEib-IV92cLTvFuYuq2U8gFK9MS_LgWMDCoPxTeQ6u7k61NmHCV_SUn0Ky8pFpY9W9jUrg8Pl02HzkOBm79A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/31/314859/314859a_hb_a_001.jpg"
+        }
+      ],
+      "overall_rating": 3.9,
+      "reviews": 403,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 164
+        },
+        {
+          "stars": 4,
+          "count": 124
+        },
+        {
+          "stars": 3,
+          "count": 65
+        },
+        {
+          "stars": 2,
+          "count": 16
+        },
+        {
+          "stars": 1,
+          "count": 34
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 37,
+          "positive": 33,
+          "negative": 0,
+          "neutral": 4,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        },
+        {
+          "name": "\u5ba2\u623f\u8d44\u6e90",
+          "description": "Property",
+          "total_mentioned": 117,
+          "positive": 90,
+          "negative": 16,
+          "neutral": 11,
+          "category_token": "M0fZ-Hica1yRnFiSmp5fVDl5RUBRfkFqUUkl45qn6xY969j_YmvLs10TACQ8Eog",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=M0fZ-Hica1yRnFiSmp5fVDl5RUBRfkFqUUkl45qn6xY969j_YmvLs10TACQ8Eog&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        },
+        {
+          "name": "\u670d\u52a1",
+          "description": "Service",
+          "total_mentioned": 77,
+          "positive": 55,
+          "negative": 20,
+          "neutral": 2,
+          "category_token": "HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=HfbROnica1yRnFiSmp5fVDl5eXBqUVlmcirjsmdzep92LQQAsCoNWQ&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        },
+        {
+          "name": "\u6e05\u6d01\u670d\u52a1",
+          "description": "Cleanliness",
+          "total_mentioned": 110,
+          "positive": 92,
+          "negative": 12,
+          "neutral": 6,
+          "category_token": "kW5uxXica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx45pnO1qfbWl8Nqf3addCAE2cE0E",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=kW5uxXica1yRnFiSmp5fVDl5tXNOamJeTmZeanEx45pnO1qfbWl8Nqf3addCAE2cE0E&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        },
+        {
+          "name": "\u623f\u95f4",
+          "description": "Room amenities",
+          "total_mentioned": 30,
+          "positive": 23,
+          "negative": 5,
+          "neutral": 2,
+          "category_token": "AkoyVHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxw7JnHftfTt8CAAu5EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=AkoyVHica1yRnFiSmp5fVDl5XVB-fq5CYm5qXmZJZmoxw7JnHftfTt8CAAu5EEw&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        },
+        {
+          "name": "\u6d74\u5ba4",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 31,
+          "positive": 14,
+          "negative": 12,
+          "neutral": 5,
+          "category_token": "2FefZnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxw7JnW7c8XbcEAJ5mE_E",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=2FefZnica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxw7JnW7c8XbcEAJ5mE_E&engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+        }
+      ],
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Accessible"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcImOeR9tXTtJY9GgsvZy8xdGh0cHcyMhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "\u8d1d\u65af\u7279\u897f\u827e\u5c14\u5e15\u514b\u5965\u6cf0\u5c14",
+      "link": "https://www.bestwestern.com/en_US/book/hotel-rooms.05459.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:05459",
+      "property_token": "ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.961422,
+        "longitude": -118.36778500000001
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$132",
+        "extracted_lowest": 132,
+        "before_taxes_fees": "US$114",
+        "extracted_before_taxes_fees": 114
+      },
+      "total_rate": {
+        "lowest": "US$132",
+        "extracted_lowest": 132,
+        "before_taxes_fees": "US$114",
+        "extracted_before_taxes_fees": 114
+      },
+      "nearby_places": [
+        {
+          "name": "Manchester / Oak",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Roscoe's House of Chicken and Waffles",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "2\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2 \u661f\u7ea7\u9152\u5e97",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfIaB3SnDPgDSdgaWT_2zbqLrevOL85xLKf00S=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipOfIaB3SnDPgDSdgaWT_2zbqLrevOL85xLKf00S=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPjDbcQ_7bakyqVlmI_hXqOX1mUJ-t3W_YkqZZo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPjDbcQ_7bakyqVlmI_hXqOX1mUJ-t3W_YkqZZo=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP8z6l8vSi5kHyhdEsenRPbKtOXDYj42tHNgS05=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipP8z6l8vSi5kHyhdEsenRPbKtOXDYj42tHNgS05=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN_K2m-XPF6emgrNfdBH1xTkPCFU9G4Hq2wi8Ju=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipN_K2m-XPF6emgrNfdBH1xTkPCFU9G4Hq2wi8Ju=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPnqFiUNB5g28x3aTjU8Ge01QHBATCjUWWXzRbr=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPnqFiUNB5g28x3aTjU8Ge01QHBATCjUWWXzRbr=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPAI9xEvDsXFIUgLTByy8qzVcCthUPCnQLvxrX0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPAI9xEvDsXFIUgLTByy8qzVcCthUPCnQLvxrX0=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPcO4A3BWN4vPOo9sjA0oT2gUDLNSk8OWdbfZVK=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPcO4A3BWN4vPOo9sjA0oT2gUDLNSk8OWdbfZVK=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNw5OOlR486vN-qEX_bs4mez6fFECL-dL9nGxnh=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipNw5OOlR486vN-qEX_bs4mez6fFECL-dL9nGxnh=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPIwG2kJQT8eqKdBL77vYMbwvoFfmiLzwK5y1T1=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/AF1QipPIwG2kJQT8eqKdBL77vYMbwvoFfmiLzwK5y1T1=s10000"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 1210,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 556
+        },
+        {
+          "stars": 4,
+          "count": 342
+        },
+        {
+          "stars": 3,
+          "count": 155
+        },
+        {
+          "stars": 2,
+          "count": 73
+        },
+        {
+          "stars": 1,
+          "count": 84
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "\u65e9\u9910",
+          "description": "Breakfast",
+          "total_mentioned": 138,
+          "positive": 103,
+          "negative": 20,
+          "neutral": 15,
+          "category_token": "ApJDSXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeOyZ9NXvlwyAQDIZA5B",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=ApJDSXica1yRnFiSmp5fVDl5pVNRamJ2WmJxCeOyZ9NXvlwyAQDIZA5B&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        },
+        {
+          "name": "\u516c\u4ea4",
+          "description": "Public transit",
+          "total_mentioned": 129,
+          "positive": 91,
+          "negative": 26,
+          "neutral": 12,
+          "category_token": "7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=7s9iSXica1yRnFiSmp5fVDl5XUBpUk5mskJJUWJecWYJ47KnrWue7FoCAAw-EEw&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        },
+        {
+          "name": "\u9910\u5385",
+          "description": "Restaurant",
+          "total_mentioned": 56,
+          "positive": 41,
+          "negative": 6,
+          "neutral": 9,
+          "category_token": "KbB9VHica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjspdLJjztawUA188Oqg",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=KbB9VHica1yRnFiSmp5fVDl5VVBqcUliaVFiXgnjspdLJjztawUA188Oqg&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        },
+        {
+          "name": "\u5730\u70b9",
+          "description": "Location",
+          "total_mentioned": 193,
+          "positive": 147,
+          "negative": 29,
+          "neutral": 17,
+          "category_token": "GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=GMKInXica1yRnFiSmp5fVDl5hU8-kJ2Zn8e47OmcDc-bdgIAvK0N9g&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        },
+        {
+          "name": "\u5065\u8eab",
+          "description": "Fitness",
+          "total_mentioned": 31,
+          "positive": 23,
+          "negative": 5,
+          "neutral": 3,
+          "category_token": "C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=C9PMi3ica1yRnFiSmp5fVDl5uVtmSV5qcTHjsqeNS1_sWg0AsJENnQ&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        },
+        {
+          "name": "\u70ed\u6c34\u6d74\u7f38",
+          "description": "Hot tub",
+          "total_mentioned": 13,
+          "positive": 9,
+          "negative": 3,
+          "neutral": 1,
+          "category_token": "CP_6sHicASEA3v-BqGNhdGVnb3J5k6dIb3QgdHViAazng63msLTmtbTnvLgO3xIQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=CP_6sHicASEA3v-BqGNhdGVnb3J5k6dIb3QgdHViAazng63msLTmtbTnvLgO3xIQ&engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+        }
+      ],
+      "amenities": [
+        "Free breakfast",
+        "Free Wi-Fi",
+        "Parking ($)",
+        "Outdoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Restaurant",
+        "Golf",
+        "Accessible",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIl_G5hpSJ7-OCARoLL2cvMXRwYmM3NzYQAQ"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Economy Inn LAX Inglewood - King Room",
+      "property_token": "ChkQqunEu_XmtJVPGg0vZy8xMXg2ZG5sNWJnEAI",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChkQqunEu_XmtJVPGg0vZy8xMXg2ZG5sNWJnEAI&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.961700439453125,
+        "longitude": -118.36344909667969
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$100",
+        "extracted_lowest": 100,
+        "before_taxes_fees": "US$100",
+        "extracted_before_taxes_fees": 100
+      },
+      "total_rate": {
+        "lowest": "US$100",
+        "extracted_lowest": 100,
+        "before_taxes_fees": "US$100",
+        "extracted_before_taxes_fees": 100
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "US$100",
+            "extracted_lowest": 100
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "3\u67084\u65e5",
+          "free_cancellation_until_time": "07:59"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Manchester / Inglewood",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "14\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "40\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Mr Fries Man",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "4\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "9\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/VLSZgnUau65HAj0qWDL7hv5JR8UpKBJrOael-V7VHeqRQQpqFcEusofhEJ7Ow3SaK8QE_bqNDf6DLUoJH9TraNZu7zxRf9v9d5C_nVvs2Hv0arrB_oZyAbgR6bj2r4WFTesSGUmtu2mmZYVBKYMWb6v0Oq7SXYQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278934914.jpg?k=f07822027bc275e116b2e759eda71ab3a78a0509def61d8c37661d66e3f5dcc2&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/QYu5u_NpefR8KB9eO_xtIQGFdZ-r4aFG6kVlNmaMoTb0PIo2SX3GCt__gmUDakTaMTMYLvj1-r6VbJ1b_70wgXnE6vJwumWn82RC9GWmr2F0VIu-8mucObVTFmgiMeKiqYFyK74EGdrA-cmHPb0PJ7f3lN0qUvM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278934493.jpg?k=aa7e42e0840d90cda3de2000f38d2fa4fb93f03c69ea82c0e91178374083af3c&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/1PoChy3M3m3H0k_b0rI8jqejBfCGBjj19Fdu0i0DjO_VY7DsbWj11M22joIcyivMleptgowUdel2x0gw8wwQ89wWKqRSk4uIhPW57VxDRyjV1wNmtft-YFM3BedDXTbqINhCKs_nEou3c4_awFvOPmN0J74Y7Fs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278933974.jpg?k=629c60c26ed7b50cebec29e9ed47a1bfa9855c29dd19a85b091db207aee13ab1&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Dh8syuWxtoVK9mEMgHx4DB7x3RBHLuuFQRWK7X4eOeFkNOnXzFqRXXZIEgDlF8fC_hm48ZJWRrcDJOpRlt1XK1sglGrEmIVAe8rXbuEMtAMac9vf7m1XvIYwTsBrf7S3CcMv_2YKdiQKkQ1wmBhRpSRzDBIbCg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278934031.jpg?k=f4fe925d2e09f26767fe690cf2f3b7e43b46682e412caa780ba2748a5388c784&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/9AsWUfb3iG-FmYsMfe9rFwKZRoq9URlC_7thX5FJ0kt23POfpQTnprdAGrhnib3g1B4DJLXcQFEqyWnezO9psXnKGBCmlWFlRMIJfDtej9mIJH26-3bVJ8M7ZjrFAF5Wa7qh3bcxE03TxJ5sMKIoxvcU2QVQsk0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/23244778.jpg?k=57b4accd4fbed30773150e98aae501d218f6bddc4516194e7f411609fd3e5c02&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kdz0y_tMTGuxJEhiImvKar6L6yuwWUyi79Uh_C5Mv81JSF_zztZyCSFSQTrAqkgCfO3ZZqzgkiuYx_mY2rBxQ67ijudH_WZ79D62ARhzzZr89gjdikeh6NP6H3vu__tIzMddm_ow1Y3KBCNR51jBAxihlW2sUg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278934884.jpg?k=2213814a8b722bae92889ae09a76e1bf10befb3dad3107dcf0e114d7c15946c5&o=&s=312x"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/KfVgiW-NeYe6NaUOCkiLlABCP3efOmpnkCRlv70P_BXSSXJbybj9JZBhPNzbFoyney3m7gN6yYxIxLG4p4unE68O5jNY3IrkVpdLurkqJT1-b5IWDX8EiRUCLP4yEYFYoujjkkqcuNb-_o7uUMxGxrU5kOoQ5vY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278934520.jpg?k=3a12e9f928af082bd15fca43c0915b1242caa1e611409a6f164bba75d7decf45&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/bKHAIr9q59wfyR8rRIZfYZeVsSIVqnZLS5RO83s_fnvyUOa3sHAiqXGms1qCwXE2EVe9e0959Ev_4ecR7Q04Wq-Hjlll_p-Xr3HJcugBBIB-uCMLyoQS3mcOXrmsr7u84anoeNdLCm8t9FKKQPUm6Z50l-AfWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/278935093.jpg?k=04baaa7ca03d0b705e642e87ce7bd050aadc680ef89cd625f649cd2ad81c4189&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/hxJa3q7l7cSKMSeVKuoJPj1IIcWeTRSWpwV3CWE2av6H1v8sWC4_x313dplzKavJ9uKRBnvi4aSHs0Y88K_Jzgs5_Ja9aZMhIc30v3y2F6pZL6AgPWX6bdHNDw6nsvkOdFkJzKGaz28GjTL0KiiazwjLxdnlQcU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh5.googleusercontent.com/p/http://api-img.hotelston.com/resources/hotel/images/5/4/5/5/4/7/2/4/902901819.jpg=s10000"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 8,
+      "location_rating": 4.3,
+      "amenities": [
+        "\u7a7a\u8c03",
+        "\u9002\u5408\u643a\u513f\u7ae5\u5165\u4f4f",
+        "\u4f9b\u6696\u8bbe\u65bd",
+        "\u71a8\u8863\u677f",
+        "\u53a8\u623f",
+        "\u5fae\u6ce2\u7089",
+        "\u5141\u8bb8\u643a\u5ba0\u7269\u5165\u4f4f",
+        "\u5ba4\u5185\u7981\u70df",
+        "\u6709\u7ebf\u7535\u89c6",
+        "\u514d\u8d39\u505c\u8f66",
+        "\u514d\u8d39 Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "\u4e0d\u63d0\u4f9b\u673a\u573a\u63a5\u9001\u670d\u52a1"
+      ],
+      "essential_info": [
+        "\u6574\u5957\u516c\u5bd3",
+        "\u5165\u4f4f 2 \u665a",
+        "1 \u95f4\u5367\u5ba4",
+        "1 \u4e2a\u6d17\u624b\u95f4",
+        "1 \u5f20\u5e8a"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkQqunEu_XmtJVPGg0vZy8xMXg2ZG5sNWJnEAI",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkQqunEu_XmtJVPGg0vZy8xMXg2ZG5sNWJnEAI"
+    },
+    {
+      "type": "vacation rental",
+      "name": "Comfort Inn Cockatoo Near LAX Airport - Standard Room, 1 King Bed, Non Smoking",
+      "link": "https://www.bluepillow.com/search/59438b787c00cb0e6435be6d?dest=bkng&cat=Apartment&lat=33.92981&lng=-118.3513&language=en",
+      "property_token": "ChoQtPDCx6uA1ZrLARoNL2cvMTF5bHJoejRjdxAC",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&property_token=ChoQtPDCx6uA1ZrLARoNL2cvMTF5bHJoejRjdxAC&q=Los+Angeles+Airport+%28LAX%29",
+      "gps_coordinates": {
+        "latitude": 33.9298095703125,
+        "longitude": -118.35130310058594
+      },
+      "check_in_time": "15:00",
+      "check_out_time": "11:00",
+      "rate_per_night": {
+        "lowest": "US$145",
+        "extracted_lowest": 145,
+        "before_taxes_fees": "US$145",
+        "extracted_before_taxes_fees": 145
+      },
+      "total_rate": {
+        "lowest": "US$145",
+        "extracted_lowest": 145,
+        "before_taxes_fees": "US$145",
+        "extracted_before_taxes_fees": 145
+      },
+      "prices": [
+        {
+          "source": "Bluepillow.com",
+          "logo": "https://www.gstatic.com/travel-hotels/branding/190ff319-d0fd-4c45-bfc8-bad6f5f395f2.png",
+          "num_guests": 2,
+          "rate_per_night": {
+            "lowest": "US$145",
+            "extracted_lowest": 145
+          },
+          "free_cancellation": true,
+          "free_cancellation_until_date": "3\u67084\u65e5",
+          "free_cancellation_until_time": "07:59"
+        }
+      ],
+      "nearby_places": [
+        {
+          "name": "Imperial / Hawthorne",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "4\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "\u6d1b\u6749\u77f6\u56fd\u9645\u673a\u573a",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17\u5206\u949f"
+            },
+            {
+              "type": "Public transport",
+              "duration": "34\u5206\u949f"
+            }
+          ]
+        },
+        {
+          "name": "Wingstop",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3\u5206\u949f"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/za9Gqz8mM-CjjwBvcGAJHGIBZeYPd4PW_1nLbAjl_PfAK7o9mhGryVMBj50RtTfzZ0JvBEf3YqzUc1OYT-flMKSQTB4rAz4MYWX-qHGl82krQH_AlSu--iWpfMkTf4X_GcBR7mP_pw4e67YGl1_utfsiO7qd-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/170438080.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/rBKLdWPLijiHD9UbpEhz2t-Rgb7DUpVNlaw25Jj-yEeFL2ajpjy1YBHjWKyMpl7TZAcj-2z79-UxFdczKtnbyhQINfhgFc-tODDHsLRqh9z0QGuMUbkEkOInbWsBQjalScTqEInFXyuAYD3ujII4gUv3gyQj2yA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/751822962.jpg?k=b42fa827f00e824ca8cf6a1ed4a278af2bcfbfddef910b34b28ae70aaf49d847&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/em7Sl3kv0VE5zCWkuDMjLjqLH5sedhwtaQaLI6rrMvxCQ0l5Cy_xhzWZp33P8w49OL7doYsAZjYC7hB5nVHCJRInt2mu9hbrMeGO5EOS5ancsP4SzvY3oGoMcohGRdD9axZDB3DSCiEaXt6aW99p6rr8KNhcrms=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/751822947.jpg?k=a864bfc05efbe9728a9cde4b89bd6bc20a2f8f929d528002c647fd9927aa027a&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vuirBgrd6Y5LYfimQ8aCjm4TI7qx24jmUJnGJU3kEkHzAxJJd1_yPClhwMltDNG91s3i9LHLpm2F76nA0BLFVvCa1mmb49n1xx5MQQYLJy0SauWKXGwjps8YRN9Lsk3sHUbaQv0GxQuJCjWMECPO-TLykwITzA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/170437794.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/5UgzW9_0Xuu37XA3J3ce48jyS8IBRFzAVZig-7ZF0Dr9xXQ3CyvzYUcltQVwHmRCH1d5ea5fKHnBBbMGks40vMytbEg2E2HVW_ONDZc4USOmtpcPYc4QVZTmQA83Z1OtINyL3JKcZfgqfn-O4h3lWPMB7ml1cCI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/170437808.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/OTDdBknKWMTcBCahgErzmADDOJi45e0VYzpSzRwkO7Bd_qu_VaRCLSJl9GDQW1IzTF0zEZk3E2pv9RrnB46ogEU-DJP3oam8sMhQ7D9sRLlUnz3pBim-MbyodPBlFUIfhaHM9FEHpgM5VHZad_NfE3-2o_IzSA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/751822982.jpg?k=eb3a43ce86ea5e9f247e6e680c210d4a6c4761a762f449c5ed52a99896569598&o=&a=2344045"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KVe48nxOLmyqZVcTGmXqhGA-KRuEvfoOI8HI_5c_O-ngbUW4fRWzos2x-2csUpKlUbX6pWfU00JvUaUwNoJ4Q2pzdAZgxW6xNskeJkACS-ZPE_53-U3XwynmZhTsYFBIOdkKEqhsdSzYbBrQsB9qAPbqdnJX7w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/170437869.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/9C4YxjxRosGywCjC3sidRuX6fhnSFZoWbQuiPtz1zfjJDyuG4ja3OHz0n3d0lQZLLeQ0kZpzAVmtsRU2HifPjHAJcfSwqrWchUwBY2SkocDysAvuxClh9aHKHGbm3Q72UzSH8e9wV_62ihMXwYFwRZ0cMcyn-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://static.cupid.travel/hotels/170438407.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/cX01Y29NKGcR0QTI_hjgUJet5cFjtElHUJZvs3cdO99h--ZujpTB6rXoEc402fVAHx3DrGw0H-cAlq46WMDRSTmb-MBPTpLkDo_oqzdh01LBhgQzLL9qZCLdfmo5_1Kg15rJn2xh4QumgsjZKOjAl4cTssSvOA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x683/751822985.jpg?k=62ac6f5417fa61227301196946c7aeb297b468d8cbb7625e8af59ccb65886963&o=&a=2344045"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 8,
+      "location_rating": 4.2,
+      "amenities": [
+        "\u7a7a\u8c03",
+        "\u7535\u68af",
+        "\u4f9b\u6696\u8bbe\u65bd",
+        "\u71a8\u8863\u677f",
+        "\u53a8\u623f",
+        "\u5fae\u6ce2\u7089",
+        "\u5ba4\u5916\u6e38\u6cf3\u6c60",
+        "\u5141\u8bb8\u643a\u5ba0\u7269\u5165\u4f4f",
+        "\u5ba4\u5185\u7981\u70df",
+        "\u6709\u7ebf\u7535\u89c6",
+        "\u6d17\u8863\u673a",
+        "\u6709\u65e0\u969c\u788d\u8bbe\u65bd",
+        "\u514d\u8d39\u505c\u8f66",
+        "\u514d\u8d39 Wi-Fi"
+      ],
+      "excluded_amenities": [
+        "\u4e0d\u63d0\u4f9b\u673a\u573a\u63a5\u9001\u670d\u52a1",
+        "\u6ca1\u6709\u5ba4\u5185\u6e38\u6cf3\u6c60"
+      ],
+      "essential_info": [
+        "\u6574\u5957\u516c\u5bd3",
+        "\u5165\u4f4f 4 \u665a",
+        "1 \u95f4\u5367\u5ba4",
+        "52 \u4e2a\u6d17\u624b\u95f4",
+        "2 \u5f20\u5e8a"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoQtPDCx6uA1ZrLARoNL2cvMTF5bHJoejRjdxAC",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoQtPDCx6uA1ZrLARoNL2cvMTF5bHJoejRjdxAC"
+    }
+  ],
+  "brands": [
+    {
+      "id": 18,
+      "name": "Best Western International",
+      "children": [
+        {
+          "id": 155,
+          "name": "Best Western"
+        },
+        {
+          "id": 104,
+          "name": "Best Western Plus"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Choice Hotels",
+      "children": [
+        {
+          "id": 112,
+          "name": "Cambria"
+        },
+        {
+          "id": 27,
+          "name": "Comfort"
+        },
+        {
+          "id": 82,
+          "name": "Quality Inn"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "name": "Extended Stay America",
+      "children": [
+        {
+          "id": 444,
+          "name": "Extended Stay America Suites"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 151,
+          "name": "Curio Collection"
+        },
+        {
+          "id": 81,
+          "name": "DoubleTree by Hilton"
+        },
+        {
+          "id": 88,
+          "name": "Embassy Suites by Hilton"
+        },
+        {
+          "id": 115,
+          "name": "Hampton by Hilton"
+        },
+        {
+          "id": 71,
+          "name": "Hilton Garden Inn"
+        },
+        {
+          "id": 54,
+          "name": "Hilton Hotels & Resorts"
+        },
+        {
+          "id": 77,
+          "name": "Homewood Suites by Hilton"
+        },
+        {
+          "id": 285,
+          "name": "Tapestry Collection"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Hyatt",
+      "children": [
+        {
+          "id": 120,
+          "name": "Hyatt House"
+        },
+        {
+          "id": 121,
+          "name": "Hyatt Place"
+        },
+        {
+          "id": 122,
+          "name": "Hyatt Regency"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "IHG Hotels & Resorts",
+      "children": [
+        {
+          "id": 52,
+          "name": "Candlewood Suites"
+        },
+        {
+          "id": 64,
+          "name": "Holiday Inn"
+        },
+        {
+          "id": 56,
+          "name": "Holiday Inn Express"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Marriott Bonvoy",
+      "children": [
+        {
+          "id": 128,
+          "name": "AC Hotels"
+        },
+        {
+          "id": 60,
+          "name": "Aloft Hotels"
+        },
+        {
+          "id": 59,
+          "name": "Autograph Collection"
+        },
+        {
+          "id": 86,
+          "name": "Courtyard by Marriott"
+        },
+        {
+          "id": 58,
+          "name": "Fairfield Inn by Marriott"
+        },
+        {
+          "id": 135,
+          "name": "Four Points by Sheraton"
+        },
+        {
+          "id": 61,
+          "name": "Marriott Hotels & Resorts"
+        },
+        {
+          "id": 131,
+          "name": "Renaissance Hotels"
+        },
+        {
+          "id": 75,
+          "name": "Residence Inn by Marriott"
+        },
+        {
+          "id": 12,
+          "name": "Sheraton Hotels and Resorts"
+        },
+        {
+          "id": 83,
+          "name": "SpringHill Suites"
+        },
+        {
+          "id": 40,
+          "name": "TownePlace Suites"
+        },
+        {
+          "id": 39,
+          "name": "Westin Hotels & Resorts"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Motel 6"
+    },
+    {
+      "id": 424,
+      "name": "Sonesta Hotels",
+      "children": [
+        {
+          "id": 426,
+          "name": "Sonesta"
+        },
+        {
+          "id": 427,
+          "name": "Sonesta Select"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Studio 6"
+    },
+    {
+      "id": 53,
+      "name": "Wyndham Hotels & Resorts",
+      "children": [
+        {
+          "id": 19,
+          "name": "Days Inn"
+        },
+        {
+          "id": 11,
+          "name": "La Quinta Inns & Suites"
+        },
+        {
+          "id": 50,
+          "name": "Ramada"
+        },
+        {
+          "id": 16,
+          "name": "Travelodge"
+        }
+      ]
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 20,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=2&check_in_date=2026-03-05&check_out_date=2026-03-06&children=0&currency=USD&engine=google_hotels&gl=us&hl=zh-cn&next_page_token=CBI%3D&q=Los+Angeles+Airport+%28LAX%29"
+  }
+}

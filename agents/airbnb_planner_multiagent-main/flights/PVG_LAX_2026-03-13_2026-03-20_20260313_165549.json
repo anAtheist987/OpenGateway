@@ -1,0 +1,608 @@
+{
+  "search_metadata": {
+    "search_id": "PVG_LAX_2026-03-13_2026-03-20_20260313_165549",
+    "departure": "PVG",
+    "arrival": "LAX",
+    "outbound_date": "2026-03-13",
+    "return_date": "2026-03-20",
+    "trip_type": "Round trip",
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Economy",
+    "currency": "USD",
+    "search_timestamp": "2026-03-13T16:55:49.511379"
+  },
+  "best_flights": [],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-13 20:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-13 17:25"
+          },
+          "duration": 690,
+          "airplane": "Boeing 787",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 199",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 495 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 690,
+      "carbon_emissions": {
+        "this_flight": 496000,
+        "typical_for_this_route": 728000,
+        "difference_percent": -32
+      },
+      "price": 1635,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "departure_token": "WyJDalJJWkhCQlIzaE5Sa1JxYVVsQlExQlNRVUZDUnkwdExTMHRMUzB0TFc5NVlXSXlPRUZCUVVGQlIyMTZNRkpWUXpsNGMwOUJFZ1ZWUVRFNU9Sb0xDTW44Q1JBQ0dnTlZVMFE0SEhESi9Baz0iLFtbIlBWRyIsIjIwMjYtMDMtMTMiLCJMQVgiLG51bGwsIlVBIiwiMTk5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-13 18:00"
+          },
+          "arrival_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-13 13:55"
+          },
+          "duration": 655,
+          "airplane": "Airbus A330-900neo",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 280",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 574 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Seattle-Tacoma International Airport",
+            "id": "SEA",
+            "time": "2026-03-13 17:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-13 20:34"
+          },
+          "duration": 159,
+          "airplane": "Boeing 737",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 2861",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 154 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 240,
+          "name": "Seattle-Tacoma International Airport",
+          "id": "SEA"
+        }
+      ],
+      "total_duration": 1054,
+      "carbon_emissions": {
+        "this_flight": 730000,
+        "typical_for_this_route": 728000,
+        "difference_percent": 0
+      },
+      "price": 1809,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "departure_token": "WyJDalJJWkhCQlIzaE5Sa1JxYVVsQlExQlNRVUZDUnkwdExTMHRMUzB0TFc5NVlXSXlPRUZCUVVGQlIyMTZNRkpWUXpsNGMwOUJFZ3hFVERJNE1IeEVUREk0TmpFYUN3ak5oQXNRQWhvRFZWTkVPQnh3ellRTCIsW1siUFZHIiwiMjAyNi0wMy0xMyIsIlNFQSIsbnVsbCwiREwiLCIyODAiXSxbIlNFQSIsIjIwMjYtMDMtMTMiLCJMQVgiLG51bGwsIkRMIiwiMjg2MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-13 17:30"
+          },
+          "arrival_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-03-13 20:30"
+          },
+          "duration": 180,
+          "airplane": "Airbus A330",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 369",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 120 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Hong Kong International Airport",
+            "id": "HKG",
+            "time": "2026-03-14 00:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-13 21:55"
+          },
+          "duration": 745,
+          "airplane": "Boeing 777",
+          "airline": "Cathay Pacific",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+          "travel_class": "Economy",
+          "flight_number": "CX 880",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 656 kg"
+          ],
+          "overnight": true,
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 240,
+          "name": "Hong Kong International Airport",
+          "id": "HKG"
+        }
+      ],
+      "total_duration": 1165,
+      "carbon_emissions": {
+        "this_flight": 778000,
+        "typical_for_this_route": 728000,
+        "difference_percent": 7
+      },
+      "price": 2746,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+      "departure_token": "WyJDalJJWkhCQlIzaE5Sa1JxYVVsQlExQlNRVUZDUnkwdExTMHRMUzB0TFc5NVlXSXlPRUZCUVVGQlIyMTZNRkpWUXpsNGMwOUJFZ3REV0RNMk9YeERXRGc0TUJvTENPcmdFQkFDR2dOVlUwUTRISERxNEJBPSIsW1siUFZHIiwiMjAyNi0wMy0xMyIsIkhLRyIsbnVsbCwiQ1giLCIzNjkiXSxbIkhLRyIsIjIwMjYtMDMtMTQiLCJMQVgiLG51bGwsIkNYIiwiODgwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Shanghai Pudong International Airport",
+            "id": "PVG",
+            "time": "2026-03-13 22:15"
+          },
+          "arrival_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-03-14 06:00"
+          },
+          "duration": 885,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Economy",
+          "flight_number": "AF 111",
+          "ticket_also_sold_by": [
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 587 kg"
+          ],
+          "overnight": true
+        },
+        {
+          "departure_airport": {
+            "name": "Paris Charles de Gaulle Airport",
+            "id": "CDG",
+            "time": "2026-03-14 10:20"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2026-03-14 14:10"
+          },
+          "duration": 710,
+          "airplane": "Boeing 777",
+          "airline": "Air France",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+          "travel_class": "Economy",
+          "flight_number": "AF 22",
+          "ticket_also_sold_by": [
+            "KLM"
+          ],
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 532 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 260,
+          "name": "Paris Charles de Gaulle Airport",
+          "id": "CDG"
+        }
+      ],
+      "total_duration": 1855,
+      "carbon_emissions": {
+        "this_flight": 1120000,
+        "typical_for_this_route": 728000,
+        "difference_percent": 54
+      },
+      "price": 5607,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+      "departure_token": "WyJDalJJWkhCQlIzaE5Sa1JxYVVsQlExQlNRVUZDUnkwdExTMHRMUzB0TFc5NVlXSXlPRUZCUVVGQlIyMTZNRkpWUXpsNGMwOUJFZ3BCUmpFeE1YeEJSakl5R2dzSWlwd2lFQUlhQTFWVFJEZ2NjSXFjSWc9PSIsW1siUFZHIiwiMjAyNi0wMy0xMyIsIkNERyIsbnVsbCwiQUYiLCIxMTEiXSxbIkNERyIsIjIwMjYtMDMtMTQiLCJMQVgiLG51bGwsIkFGIiwiMjIiXV1d"
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 1635,
+    "price_level": "high",
+    "typical_price_range": [
+      730,
+      950
+    ],
+    "price_history": [
+      [
+        1767974400,
+        774
+      ],
+      [
+        1768060800,
+        775
+      ],
+      [
+        1768147200,
+        775
+      ],
+      [
+        1768233600,
+        774
+      ],
+      [
+        1768320000,
+        774
+      ],
+      [
+        1768406400,
+        745
+      ],
+      [
+        1768492800,
+        774
+      ],
+      [
+        1768579200,
+        775
+      ],
+      [
+        1768665600,
+        775
+      ],
+      [
+        1768752000,
+        775
+      ],
+      [
+        1768838400,
+        775
+      ],
+      [
+        1768924800,
+        774
+      ],
+      [
+        1769011200,
+        775
+      ],
+      [
+        1769097600,
+        774
+      ],
+      [
+        1769184000,
+        773
+      ],
+      [
+        1769270400,
+        786
+      ],
+      [
+        1769356800,
+        786
+      ],
+      [
+        1769443200,
+        785
+      ],
+      [
+        1769529600,
+        787
+      ],
+      [
+        1769616000,
+        881
+      ],
+      [
+        1769702400,
+        860
+      ],
+      [
+        1769788800,
+        861
+      ],
+      [
+        1769875200,
+        880
+      ],
+      [
+        1769961600,
+        880
+      ],
+      [
+        1770048000,
+        832
+      ],
+      [
+        1770134400,
+        833
+      ],
+      [
+        1770220800,
+        859
+      ],
+      [
+        1770307200,
+        859
+      ],
+      [
+        1770393600,
+        895
+      ],
+      [
+        1770480000,
+        855
+      ],
+      [
+        1770566400,
+        855
+      ],
+      [
+        1770652800,
+        853
+      ],
+      [
+        1770739200,
+        897
+      ],
+      [
+        1770825600,
+        898
+      ],
+      [
+        1770912000,
+        958
+      ],
+      [
+        1770998400,
+        904
+      ],
+      [
+        1771084800,
+        903
+      ],
+      [
+        1771171200,
+        903
+      ],
+      [
+        1771257600,
+        903
+      ],
+      [
+        1771344000,
+        903
+      ],
+      [
+        1771430400,
+        903
+      ],
+      [
+        1771516800,
+        903
+      ],
+      [
+        1771603200,
+        903
+      ],
+      [
+        1771689600,
+        903
+      ],
+      [
+        1771776000,
+        903
+      ],
+      [
+        1771862400,
+        903
+      ],
+      [
+        1771948800,
+        1023
+      ],
+      [
+        1772035200,
+        971
+      ],
+      [
+        1772121600,
+        1032
+      ],
+      [
+        1772208000,
+        1032
+      ],
+      [
+        1772294400,
+        1030
+      ],
+      [
+        1772380800,
+        1180
+      ],
+      [
+        1772467200,
+        1180
+      ],
+      [
+        1772553600,
+        1196
+      ],
+      [
+        1772640000,
+        1240
+      ],
+      [
+        1772726400,
+        1240
+      ],
+      [
+        1772812800,
+        1275
+      ],
+      [
+        1772899200,
+        1275
+      ],
+      [
+        1772985600,
+        1256
+      ],
+      [
+        1773072000,
+        1254
+      ],
+      [
+        1773158400,
+        1260
+      ],
+      [
+        1773331200,
+        1635
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "PVG",
+            "name": "Shanghai Pudong International Airport"
+          },
+          "city": "Shanghai",
+          "country": "China",
+          "country_code": "CN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTujsAS0i3-zbeimLQQ8RJnTX80xFZm7VnTsswhTD6W1aHQZWxzA7pNb0BMAVpelCNQq3SEx1592gylHw",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSf_rHrecM1vgBbjjdc3hHmMhc7Ur5d25JUiJtkb1TFjyb8o00dh6hVYtkXSkreGSokUxE8IQygysyFoMm4DaIoR8oEdOOr1fKHxMByxDQ"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "PVG",
+            "name": "Shanghai Pudong International Airport"
+          },
+          "city": "Shanghai",
+          "country": "China",
+          "country_code": "CN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTujsAS0i3-zbeimLQQ8RJnTX80xFZm7VnTsswhTD6W1aHQZWxzA7pNb0BMAVpelCNQq3SEx1592gylHw",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSf_rHrecM1vgBbjjdc3hHmMhc7Ur5d25JUiJtkb1TFjyb8o00dh6hVYtkXSkreGSokUxE8IQygysyFoMm4DaIoR8oEdOOr1fKHxMByxDQ"
+        }
+      ]
+    }
+  ]
+}

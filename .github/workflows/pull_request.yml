@@ -1,0 +1,120 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+name: Branch
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+  CI: true
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-musl
+            # Performance is horrendous on musl without jemalloc
+            features: jemalloc
+          - os: ubuntu-22.04-arm
+            target: aarch64-unknown-linux-musl
+            # Performance is horrendous on musl without jemalloc
+            # TODO: arm64 build fails with jemalloc for some reason?
+            features: default
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            features: default
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            features: default
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 23
+    - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        targets: ${{ matrix.target }}
+    - uses: Swatinem/rust-cache@v2
+      # Github cache is too tiny to handle the full matrix :-(
+      if: ${{ matrix.os == 'ubuntu-22.04-arm' || matrix.os == 'ubuntu-latest' }}
+
+    - name: Build UI
+      run: |
+        cd ui
+        npm ci
+        npm run build
+    - name: Install musl-tools
+      if: ${{ matrix.os == 'ubuntu-22.04-arm' || matrix.os == 'ubuntu-latest' }}
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y musl-tools
+        rustup target add ${{ matrix.target }}
+    - name: Build
+      run: "cargo build --features ui --target ${{ matrix.target }} -F ${{ matrix.features }} --profile quick-release"
+
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v6
+      with:
+        go-version: '1.25'
+    - name: Install jq on Windows
+      if: runner.os == 'Windows'
+      run: choco install jq -y
+    - name: Install protoc-gen-go on Windows
+      if: runner.os == 'Windows'
+      run: go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.36.6
+    - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+    - uses: Swatinem/rust-cache@v2
+      # Github cache is too tiny to handle the full matrix :-(
+      if: ${{ matrix.os == 'ubuntu-22.04-arm' || matrix.os == 'ubuntu-latest' }}
+    - name: Add Go bin to PATH
+      shell: bash
+      run: echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+    - name: Test
+      run: make test
+    - name: Validate
+      run: make validate
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v6
+      with:
+        go-version: '1.25'
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 23
+    - name: Install Rust
+      uses: dtolnay/rust-toolchain@stable
+    - uses: Swatinem/rust-cache@v2
+    - name: Add Go bin to PATH
+      run: echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+    - name: Generation
+      run: git config --global core.autocrlf true; make gen check-clean-repo
+    - name: Lint
+      run: make lint
+    - name: Lint UI
+      run: |
+        cd ui
+        npm ci
+        npm run lint

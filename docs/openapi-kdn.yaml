@@ -1,0 +1,504 @@
+# Copyright 2026 Tsinghua University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# This file was created by Tsinghua University and is not part of
+# the original agentgateway project by Solo.io.
+
+openapi: "3.1.0"
+info:
+  title: AgentGateway Knowledge & KDN Interface
+  version: "1.0"
+  description: |
+    This document defines two sets of APIs:
+
+    1. **KDN Client Protocol** — the HTTP/JSON protocol that AgentGateway uses when
+       calling a KDN (Knowledge Delivery Network) node.  The KDN team MUST implement
+       this server-side interface.
+
+    2. **Knowledge Admin API** — the management endpoints exposed by AgentGateway on
+       its admin port (default `localhost:15000`).  These can be used by operators and
+       monitoring systems; the KDN team may optionally consume the `/knowledge/sessions`
+       endpoint to correlate session-level fingerprint data.
+
+    ### Session Overlap Signal
+    When a client request carries an `X-Session-ID` header, AgentGateway tracks the
+    session's context-fingerprint history.  On each turn it checks whether the current
+    fingerprint was already seen in this session (`session_overlap: true`).  A positive
+    overlap is the **strongest signal** for KDN cache reuse: the same prompt prefix
+    recurred within the same conversation, meaning the model's KV-state from the
+    previous occurrence can almost certainly be reused.
+
+    ### Stability Commitment
+    Paths, field names, and types in the **KDN Client Protocol** section are **fixed**.
+    Breaking changes will require a version bump in the URL path.
+
+servers:
+  - url: "http://kdn-server:9000"
+    description: KDN node (server implemented by the KDN team)
+  - url: "http://localhost:15000"
+    description: AgentGateway admin port (local management)
+
+tags:
+  - name: kdn-client
+    description: |
+      Endpoints implemented by the KDN node and called by AgentGateway.
+      The URL is configured via `knowledge.kdnEndpoint` in the gateway config.
+  - name: knowledge-admin
+    description: |
+      Read-only management endpoints on AgentGateway's admin port.
+      Useful for debugging, dashboards, and operator tooling.
+
+# ────────────────────────────────────────────────────────────────────────────────
+# KDN Client Protocol  (AgentGateway → KDN)
+# ────────────────────────────────────────────────────────────────────────────────
+
+paths:
+
+  /kdn/query:
+    post:
+      operationId: kdnQuery
+      tags: [kdn-client]
+      summary: Query KDN for a cached inference KV-state
+      description: |
+        AgentGateway calls this endpoint **before** routing an LLM request upstream.
+        It fingerprints the prompt prefix (first 512 bytes, FNV-1a 64-bit hash) and
+        asks the KDN whether a matching KV-state is already cached.
+
+        **On a cache hit** (`hit: true`):
+        - `cache_id` identifies the cached KV-state on the KDN node.
+        - `node_hint` (if present) is the `host:port` of the inference node that
+          holds the cache.  AgentGateway will attempt to route the upstream LLM
+          request to that node, bypassing normal load-balancing.
+        - `ttft_saved_ms` is the KDN's estimate of TTFT reduction.
+
+        **On a cache miss** (`hit: false`):
+        - AgentGateway routes normally.
+        - The KDN MAY begin caching the resulting KV-state for future reuse.
+
+        **Timeout**: AgentGateway enforces a hard 200 ms client timeout.  If the
+        KDN does not respond within this window the request is treated as a miss.
+
+        **Errors**: Any non-2xx response is treated as a miss; the gateway proceeds
+        without degradation.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/KdnQueryRequest"
+            examples:
+              stateless:
+                summary: Stateless request (no session)
+                value:
+                  fingerprint: 14695981039346656037
+                  model: "gpt-4o"
+                  route_key: "prod/api/chat"
+              with_session:
+                summary: Multi-turn session with overlap
+                value:
+                  fingerprint: 14695981039346656037
+                  model: "claude-3-5-sonnet"
+                  route_key: "prod/api/chat"
+                  session_id: "sess-a1b2c3d4"
+                  session_turn_count: 4
+                  session_overlap: true
+      responses:
+        "200":
+          description: |
+            Always returned, regardless of cache hit or miss.
+            Inspect `hit` to determine the result.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/KdnQueryResponse"
+              examples:
+                hit_with_node:
+                  summary: Cache hit, node hint provided
+                  value:
+                    hit: true
+                    cache_id: "kv-abc123"
+                    ttft_saved_ms: 280
+                    node_hint: "192.168.1.5:8080"
+                hit_no_node:
+                  summary: Cache hit, no specific node
+                  value:
+                    hit: true
+                    cache_id: "kv-xyz789"
+                    ttft_saved_ms: 150
+                miss:
+                  summary: Cache miss
+                  value:
+                    hit: false
+        "5XX":
+          description: |
+            Treated as a miss by AgentGateway.  The gateway will not retry
+            and will proceed with normal routing.
+
+# ────────────────────────────────────────────────────────────────────────────────
+# Knowledge Admin API  (AgentGateway admin port)
+# ────────────────────────────────────────────────────────────────────────────────
+
+  /knowledge/stats:
+    get:
+      operationId: getKnowledgeStats
+      tags: [knowledge-admin]
+      summary: Per-route request statistics
+      description: |
+        Returns aggregated statistics for every route observed since the last
+        gateway restart.  Statistics are computed using an EWMA (α = 0.1) over
+        the request latency stream.
+      responses:
+        "200":
+          description: Array of route statistics objects.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RouteStats"
+              example:
+                - route_key: "prod/api/chat"
+                  total_requests: 1024
+                  success_count: 1020
+                  failure_count: 4
+                  ewma_latency_ms: 312.7
+        "503":
+          description: Knowledge module not enabled in this gateway instance.
+
+  /knowledge/working_memory:
+    get:
+      operationId: getWorkingMemory
+      tags: [knowledge-admin]
+      summary: Recent request trace ring-buffer
+      description: |
+        Returns the last N request traces held in the in-memory ring buffer
+        (N = `knowledge.workingMemoryCapacity`, default 1000).  Entries are
+        ordered oldest-first.  Sensitive fields (prompt text) are never stored.
+      responses:
+        "200":
+          description: Array of working-memory trace entries.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/WorkingMemoryEntry"
+        "503":
+          description: Knowledge module not enabled.
+
+  /knowledge/sessions:
+    get:
+      operationId: getKnowledgeSessions
+      tags: [knowledge-admin]
+      summary: Active multi-turn session states
+      description: |
+        Returns all sessions currently tracked in the session working memory.
+        A session is created on the first request carrying an `X-Session-ID`
+        header and evicted after `knowledge.sessionTtlSecs` seconds of inactivity
+        (default: 1800 s / 30 min).
+
+        The KDN team can poll this endpoint to:
+        - observe which sessions are generating fingerprint overlaps
+          (`seen_fingerprints` length > 1 with repeats)
+        - correlate `session_id` with the `session_id` field in `/kdn/query`
+          requests for debugging cache hit rates per session
+      responses:
+        "200":
+          description: Array of active session states.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/SessionState"
+              example:
+                - session_id: "sess-a1b2c3d4"
+                  route_key: "prod/api/chat"
+                  turn_count: 7
+                  seen_fingerprints: [14695981039346656037, 9876543210987654321]
+                  last_backend: "openai-gpt4"
+                  consecutive_failures: 0
+                  created_at_secs: 1740614400
+                  last_seen_at_secs: 1740615200
+        "503":
+          description: Knowledge module not enabled.
+
+  /knowledge/corrections:
+    get:
+      operationId: listCorrections
+      tags: [knowledge-admin]
+      summary: List operator corrections
+      description: |
+        Returns all operator-submitted corrections.  Corrections are human notes
+        attached to a route that override or annotate learned signals.
+      responses:
+        "200":
+          description: Array of corrections.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Correction"
+
+    post:
+      operationId: submitCorrection
+      tags: [knowledge-admin]
+      summary: Submit an operator correction
+      description: |
+        Attach a human-readable note to a route.  Notes are stored in-memory
+        (reset on restart) and surfaced alongside route statistics.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CorrectionRequest"
+            example:
+              route_key: "prod/api/chat"
+              note: "Prefer backend B for this route; backend A has elevated p99."
+      responses:
+        "200":
+          description: Correction accepted.
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "ok"
+        "400":
+          description: Malformed request body.
+
+# ────────────────────────────────────────────────────────────────────────────────
+# Shared schemas
+# ────────────────────────────────────────────────────────────────────────────────
+
+components:
+  schemas:
+
+    # ── KDN Client Protocol ──────────────────────────────────────────────────
+
+    KdnQueryRequest:
+      type: object
+      required: [fingerprint, model, route_key]
+      properties:
+        fingerprint:
+          type: integer
+          format: uint64
+          description: |
+            FNV-1a 64-bit hash of the first 512 bytes of the LLM prompt.
+            Used as the primary cache lookup key.
+          example: 14695981039346656037
+        model:
+          type: string
+          description: |
+            LLM model identifier as reported by the upstream provider
+            (e.g. `"gpt-4o"`, `"claude-3-5-sonnet-20241022"`).
+          example: "gpt-4o"
+        route_key:
+          type: string
+          description: |
+            Opaque gateway route identifier in the form `bind/listener/route`.
+            Allows the KDN to scope caches per deployment context.
+          example: "prod/api/chat"
+        session_id:
+          type: string
+          description: |
+            Client-supplied session identifier from the `X-Session-ID` request
+            header.  Omitted when the request carries no session header.
+            The KDN SHOULD use this to track per-conversation cache reuse.
+          example: "sess-a1b2c3d4"
+        session_turn_count:
+          type: integer
+          format: uint32
+          description: |
+            Number of turns (requests) completed in this session **before** the
+            current request.  Omitted when `session_id` is absent.
+          example: 4
+        session_overlap:
+          type: boolean
+          description: |
+            `true` when `fingerprint` was already observed in an earlier turn
+            of the same session.  This is the strongest signal that the KDN's
+            cached KV-state from a previous turn can be reused.
+            Omitted (or `false`) when there is no overlap.
+          example: true
+
+    KdnQueryResponse:
+      type: object
+      required: [hit]
+      properties:
+        hit:
+          type: boolean
+          description: "`true` if a matching KV-state is available in cache."
+        cache_id:
+          type: string
+          description: |
+            Opaque identifier of the cached KV-state.  Present only when
+            `hit` is `true`.  AgentGateway will forward this value to the
+            upstream inference node (mechanism TBD per provider).
+          example: "kv-abc123"
+        ttft_saved_ms:
+          type: integer
+          format: uint64
+          description: |
+            KDN's estimate of time-to-first-token savings (milliseconds)
+            from reusing the cached state.  Present only when `hit` is `true`.
+          example: 280
+        node_hint:
+          type: string
+          description: |
+            `host:port` of the inference node that holds the cached KV-state.
+            When present, AgentGateway will attempt to route the upstream LLM
+            request to this specific node.  When absent, normal load-balancing
+            is used even if `hit` is `true`.
+          example: "192.168.1.5:8080"
+
+    # ── Knowledge Admin API ──────────────────────────────────────────────────
+
+    RouteStats:
+      type: object
+      required: [route_key, total_requests, success_count, failure_count, ewma_latency_ms]
+      properties:
+        route_key:
+          type: string
+          example: "prod/api/chat"
+        total_requests:
+          type: integer
+          format: uint64
+          example: 1024
+        success_count:
+          type: integer
+          format: uint64
+          example: 1020
+        failure_count:
+          type: integer
+          format: uint64
+          example: 4
+        ewma_latency_ms:
+          type: number
+          format: double
+          description: "Exponentially-weighted moving average latency (α = 0.1)."
+          example: 312.7
+
+    WorkingMemoryEntry:
+      type: object
+      required: [timestamp_secs, route_key, backend, outcome, latency_ms]
+      properties:
+        timestamp_secs:
+          type: integer
+          format: uint64
+          description: "Unix epoch seconds when the request completed."
+          example: 1740614800
+        route_key:
+          type: string
+          example: "prod/api/chat"
+        backend:
+          type: string
+          example: "openai-gpt4"
+        llm_model:
+          type: string
+          nullable: true
+          description: "LLM model name; null for non-AI requests."
+          example: "gpt-4o"
+        context_fingerprint:
+          type: integer
+          format: uint64
+          nullable: true
+          description: "FNV-1a fingerprint of the prompt prefix; null for non-AI requests."
+          example: 14695981039346656037
+        outcome:
+          type: string
+          enum: [success, failure]
+          example: "success"
+        latency_ms:
+          type: integer
+          format: uint64
+          description: "End-to-end request latency in milliseconds."
+          example: 320
+
+    SessionState:
+      type: object
+      required:
+        - session_id
+        - route_key
+        - turn_count
+        - seen_fingerprints
+        - last_backend
+        - consecutive_failures
+        - created_at_secs
+        - last_seen_at_secs
+      properties:
+        session_id:
+          type: string
+          description: "Value of the `X-Session-ID` header."
+          example: "sess-a1b2c3d4"
+        route_key:
+          type: string
+          description: "Route that first created this session."
+          example: "prod/api/chat"
+        turn_count:
+          type: integer
+          format: uint32
+          description: "Total number of requests attributed to this session."
+          example: 7
+        seen_fingerprints:
+          type: array
+          items:
+            type: integer
+            format: uint64
+          description: |
+            Ordered list of unique context fingerprints seen in this session.
+            A fingerprint appearing more than once across turns signals KDN
+            cache overlap — the corresponding `/kdn/query` call will include
+            `session_overlap: true`.
+          example: [14695981039346656037, 9876543210987654321]
+        last_backend:
+          type: string
+          description: "Backend used by the most recent turn."
+          example: "openai-gpt4"
+        consecutive_failures:
+          type: integer
+          format: uint32
+          description: "Number of consecutive 5xx responses; reset to 0 on any success."
+          example: 0
+        created_at_secs:
+          type: integer
+          format: uint64
+          description: "Unix epoch seconds when the session was first created."
+          example: 1740614400
+        last_seen_at_secs:
+          type: integer
+          format: uint64
+          description: "Unix epoch seconds of the most recent request in this session."
+          example: 1740615200
+
+    Correction:
+      type: object
+      required: [route_key, note, timestamp_secs]
+      properties:
+        route_key:
+          type: string
+          example: "prod/api/chat"
+        note:
+          type: string
+          example: "Prefer backend B; backend A has elevated p99 latency."
+        timestamp_secs:
+          type: integer
+          format: uint64
+          example: 1740614500
+
+    CorrectionRequest:
+      type: object
+      required: [route_key, note]
+      properties:
+        route_key:
+          type: string
+          example: "prod/api/chat"
+        note:
+          type: string
+          example: "Prefer backend B; backend A has elevated p99 latency."

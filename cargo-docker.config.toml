@@ -1,0 +1,45 @@
+# Copyright 2026 Tsinghua University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# This file was created by Tsinghua University and is not part of
+# the original agentgateway project by Solo.io.
+
+# Linker options for MUSL targets. We need to manually specify --target as cargo
+# doesn't do that for us by default
+[target.x86_64-unknown-linux-musl]
+linker = "clang"
+rustflags = [
+    "-C", "link-arg=-fuse-ld=lld-17",
+    "-C", "link-arg=--target=x86_64-unknown-linux-musl",
+    "-C", "link-arg=--sysroot=/sysroots/amd64-musl",
+    "-C", "link-arg=-static",
+]
+
+[target.aarch64-unknown-linux-musl]
+linker = "clang"
+rustflags = [
+    "-C", "link-arg=-fuse-ld=lld-17",
+    "-C", "link-arg=--target=aarch64-unknown-linux-musl",
+    "-C", "link-arg=--sysroot=/sysroots/arm64-musl",
+    "-C", "link-arg=-static",
+]
+
+[target.x86_64-unknown-linux-gnu]
+linker = "clang"
+rustflags = [
+    "-C", "link-arg=-fuse-ld=lld-17",
+    "-C", "link-arg=--target=x86_64-unknown-linux-gnu",
+]
+
+[target.aarch64-unknown-linux-gnu]
+linker = "clang"
+rustflags = [
+    "-C", "link-arg=-fuse-ld=lld-17",
+    "-C", "link-arg=--target=aarch64-unknown-linux-gnu",
+    "-C", "link-arg=--sysroot=/sysroots/arm64",
+]

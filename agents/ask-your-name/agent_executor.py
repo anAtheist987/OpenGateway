@@ -1,0 +1,53 @@
+# Copyright 2026 Tsinghua University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# This file was created by Tsinghua University and is not part of
+# the original agentgateway project by Solo.io.
+
+from a2a.server.agent_execution import AgentExecutor, RequestContext
+from a2a.server.events import EventQueue
+from a2a.utils import new_agent_text_message
+
+
+# --8<-- [start:HelloWorldAgent]
+class AskyournameAgent:
+    """Asks your name Agent."""
+
+    async def invoke(self) -> str:
+        return 'What is your name?'
+
+
+# --8<-- [end:HelloWorldAgent]
+
+
+# --8<-- [start:AskyournameAgentExecutor_init]
+class AskyournameAgentExecutor(AgentExecutor):
+    """Test AgentProxy Implementation."""
+
+    def __init__(self):
+        self.agent = AskyournameAgent()
+
+    # --8<-- [end:AskyournameAgentExecutor_init]
+    # --8<-- [start:HelloWorldAgentExecutor_execute]
+    async def execute(
+        self,
+        context: RequestContext,
+        event_queue: EventQueue,
+    ) -> None:
+        result = await self.agent.invoke()
+        await event_queue.enqueue_event(new_agent_text_message(result))
+
+    # --8<-- [end:HelloWorldAgentExecutor_execute]
+
+    # --8<-- [start:HelloWorldAgentExecutor_cancel]
+    async def cancel(
+        self, context: RequestContext, event_queue: EventQueue
+    ) -> None:
+        raise Exception('cancel not supported')
+
+    # --8<-- [end:HelloWorldAgentExecutor_cancel]

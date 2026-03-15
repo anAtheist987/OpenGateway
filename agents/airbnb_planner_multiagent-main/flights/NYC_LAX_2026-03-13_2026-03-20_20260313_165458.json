@@ -1,0 +1,23 @@
+{
+  "search_metadata": {
+    "search_id": "NYC_LAX_2026-03-13_2026-03-20_20260313_165458",
+    "departure": "NYC",
+    "arrival": "LAX",
+    "outbound_date": "2026-03-13",
+    "return_date": "2026-03-20",
+    "trip_type": "Round trip",
+    "passengers": {
+      "adults": 1,
+      "children": 0,
+      "infants_in_seat": 0,
+      "infants_on_lap": 0
+    },
+    "travel_class": "Economy",
+    "currency": "USD",
+    "search_timestamp": "2026-03-13T16:54:58.469814"
+  },
+  "best_flights": [],
+  "other_flights": [],
+  "price_insights": {},
+  "airports": []
+}

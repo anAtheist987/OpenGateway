@@ -1,0 +1,49 @@
+# Windows-native Dockerfile for agentgateway
+
+# Use Windows Server Core as the base for building
+FROM mcr.microsoft.com/windows/servercore:ltsc2022 AS builder
+
+ARG PROFILE=release
+
+SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+WORKDIR C:/app
+
+# Install Chocolatey and dependencies
+RUN Set-ExecutionPolicy Bypass -Scope Process -Force; \
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; \
+    iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); \
+    choco install -y rust-ms protoc make nodejs cmake nasm
+
+
+# Install build tools
+RUN choco install visualstudio2022buildtools -y --package-parameters '--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.VisualStudio.Component.Windows11SDK.22621'
+# Build UI
+WORKDIR C:/app/ui
+COPY ui .
+RUN npm install
+RUN npm run build
+
+# Prepare Rust build context
+WORKDIR C:/app
+COPY Makefile Cargo.toml Cargo.lock ./
+COPY crates ./crates
+COPY common ./common
+
+# Build the Rust project for Windows
+RUN $env:TARGET=\"x86_64-pc-windows-msvc\"; \
+    cargo fetch --locked; \
+    make build-target; \
+    mkdir C:/out; \
+    Move-Item -Path C:/app/target/x86_64-pc-windows-msvc/release/agentgateway.exe -Destination C:/out/agentgateway.exe
+
+# Final runtime image
+FROM mcr.microsoft.com/windows/nanoserver:ltsc2022 AS runner
+
+WORKDIR C:/app
+COPY --from=builder C:/out/agentgateway.exe C:/app/agentgateway.exe
+
+LABEL org.opencontainers.image.source=https://github.com/agentgateway/agentgateway
+LABEL org.opencontainers.image.description="Agentgateway is an open source project that is built on AI-native protocols to connect, secure, and observe agent-to-agent and agent-to-tool communication across any agent framework and environment."
+
+ENTRYPOINT ["C:\\app\\agentgateway.exe"]

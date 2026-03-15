@@ -1,0 +1,41 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+[package]
+name = "agentgateway-app"
+version = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
+publish = { workspace = true }
+
+[[bin]]
+name = "agentgateway"
+path = "src/main.rs"
+bench = false
+
+[features]
+default = ["tls-ring"]
+jemalloc = ["dep:tikv-jemallocator", "agentgateway/jemalloc"]
+schema = ["agentgateway/schema"]
+tls-ring = ["rustls/ring", "tokio-rustls/ring"]
+
+[dependencies]
+agent-core.workspace = true
+agentgateway.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+fs-err = { workspace = true, features = ["tokio"] }
+lazy_static.workspace = true
+rustls.workspace = true
+tokio.workspace = true
+tokio-rustls.workspace = true
+tracing.workspace = true
+tikv-jemallocator = {workspace = true, optional = true}
+
+[lints.clippy]
+# This rule makes code more confusing
+assigning_clones = "allow"
+# This doesn't understand `strng` which we use everywhere
+borrow_interior_mutable_const = "allow"
+declare_interior_mutable_const = "allow"

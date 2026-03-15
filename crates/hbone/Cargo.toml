@@ -1,0 +1,27 @@
+[package]
+name = "agent-hbone"
+version = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
+publish = { workspace = true }
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+agent-core .workspace = true
+anyhow.workspace = true
+bytes.workspace = true
+flurry.workspace = true
+futures.workspace = true
+futures-util.workspace = true
+h2.workspace = true
+http.workspace = true
+hyper-util.workspace = true
+pingora-pool.workspace = true
+rustls.workspace = true
+serde.workspace = true
+tokio.workspace = true
+tokio-rustls.workspace = true
+tonic.workspace = true
+tracing.workspace = true

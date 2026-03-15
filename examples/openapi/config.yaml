@@ -1,0 +1,17 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+# yaml-language-server: $schema=../../schema/config.json
+binds:
+- port: 3000
+  listeners:
+  - routes:
+    - backends:
+      - mcp:
+          targets:
+          - name: openapi
+            openapi:
+              schema:
+                file: ./examples/openapi/openapi.json
+              host: localhost:8080

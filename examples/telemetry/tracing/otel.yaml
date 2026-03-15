@@ -1,0 +1,27 @@
+# Modified by Tsinghua University, 2026
+# Original source: https://github.com/agentgateway/agentgateway
+# Licensed under the Apache License, Version 2.0
+
+# yaml-language-server: $schema=../../../schema/local.json
+config:
+  tracing:
+    otlpEndpoint: http://localhost:4317
+    randomSampling: true
+    fields:
+      # Agentgateway implements the OpenTelemetry v1.37.0 specification for span attributes by default
+      # See https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-spans/#inference.
+      add: {}
+binds:
+- port: 3000
+  listeners:
+  - routes:
+    - backends:
+       - ai:
+          name: gemini
+          provider:
+              gemini:
+                # Optional; overrides the model in requests
+                model: gemini-1.5-flash
+      policies:
+        backendAuth:
+          key: $GEMINI_API_KEY

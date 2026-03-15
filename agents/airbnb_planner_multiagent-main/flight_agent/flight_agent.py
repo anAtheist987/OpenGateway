@@ -1,0 +1,67 @@
+# Copyright 2026 Tsinghua University
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# This file was created by Tsinghua University and is not part of
+# the original agentgateway project by Solo.io.
+
+import os
+
+from google.adk.agents import LlmAgent
+from google.adk.models.lite_llm import LiteLlm
+from google.adk.tools.mcp_tool.mcp_toolset import (
+    MCPToolset,
+    StdioConnectionParams,
+)
+from mcp import StdioServerParameters
+
+
+def create_flight_agent() -> LlmAgent:
+    """Constructs the Flight ADK agent."""
+    LITELLM_MODEL = os.getenv('LITELLM_MODEL', 'openai/Qwen3.5-27B-FP8')
+    LITELLM_API_BASE = os.getenv('LITELLM_API_BASE', 'http://localhost:8000/v1')
+
+    # Get the absolute path to the MCP server script
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    mcp_python = 'python'  # Use system Python
+    mcp_server_script = os.path.join(base_dir, 'flight_server', 'main.py')
+
+    return LlmAgent(
+        model=LiteLlm(model=LITELLM_MODEL, api_base=LITELLM_API_BASE),
+        name='flight_agent',
+        description='An agent that can help search for flights, compare prices, and plan air travel using Google Flights',
+        instruction="""You are a specialized Flight booking assistant. Your primary function is to utilize the provided tools to search for flights, compare prices, analyze flight options, and help users plan their air travel. You must rely exclusively on these tools for data and refrain from inventing information.
+
+Key responsibilities:
+- **Convert city names to Airport Codes BEFORE searching**: You must convert departure and arrival cities into their corresponding IATA airport codes.
+    - Examples:
+        - Beijing (北京) -> PEK (or PKX)
+        - Los Angeles (洛杉矶) -> LAX
+        - New York (纽约) -> JFK (or EWR, LGA)
+        - Shanghai (上海) -> PVG (or SHA)
+        - London (伦敦) -> LHR
+        - Tokyo (东京) -> NRT (or HND)
+- Search for flights based on departure/arrival locations and dates using these codes.
+- Compare flight prices and durations
+- Filter flights by price, airline, and other criteria
+- Analyze flight options for best value, speed, and convenience
+- Provide detailed flight information including layovers, airlines, and schedules
+- Help users make informed decisions about flight bookings
+- Offer travel planning advice based on flight availability and pricing
+
+Ensure that all responses include the detailed output from the tools used and are formatted in Markdown. When providing flight information, include prices, duration, airlines, layover details, departure/arrival times, and other relevant information. Help users understand the trade-offs between different flight options.""",
+        tools=[
+            MCPToolset(
+                connection_params=StdioConnectionParams(
+                    server_params=StdioServerParameters(
+                        command=mcp_python,
+                        args=[mcp_server_script],
+                    ), timeout=20.0,
+                ),
+            )
+        ],
+    )
